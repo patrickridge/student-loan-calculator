@@ -57,7 +57,7 @@ interface SliderFieldProps extends NumberFieldProps {
   max: number;
 }
 
-/** Number input with a slider underneath, for values people like to drag. */
+/** Number input with a slider underneath. */
 export function SliderField(props: SliderFieldProps) {
   const { value, onChange, min = 0, max, step = 1, label } = props;
   return (

@@ -22,7 +22,7 @@ import { gbp, taxYear } from "@/lib/format";
 import { compareOverpaying, currentRate, why, type Comparison, type Inputs, type Result } from "@/lib/loan";
 import { PLANS, type PlanId } from "@/lib/rules";
 
-// Neutral example figures; everything is editable.
+// Example figures shown on first load.
 const START: Inputs = {
   plan: "plan5",
   balance: 45_000,

@@ -16,7 +16,7 @@ const title = "Should you overpay your student loan?";
 const description =
   "A UK student loan calculator: see whether paying extra saves you money, or just pays off debt that gets written off.";
 
-// On Vercel, Next.js fills in the site's address for preview images automatically.
+// metadataBase is filled in automatically on Vercel.
 export const metadata: Metadata = {
   title,
   description,

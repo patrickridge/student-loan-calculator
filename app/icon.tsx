@@ -3,7 +3,7 @@ import { ImageResponse } from "next/og";
 export const size = { width: 32, height: 32 };
 export const contentType = "image/png";
 
-// The "£" mark from the header, as the browser-tab icon.
+// Browser-tab icon: the "£" mark from the header.
 export default function Icon() {
   return new ImageResponse(
     (

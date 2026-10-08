@@ -4,7 +4,7 @@ export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 export const alt = "Should you overpay your student loan? A UK student loan calculator.";
 
-// The preview card shown when the link is shared in email, Slack, LinkedIn and so on.
+// Preview image for shared links.
 export default function OpenGraphImage() {
   return new ImageResponse(
     (
