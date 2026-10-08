@@ -12,15 +12,22 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const title = "Should you overpay your student loan?";
+const description =
+  "A UK student loan calculator: see whether paying extra saves you money, or just pays off debt that gets written off.";
+
+// On Vercel, Next.js fills in the site's address for preview images automatically.
 export const metadata: Metadata = {
-  title: "Should you overpay your student loan?",
-  description: "A UK student loan calculator: see whether paying extra saves you money or just pays off debt that would be written off.",
+  title,
+  description,
+  openGraph: { title, description, siteName: "Overpay or not?", type: "website", locale: "en_GB" },
+  twitter: { card: "summary_large_image", title, description },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
-      lang="en"
+      lang="en-GB"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
