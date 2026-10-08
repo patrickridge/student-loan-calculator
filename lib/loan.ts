@@ -79,3 +79,25 @@ export function compareOverpaying(inputs: Inputs): Comparison {
   const withExtra = simulate(inputs);
   return { without, with: withExtra, saving: without.presentValue - withExtra.presentValue };
 }
+
+// Below this (in today's money), overpaying makes too little difference to call either way.
+export const CLOSE_CALL = 500;
+
+export type Why = "close" | "saves" | "rate" | "write-off";
+
+/**
+ * The main reason overpaying wins or loses. If the loan's interest is below what the money could
+ * earn, paying early loses whatever happens ("rate"). If it's above and overpaying still loses,
+ * the only thing that explains it is the write-off.
+ */
+export function why(comparison: Comparison, inputs: Inputs): Why {
+  if (Math.abs(comparison.saving) < CLOSE_CALL) return "close";
+  if (comparison.saving > 0) return "saves";
+  return currentRate(inputs) < inputs.investReturn ? "rate" : "write-off";
+}
+
+/** The interest rate on the loan this year, at today's salary. */
+export function currentRate(inputs: Inputs): number {
+  const plan = PLANS[inputs.plan];
+  return interestRate(plan.id, inputs.salary, inputs.rpi, thresholdIn(plan, FIRST_TAX_YEAR, inputs.rpi));
+}

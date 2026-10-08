@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { compareOverpaying, simulate, type Inputs } from "./loan";
+import { compareOverpaying, simulate, why, type Inputs } from "./loan";
 import { INTEREST_CAP, PLANS, PLAN2_UPPER_INCOME, interestRate, thresholdIn } from "./rules";
 
 const base: Inputs = {
@@ -98,5 +98,29 @@ describe("compareOverpaying", () => {
     const result = compareOverpaying(inputs);
     expect(result.without.writtenOff).toBeGreaterThan(0);
     expect(result.saving).toBeLessThan(0);
+  });
+});
+
+describe("why", () => {
+  const big = { ...base, balance: 60_000, salary: 27_000, overpayment: 1_200 };
+
+  it("blames the interest rate when the money could earn more elsewhere", () => {
+    const inputs = { ...big, rpi: 0.03, investReturn: 0.05 }; // 3% loan vs 5% elsewhere
+    expect(why(compareOverpaying(inputs), inputs)).toBe("rate");
+  });
+
+  it("blames the write-off when the loan costs more than investing earns but overpaying still loses", () => {
+    const inputs = { ...big, rpi: 0.05, investReturn: 0.03 }; // 5% loan vs 3% elsewhere
+    expect(why(compareOverpaying(inputs), inputs)).toBe("write-off");
+  });
+
+  it("says it saves when you'd clear the loan anyway at a high rate", () => {
+    const inputs = { ...base, plan: "postgrad" as const, balance: 10_000, salary: 60_000, rpi: 0.04, overpayment: 2_000 };
+    expect(why(compareOverpaying(inputs), inputs)).toBe("saves");
+  });
+
+  it("calls tiny differences a close call", () => {
+    const inputs = { ...base, overpayment: 10 };
+    expect(why(compareOverpaying(inputs), inputs)).toBe("close");
   });
 });
