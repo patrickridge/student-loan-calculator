@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/patrickridge/student-loan-calculator/actions/workflows/ci.yml/badge.svg)](https://github.com/patrickridge/student-loan-calculator/actions/workflows/ci.yml)
 
-Live site: LIVE_URL
+Live site: https://student-loan-calculator-weld.vercel.app
 
 A calculator for UK student loans. Put in your plan, balance and salary, and it tells you whether paying extra each month would save you money, or whether you'd just be paying off debt that gets written off anyway.
 
