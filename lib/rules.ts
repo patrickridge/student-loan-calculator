@@ -39,8 +39,8 @@ export const PLANS: Record<PlanId, Plan> = {
   },
   plan4: {
     id: "plan4",
-    name: "Plan 4",
-    who: "From Scotland",
+    name: "Plan 4 (Scotland, SAAS)",
+    who: "Students from Scotland with a loan through SAAS",
     threshold: 33_795,
     firstRise: 2027,
     repayRate: 0.09,
