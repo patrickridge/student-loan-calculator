@@ -34,6 +34,20 @@ Overpaying is worth it if it lowers that cost. The app also says why: if the loa
 - The 6% interest cap is assumed to stay. Write-off at age 65 for very old Plan 1 and Plan 4 loans isn't modelled.
 - It's a guide, not financial advice.
 
+## What is a pool of these loans worth?
+
+A second page, [/portfolio](https://student-loan-repayment.vercel.app/portfolio), looks at the other side: the government owns these loans and has sold older ones, in 2017 for 48p per £1 of balance. It prices a pool of loans the way an investor would.
+
+**Earnings by subject.** From the Department for Education's LEO data (HMRC tax records matched to university records), for UK first-degree graduates in 2021-22: earnings quartiles 1, 3, 5 and 10 years after graduation for 34 subjects, the share with any UK earnings, and how A-level grades move pay within each subject. `scripts/build-earnings.mjs` turns the published file into `lib/earnings.json`.
+
+**Borrowers.** Each simulated borrower takes their subject's pay path, uprated to 2026-27 pay, with their own place in the pay spread that drifts from year to year, and some years with no UK earnings. After the data runs out at ten years, pay keeps rising with experience until about 25 years, then slips behind average while fewer people work.
+
+**Futures.** The same 1,500 borrowers run through 120 futures in which long-run wage growth and inflation differ, so the spread of outcomes comes from the economy rather than from sampling noise.
+
+**Pricing and tranches.** Each future's repayments are valued in today's money at the return an investor wants, giving a price per £1 and a range. The cash is then paid down three slices in order (senior, mezzanine, equity), showing how often each is paid in full, its average loss and its loss in a bad future.
+
+With the default settings a Plan 5 pool is worth about 62p per £1 at a 5% return, and about two-thirds of borrowers repay in full. That compares with the government's forecast of 56-65%. The model leaves out deaths, disability and borrowers who never start repaying, so it's a little optimistic. Subject matters a great deal: around 80p per £1 for Medicine or Economics, under 50p for Creative arts or Education.
+
 ## Running it locally
 
 Needs Node 24.
@@ -62,7 +76,10 @@ GitHub Actions runs all four on every push. The projection was also checked agai
 lib/rules.ts            Plan rules for 2026-27, with sources
 lib/loan.ts             Year-by-year projection and the overpay comparison (no UI)
 lib/loan.test.ts        Tests with hand-checkable numbers
+lib/portfolio.ts        Pool of loans: borrowers, futures, pricing, tranches
+lib/earnings.json       Graduate earnings by subject (built by scripts/build-earnings.mjs)
 components/Calculator.tsx   The calculator
+components/Portfolio.tsx    The portfolio page
 components/fields.tsx   Number inputs and sliders
 components/ui/          shadcn/ui components
 app/page.tsx            Page layout and explainer

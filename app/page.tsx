@@ -1,7 +1,8 @@
-import { Calculator } from "@/components/Calculator";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import Link from "next/link";
 
-const REPO = "https://github.com/patrickridge/student-loan-calculator";
+import { Calculator } from "@/components/Calculator";
+import { REPO, SiteHeader } from "@/components/SiteHeader";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const EXPLAINERS = [
   {
@@ -21,22 +22,7 @@ const EXPLAINERS = [
 export default function Home() {
   return (
     <>
-      <header className="sticky top-0 z-10 border-b bg-background/80 backdrop-blur">
-        <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4 sm:px-6">
-          <a href="#" className="flex items-center gap-2 font-semibold">
-            <span className="flex size-7 items-center justify-center rounded-md bg-primary text-sm text-primary-foreground">£</span>
-            Overpay or not?
-          </a>
-          <nav className="flex gap-5 text-sm text-muted-foreground">
-            <a href="#how-it-works" className="hover:text-foreground">
-              How it works
-            </a>
-            <a href={REPO} className="hover:text-foreground">
-              Source
-            </a>
-          </nav>
-        </div>
-      </header>
+      <SiteHeader current="calculator" />
 
       <main className="mx-auto w-full max-w-6xl px-4 py-10 sm:px-6 sm:py-14">
         <section className="max-w-2xl">
@@ -74,6 +60,11 @@ export default function Home() {
             inflation (Plan 2 adds up to 3% depending on income, as does the Postgraduate Loan), capped at 6%.
             Interest is added yearly rather than monthly and pay rises are steady, so treat results as a guide,
             not a forecast.
+          </p>
+          <p className="mt-4 text-sm">
+            <Link href="/portfolio" className="font-medium text-primary underline-offset-4 hover:underline">
+              What are thousands of these loans worth to an investor? →
+            </Link>
           </p>
         </section>
       </main>
