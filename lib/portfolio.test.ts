@@ -46,7 +46,7 @@ describe("pricing", () => {
   });
 
   it("ranks high-earning subjects above low-earning ones", () => {
-    const rows = bySubject(DEFAULTS, null, 200);
+    const rows = bySubject(DEFAULTS, { attainment: null }, 200);
     const value = (name: string) => rows.find((r) => r.subject === name)!.value;
     expect(value("Medicine and dentistry")).toBeGreaterThan(value("Creative arts and design"));
     expect(value("Economics")).toBeGreaterThan(value("Performing arts"));
@@ -66,5 +66,38 @@ describe("tranches", () => {
 
   it("sizes the equity as whatever the debt tranches leave", () => {
     expect(results.reduce((s, t) => s + t.size, 0)).toBeCloseTo(1, 9);
+  });
+});
+
+describe("rule changes", () => {
+  const at = (policy: (typeof DEFAULTS)["policy"]) => valuePool({ ...DEFAULTS, policy }, ALL, small).value;
+  const today = at("current");
+
+  it("make loans worth more when borrowers pay sooner or longer", () => {
+    expect(at("freeze-forever")).toBeGreaterThan(today); // more pay above a threshold that never rises
+    expect(at("interest-plus-3")).toBeGreaterThan(today); // high earners repay more interest
+  });
+
+  it("make loans worth less when they're written off sooner", () => {
+    expect(at("write-off-30")).toBeLessThan(today);
+  });
+});
+
+describe("universities", () => {
+  it("values loans to a high-earning university's graduates above a low-earning one's", () => {
+    const at = (university: string) => valuePool(DEFAULTS, { subject: null, attainment: null, university }, small).value;
+    expect(at("London School of Economics and Political Science")).toBeGreaterThan(at("University College Birmingham"));
+  });
+
+  it("only lists subjects a university has published figures for", () => {
+    const rows = bySubject(DEFAULTS, { attainment: null, university: "London School of Economics and Political Science" }, 100);
+    expect(rows.map((r) => r.subject)).not.toContain("Medicine and dentistry");
+  });
+});
+
+describe("price and return", () => {
+  it("gives a lower return the more a buyer pays", () => {
+    const curve = valuePool(DEFAULTS, ALL, small).priceCurve;
+    for (let i = 1; i < curve.length; i++) expect(curve[i].yield).toBeLessThan(curve[i - 1].yield);
   });
 });

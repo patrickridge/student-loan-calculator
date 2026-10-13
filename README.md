@@ -44,7 +44,11 @@ A second page, [/portfolio](https://student-loan-repayment.vercel.app/portfolio)
 
 **Futures.** The same 1,500 borrowers run through 120 futures in which long-run wage growth and inflation differ, so the spread of outcomes comes from the economy rather than from sampling noise.
 
-**Pricing and tranches.** Each future's repayments are valued in today's money at the return an investor wants, giving a price per £1 and a range. The cash is then paid down three slices in order (senior, mezzanine, equity), showing how often each is paid in full, its average loss and its loss in a bad future.
+**Universities.** From the provider-level LEO data, each university's graduates' median pay five years out is compared with everyone who studied the same subject; the model scales pay by that ratio and builds the pool from the university's mix of subjects (`scripts/build-universities.py`, 154 universities). It shows what a university's graduates earn, not what the university adds, so it isn't combined with grades.
+
+**Rule changes.** The threshold frozen until 2030 or for good, write-off after 30 years instead of 40, or interest at RPI + 3%, each shown against today's rules.
+
+**Pricing and tranches.** Each future's repayments are valued in today's money at the return an investor wants, giving a price per £1 and a range, and a curve of the return at each purchase price. The yearly cash (average, bad and good futures) downloads as CSV. The cash is then paid down three slices in order (senior, mezzanine, equity), with sizes and promised rates you can change, showing how often each is paid in full, its average loss and its loss in a bad future.
 
 With the default settings a Plan 5 pool is worth about 62p per £1 at a 5% return, and about two-thirds of borrowers repay in full. That compares with the government's forecast of 56-65%. The model leaves out deaths, disability and borrowers who never start repaying, so it's a little optimistic. Subject matters a great deal: around 80p per £1 for Medicine or Economics, under 50p for Creative arts or Education.
 
@@ -78,6 +82,7 @@ lib/loan.ts             Year-by-year projection and the overpay comparison (no U
 lib/loan.test.ts        Tests with hand-checkable numbers
 lib/portfolio.ts        Pool of loans: borrowers, futures, pricing, tranches
 lib/earnings.json       Graduate earnings by subject (built by scripts/build-earnings.mjs)
+lib/universities.json   Graduate pay by university and subject (built by scripts/build-universities.py)
 components/Calculator.tsx   The calculator
 components/Portfolio.tsx    The portfolio page
 components/fields.tsx   Number inputs and sliders

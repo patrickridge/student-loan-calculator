@@ -7,12 +7,25 @@
 // years with no UK earnings (out of work, abroad, caring) at the rate the data shows.
 
 import earnings from "./earnings.json";
+import universities from "./universities.json";
 import { INTEREST_CAP, PLAN2_UPPER_INCOME, PLANS } from "./rules";
 
 export type PoolPlan = "plan5" | "plan2";
 
+/** Changes to the rules a buyer might worry about. */
+export type PolicyId = "current" | "freeze-2030" | "freeze-forever" | "write-off-30" | "interest-plus-3";
+
+export const POLICIES: Record<PolicyId, { label: string; firstRise?: number | null; writeOffYears?: number; margin?: number }> = {
+  current: { label: "Today's rules" },
+  "freeze-2030": { label: "Threshold frozen until 2030", firstRise: 2030 },
+  "freeze-forever": { label: "Threshold never rises", firstRise: null },
+  "write-off-30": { label: "Written off after 30 years", writeOffYears: 30 },
+  "interest-plus-3": { label: "Interest at RPI + 3%", margin: 0.03 },
+};
+
 export interface Assumptions {
   plan: PoolPlan;
+  policy: PolicyId;
   /** Average balance when repayments start, £. Plan 5 default: £9,535 fees and an average
    *  maintenance loan for three years, plus interest while studying. */
   balance: number;
@@ -29,9 +42,11 @@ export interface Mix {
   subject: string | null;
   /** A prior attainment band, or null for all. */
   attainment: string | null;
+  /** A university, or null for all. Its graduates' pay relative to the subject replaces grades. */
+  university?: string | null;
 }
 
-export const DEFAULTS: Assumptions = { plan: "plan5", balance: 52_000, wageGrowth: 0.035, rpi: 0.03, discountRate: 0.05 };
+export const DEFAULTS: Assumptions = { plan: "plan5", policy: "current", balance: 52_000, wageGrowth: 0.035, rpi: 0.03, discountRate: 0.05 };
 
 // Graduate earnings in the data are for the 2021-22 tax year. Average earnings grew by roughly a
 // quarter from then to 2026-27 (ONS average weekly earnings, with the last months forecast).
@@ -168,14 +183,27 @@ export const central = (a: Assumptions, years: number): Future => ({ wageGrowth:
 
 // ---------- borrowers ----------
 
+type University = Record<string, [number, number]>; // subject -> [pay ratio, graduates with earnings]
+const UNIVERSITIES = universities.bySubject as unknown as Record<string, University>;
+const UNIVERSITY_OVERALL = universities.overall as Record<string, number>;
+
 function pickSubjects(mix: Mix, count: number, uniform: () => number): Subject[] {
   if (mix.subject) return Array(count).fill(SUBJECTS.find((s) => s.name === mix.subject)!);
-  const total = SUBJECTS.reduce((sum, s) => sum + s.grads, 0);
+  // All subjects in their real proportions, nationally or at the chosen university.
+  const uni = mix.university ? UNIVERSITIES[mix.university] : null;
+  const weights = SUBJECTS.map((s) => (uni ? (uni[s.name]?.[1] ?? 0) : s.grads));
+  const total = weights.reduce((sum, w) => sum + w, 0);
   return Array.from({ length: count }, () => {
     let r = uniform() * total;
-    for (const s of SUBJECTS) if ((r -= s.grads) < 0) return s;
+    for (let i = 0; i < SUBJECTS.length; i++) if ((r -= weights[i]) < 0) return SUBJECTS[i];
     return SUBJECTS.at(-1)!;
   });
+}
+
+/** Pay relative to the subject's national figures, from the university or else from grades. */
+function payRatio(subject: Subject, mix: Mix) {
+  if (mix.university) return UNIVERSITIES[mix.university]?.[subject.name]?.[0] ?? UNIVERSITY_OVERALL[mix.university] ?? 1;
+  return attainmentRatio(subject, mix.attainment);
 }
 
 function attainmentRatio(subject: Subject, attainment: string | null) {
@@ -200,12 +228,15 @@ export interface PoolResult {
  */
 export function simulatePool(a: Assumptions, mix: Mix, borrowers: number, worlds: Future[], seed = 1): PoolResult {
   const plan = PLANS[a.plan];
-  const years = plan.writeOffYears;
+  const policy = POLICIES[a.policy];
+  const years = writeOffYears(a);
+  const firstRise = policy.firstRise === undefined ? plan.firstRise : policy.firstRise;
+  const margin = policy.margin ?? 0;
   const rng = generator(seed);
   const subjects = pickSubjects(mix, borrowers, rng.uniform);
   const profiles = new Map<Subject, Profile>();
   const profileOf = (s: Subject) => {
-    if (!profiles.has(s)) profiles.set(s, profile(s, attainmentRatio(s, mix.attainment), years));
+    if (!profiles.has(s)) profiles.set(s, profile(s, payRatio(s, mix), years));
     return profiles.get(s)!;
   };
   // Personal luck: a path of positions in the pay spread, and of being in UK work at all.
@@ -238,10 +269,10 @@ export function simulatePool(a: Assumptions, mix: Mix, borrowers: number, worlds
       for (let t = 0; t < years && balance > 0; t++) {
         const taxYear = FIRST_REPAY_YEAR + t;
         level += Math.log(1 + world.wageGrowth[t]);
-        if (plan.firstRise !== null && taxYear >= plan.firstRise) threshold *= 1 + world.rpi[t];
+        if (firstRise !== null && taxYear >= firstRise) threshold *= 1 + world.rpi[t];
         const working = luck[b].work[t] < p.working[t + 1];
         const income = working ? Math.exp(p.logMedian[t + 1] + level + p.sigma[t + 1] * luck[b].pay[t]) : 0;
-        let rate = world.rpi[t];
+        let rate = world.rpi[t] + margin;
         if (a.plan === "plan2") rate += 0.03 * Math.min(Math.max((income - threshold) / (PLAN2_UPPER_INCOME - threshold), 0), 1);
         balance *= 1 + Math.min(rate, INTEREST_CAP);
         const paid = Math.min(balance, Math.max(0, (income - threshold) * plan.repayRate));
@@ -256,6 +287,9 @@ export function simulatePool(a: Assumptions, mix: Mix, borrowers: number, worlds
 
   return { cash, repaidInFull: repaidInFull / borrowers, cashMultiple };
 }
+
+/** Years until write-off, under the plan and any policy change. */
+export const writeOffYears = (a: Assumptions) => POLICIES[a.policy].writeOffYears ?? PLANS[a.plan].writeOffYears;
 
 // ---------- pricing ----------
 
@@ -364,6 +398,11 @@ export function tranche(cash: number[][], tranches: Tranche[], discountRate: num
 export interface Valuation {
   /** Value today per £1 of loans, average over futures. */
   value: number;
+  /** Cash each year in a bad future and a good one (5th and 95th percentile of each year). */
+  lowCash: number[];
+  highCash: number[];
+  /** Yearly return for a range of purchase prices per £1. */
+  priceCurve: { price: number; yield: number }[];
   /** Value in a bad future (5th percentile) and a good one (95th). */
   low: number;
   high: number;
@@ -374,21 +413,25 @@ export interface Valuation {
   tranches: TrancheResult[];
 }
 
-export function valuePool(a: Assumptions, mix: Mix, { borrowers = 1500, futureCount = 120, seed = 1 } = {}): Valuation {
-  const years = PLANS[a.plan].writeOffYears;
+export function valuePool(a: Assumptions, mix: Mix, { borrowers = 1500, futureCount = 120, seed = 1, tranches = TRANCHES } = {}): Valuation {
+  const years = writeOffYears(a);
   // The first future is the central one, used for the per-borrower figures.
   const worlds = [central(a, years), ...futures(a, futureCount - 1, years, seed + 100)];
   const pool = simulatePool(a, mix, borrowers, worlds, seed);
   const values = pool.cash.map((stream) => presentValue(stream, a.discountRate));
   const averageCash = pool.cash[0].map((_, t) => pool.cash.reduce((s, stream) => s + stream[t], 0) / pool.cash.length);
+  const yearly = (q: number) => pool.cash[0].map((_, t) => quantile(pool.cash.map((stream) => stream[t]), q));
   return {
     value: values.reduce((s, v) => s + v, 0) / values.length,
+    lowCash: yearly(0.05),
+    highCash: yearly(0.95),
+    priceCurve: Array.from({ length: 15 }, (_, i) => 0.3 + i * 0.05).map((price) => ({ price, yield: yieldAt(averageCash, price) })),
     low: quantile(values, 0.05),
     high: quantile(values, 0.95),
     repaidInFull: pool.repaidInFull,
     cashMultiple: pool.cashMultiple,
     averageCash,
-    tranches: tranche(pool.cash, TRANCHES, a.discountRate),
+    tranches: tranche(pool.cash, tranches, a.discountRate),
   };
 }
 
@@ -400,19 +443,26 @@ export interface SubjectRow {
 }
 
 /** Value per £1 by subject, in the central future, for comparing degrees. */
-export function bySubject(a: Assumptions, attainment: string | null, borrowers = 400): SubjectRow[] {
-  const years = PLANS[a.plan].writeOffYears;
-  const world = [central(a, years)];
-  return SUBJECTS.map((s) => {
-    const pool = simulatePool(a, { subject: s.name, attainment }, borrowers, world, 3);
-    return {
-      subject: s.name,
-      value: presentValue(pool.cash[0], a.discountRate),
-      repaidInFull: pool.repaidInFull,
-      medianPay10: Math.round((s.years["10"].median * EARNINGS_UPRATE * attainmentRatio(s, attainment)) / 100) * 100,
-    };
-  }).sort((x, y) => y.value - x.value);
+export function bySubject(a: Assumptions, mix: Omit<Mix, "subject">, borrowers = 400): SubjectRow[] {
+  const world = [central(a, writeOffYears(a))];
+  const uni = mix.university ? UNIVERSITIES[mix.university] : null;
+  // At a university, only the subjects it has published figures for.
+  return SUBJECTS.filter((s) => !uni || uni[s.name])
+    .map((s) => {
+      const m = { ...mix, subject: s.name };
+      const pool = simulatePool(a, m, borrowers, world, 3);
+      return {
+        subject: s.name,
+        value: presentValue(pool.cash[0], a.discountRate),
+        repaidInFull: pool.repaidInFull,
+        medianPay10: Math.round((s.years["10"].median * EARNINGS_UPRATE * payRatio(s, m)) / 100) * 100,
+      };
+    })
+    .sort((x, y) => y.value - x.value);
 }
+
+/** Universities with enough published figures, by name. */
+export const UNIVERSITY_NAMES = Object.keys(UNIVERSITY_OVERALL).sort((a, b) => a.localeCompare(b));
 
 export const SUBJECT_NAMES = SUBJECTS.map((s) => s.name);
 export const ATTAINMENT_GROUPS: string[] = earnings.attainment.groups;

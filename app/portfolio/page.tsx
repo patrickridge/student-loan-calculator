@@ -24,8 +24,39 @@ const STEPS = [
     body: "9% of pay above the threshold, interest at RPI (Plan 2 adds up to 3% for higher earners, capped at 6%), thresholds rising with RPI, and write-off after 40 years for Plan 5 or 30 for Plan 2.",
   },
   {
+    title: "Universities",
+    body: "For a chosen university, each subject's pay is scaled by how its graduates earned compared with everyone who studied that subject, five years after graduating (provider-level LEO data), and the pool follows its mix of subjects.",
+  },
+  {
     title: "Pricing",
     body: "Repayments are valued in today's money at the return an investor wants. The same borrowers run through 120 futures where long-run wage growth and inflation differ, which gives the range and the losses in a bad future.",
+  },
+];
+
+const QUESTIONS = [
+  {
+    q: "Why a 5% return?",
+    a: "It's a starting point, not a market price. A buyer sets the return they want: close to what UK government bonds pay if they see the loans as safe and government-backed, more if they're worried about the 40-year wait, rule changes or how little is known about later careers. The government values its own loans with a lower rate set by the Treasury, which is one reason its valuations come out higher than sale prices. Move the slider to see how much the answer depends on it.",
+  },
+  {
+    q: "Why does it show more people repaying in full than the government expects?",
+    a: "The earnings data stops at ten years after graduation, so everything after that is an assumption. The model also leaves out deaths, disability write-offs, borrowers who move abroad for good (beyond the share the data shows with no UK earnings) and those who never start repaying. The government models age, part-time work and career breaks in much more detail. So treat this as a little optimistic.",
+  },
+  {
+    q: "Does a university cause its graduates to earn more?",
+    a: "Not necessarily. Comparing within subject removes the effect of which subjects a university teaches, but its graduates still differ in grades, family background and where they live afterwards (London pay is higher). So a university's figure shows what its graduates earn, not what it adds. That's also why grades and university can't be used together here: it would count the same thing twice.",
+  },
+  {
+    q: "Where does the earnings data come from?",
+    a: "The Department for Education's Longitudinal Education Outcomes (LEO) data: university records matched to HMRC tax records, including self-employment. It covers UK earnings only. The quartiles are for graduates in sustained employment; the rest (out of work, studying, abroad, caring) are counted as earning nothing that year, at the rate the data shows.",
+  },
+  {
+    q: "How were the real loan sales structured?",
+    a: "In December 2017 about £3.5bn of pre-2012 loans were securitised: asset-backed securities backed by the loans' repayments, arranged by Barclays, which raised about £1.7bn. A second sale followed in 2018. The tranches here are illustrative rather than copies of those deals.",
+  },
+  {
+    q: "What's different about Plan 2?",
+    a: "A higher threshold, interest of up to RPI + 3% for higher earners, and write-off after 30 years rather than 40. Fewer borrowers clear the loan, but those who do pay more interest, so the price per £1 ends up similar while the cash comes from a narrower group of high earners.",
   },
 ];
 
@@ -90,9 +121,24 @@ export default function PortfolioPage() {
           </div>
         </section>
 
+        <section className="mt-16 max-w-3xl space-y-4">
+          <h2 className="text-xl font-semibold tracking-tight">Assumptions and questions</h2>
+          <div className="divide-y rounded-xl border bg-card">
+            {QUESTIONS.map(({ q, a }) => (
+              <details key={q} className="group px-4 py-3">
+                <summary className="cursor-pointer list-none font-medium marker:hidden">
+                  <span className="mr-2 inline-block text-muted-foreground transition-transform group-open:rotate-90">›</span>
+                  {q}
+                </summary>
+                <p className="mt-2 pl-5 text-sm text-muted-foreground">{a}</p>
+              </details>
+            ))}
+          </div>
+        </section>
+
         <section className="mt-16 space-y-4">
           <h2 className="text-xl font-semibold tracking-tight">How it works</h2>
-          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-5">
             {STEPS.map((s) => (
               <Card key={s.title}>
                 <CardHeader>
