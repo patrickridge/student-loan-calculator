@@ -1,0 +1,1302 @@
+{
+ "source": "DfE, Graduate labour market outcomes (LEO), 2021-22 tax year, UK-domiciled first-degree graduates",
+ "taxYear": 2021,
+ "subjects": [
+  {
+   "name": "Agriculture, food and related studies",
+   "grads": 2175,
+   "years": {
+    "1": {
+     "lq": 16100,
+     "median": 20800,
+     "uq": 25200,
+     "working": 0.671
+    },
+    "3": {
+     "lq": 18200,
+     "median": 23000,
+     "uq": 28800,
+     "working": 0.732
+    },
+    "5": {
+     "lq": 19300,
+     "median": 25200,
+     "uq": 32800,
+     "working": 0.768
+    },
+    "10": {
+     "lq": 17900,
+     "median": 27000,
+     "uq": 38000,
+     "working": 0.752
+    }
+   }
+  },
+  {
+   "name": "Allied health",
+   "grads": 9255,
+   "years": {
+    "1": {
+     "lq": 20400,
+     "median": 24800,
+     "uq": 29600,
+     "working": 0.785
+    },
+    "3": {
+     "lq": 22300,
+     "median": 29200,
+     "uq": 35000,
+     "working": 0.703
+    },
+    "5": {
+     "lq": 22600,
+     "median": 30700,
+     "uq": 38000,
+     "working": 0.724
+    },
+    "10": {
+     "lq": 20100,
+     "median": 31400,
+     "uq": 40900,
+     "working": 0.728
+    }
+   }
+  },
+  {
+   "name": "Architecture, building and planning",
+   "grads": 4675,
+   "years": {
+    "1": {
+     "lq": 20100,
+     "median": 25900,
+     "uq": 34700,
+     "working": 0.699
+    },
+    "3": {
+     "lq": 24500,
+     "median": 32100,
+     "uq": 43100,
+     "working": 0.638
+    },
+    "5": {
+     "lq": 26600,
+     "median": 35000,
+     "uq": 48900,
+     "working": 0.747
+    },
+    "10": {
+     "lq": 30700,
+     "median": 43400,
+     "uq": 61700,
+     "working": 0.78
+    }
+   }
+  },
+  {
+   "name": "Biosciences",
+   "grads": 9650,
+   "years": {
+    "1": {
+     "lq": 15700,
+     "median": 21200,
+     "uq": 26300,
+     "working": 0.499
+    },
+    "3": {
+     "lq": 20400,
+     "median": 25900,
+     "uq": 32100,
+     "working": 0.621
+    },
+    "5": {
+     "lq": 23000,
+     "median": 29600,
+     "uq": 38000,
+     "working": 0.667
+    },
+    "10": {
+     "lq": 25500,
+     "median": 35400,
+     "uq": 48500,
+     "working": 0.755
+    }
+   }
+  },
+  {
+   "name": "Business and management",
+   "grads": 32455,
+   "years": {
+    "1": {
+     "lq": 17500,
+     "median": 22300,
+     "uq": 28100,
+     "working": 0.653
+    },
+    "3": {
+     "lq": 21200,
+     "median": 27000,
+     "uq": 35400,
+     "working": 0.755
+    },
+    "5": {
+     "lq": 23400,
+     "median": 31000,
+     "uq": 43400,
+     "working": 0.778
+    },
+    "10": {
+     "lq": 24100,
+     "median": 36900,
+     "uq": 55800,
+     "working": 0.751
+    }
+   }
+  },
+  {
+   "name": "Chemistry",
+   "grads": 3000,
+   "years": {
+    "1": {
+     "lq": 19700,
+     "median": 24500,
+     "uq": 29600,
+     "working": 0.556
+    },
+    "3": {
+     "lq": 24500,
+     "median": 29200,
+     "uq": 36100,
+     "working": 0.633
+    },
+    "5": {
+     "lq": 27400,
+     "median": 33600,
+     "uq": 44000,
+     "working": 0.698
+    },
+    "10": {
+     "lq": 30300,
+     "median": 40500,
+     "uq": 55100,
+     "working": 0.787
+    }
+   }
+  },
+  {
+   "name": "Combined and general studies",
+   "grads": 4270,
+   "years": {
+    "1": {
+     "lq": 16400,
+     "median": 22600,
+     "uq": 31400,
+     "working": 0.551
+    },
+    "3": {
+     "lq": 16400,
+     "median": 25200,
+     "uq": 35400,
+     "working": 0.621
+    },
+    "5": {
+     "lq": 15700,
+     "median": 27000,
+     "uq": 38300,
+     "working": 0.631
+    },
+    "10": {
+     "lq": 15300,
+     "median": 28100,
+     "uq": 41200,
+     "working": 0.615
+    }
+   }
+  },
+  {
+   "name": "Computing",
+   "grads": 10255,
+   "years": {
+    "1": {
+     "lq": 18600,
+     "median": 24800,
+     "uq": 32500,
+     "working": 0.697
+    },
+    "3": {
+     "lq": 23000,
+     "median": 30700,
+     "uq": 41600,
+     "working": 0.787
+    },
+    "5": {
+     "lq": 24800,
+     "median": 34700,
+     "uq": 48500,
+     "working": 0.793
+    },
+    "10": {
+     "lq": 27400,
+     "median": 40500,
+     "uq": 59900,
+     "working": 0.773
+    }
+   }
+  },
+  {
+   "name": "Creative arts and design",
+   "grads": 19850,
+   "years": {
+    "1": {
+     "lq": 12400,
+     "median": 17500,
+     "uq": 21500,
+     "working": 0.673
+    },
+    "3": {
+     "lq": 16100,
+     "median": 21500,
+     "uq": 26300,
+     "working": 0.74
+    },
+    "5": {
+     "lq": 17900,
+     "median": 24100,
+     "uq": 30700,
+     "working": 0.754
+    },
+    "10": {
+     "lq": 16400,
+     "median": 26300,
+     "uq": 38000,
+     "working": 0.726
+    }
+   }
+  },
+  {
+   "name": "Economics",
+   "grads": 5035,
+   "years": {
+    "1": {
+     "lq": 20800,
+     "median": 27000,
+     "uq": 34700,
+     "working": 0.56
+    },
+    "3": {
+     "lq": 27700,
+     "median": 36500,
+     "uq": 48900,
+     "working": 0.723
+    },
+    "5": {
+     "lq": 33200,
+     "median": 46700,
+     "uq": 63500,
+     "working": 0.79
+    },
+    "10": {
+     "lq": 40200,
+     "median": 62800,
+     "uq": 95600,
+     "working": 0.775
+    }
+   }
+  },
+  {
+   "name": "Education and teaching",
+   "grads": 15490,
+   "years": {
+    "1": {
+     "lq": 15300,
+     "median": 21200,
+     "uq": 24800,
+     "working": 0.677
+    },
+    "3": {
+     "lq": 17500,
+     "median": 24500,
+     "uq": 28100,
+     "working": 0.793
+    },
+    "5": {
+     "lq": 18600,
+     "median": 26600,
+     "uq": 32500,
+     "working": 0.797
+    },
+    "10": {
+     "lq": 17200,
+     "median": 26300,
+     "uq": 35800,
+     "working": 0.778
+    }
+   }
+  },
+  {
+   "name": "Engineering",
+   "grads": 12150,
+   "years": {
+    "1": {
+     "lq": 22600,
+     "median": 28100,
+     "uq": 33900,
+     "working": 0.694
+    },
+    "3": {
+     "lq": 27400,
+     "median": 33900,
+     "uq": 41600,
+     "working": 0.774
+    },
+    "5": {
+     "lq": 31000,
+     "median": 38700,
+     "uq": 48200,
+     "working": 0.79
+    },
+    "10": {
+     "lq": 34700,
+     "median": 46700,
+     "uq": 61300,
+     "working": 0.78
+    }
+   }
+  },
+  {
+   "name": "English studies",
+   "grads": 11395,
+   "years": {
+    "1": {
+     "lq": 12800,
+     "median": 18200,
+     "uq": 22600,
+     "working": 0.499
+    },
+    "3": {
+     "lq": 18600,
+     "median": 24100,
+     "uq": 28500,
+     "working": 0.711
+    },
+    "5": {
+     "lq": 20800,
+     "median": 27000,
+     "uq": 33600,
+     "working": 0.742
+    },
+    "10": {
+     "lq": 21500,
+     "median": 31800,
+     "uq": 42000,
+     "working": 0.737
+    }
+   }
+  },
+  {
+   "name": "General, applied and forensic sciences",
+   "grads": 1430,
+   "years": {
+    "1": {
+     "lq": 16400,
+     "median": 21500,
+     "uq": 27000,
+     "working": 0.571
+    },
+    "3": {
+     "lq": 19700,
+     "median": 24500,
+     "uq": 29900,
+     "working": 0.708
+    },
+    "5": {
+     "lq": 21200,
+     "median": 26600,
+     "uq": 33900,
+     "working": 0.741
+    },
+    "10": {
+     "lq": 22600,
+     "median": 32100,
+     "uq": 43400,
+     "working": 0.788
+    }
+   }
+  },
+  {
+   "name": "Geography, earth and environmental studies",
+   "grads": 7170,
+   "years": {
+    "1": {
+     "lq": 16800,
+     "median": 21900,
+     "uq": 26300,
+     "working": 0.521
+    },
+    "3": {
+     "lq": 22600,
+     "median": 27000,
+     "uq": 32800,
+     "working": 0.747
+    },
+    "5": {
+     "lq": 25600,
+     "median": 31800,
+     "uq": 40500,
+     "working": 0.788
+    },
+    "10": {
+     "lq": 26600,
+     "median": 37200,
+     "uq": 51800,
+     "working": 0.792
+    }
+   }
+  },
+  {
+   "name": "Health and social care",
+   "grads": 6400,
+   "years": {
+    "1": {
+     "lq": 15300,
+     "median": 21900,
+     "uq": 29200,
+     "working": 0.659
+    },
+    "3": {
+     "lq": 19000,
+     "median": 26300,
+     "uq": 32800,
+     "working": 0.749
+    },
+    "5": {
+     "lq": 19000,
+     "median": 27400,
+     "uq": 35000,
+     "working": 0.764
+    },
+    "10": {
+     "lq": 19000,
+     "median": 29200,
+     "uq": 38700,
+     "working": 0.763
+    }
+   }
+  },
+  {
+   "name": "History and archaeology",
+   "grads": 10710,
+   "years": {
+    "1": {
+     "lq": 13900,
+     "median": 19700,
+     "uq": 24500,
+     "working": 0.466
+    },
+    "3": {
+     "lq": 19700,
+     "median": 25200,
+     "uq": 31400,
+     "working": 0.703
+    },
+    "5": {
+     "lq": 22600,
+     "median": 29600,
+     "uq": 38700,
+     "working": 0.747
+    },
+    "10": {
+     "lq": 24500,
+     "median": 35400,
+     "uq": 51500,
+     "working": 0.756
+    }
+   }
+  },
+  {
+   "name": "Languages and area studies",
+   "grads": 4875,
+   "years": {
+    "1": {
+     "lq": 16100,
+     "median": 21900,
+     "uq": 27000,
+     "working": 0.513
+    },
+    "3": {
+     "lq": 22300,
+     "median": 27400,
+     "uq": 33900,
+     "working": 0.675
+    },
+    "5": {
+     "lq": 24700,
+     "median": 31400,
+     "uq": 42000,
+     "working": 0.712
+    },
+    "10": {
+     "lq": 24100,
+     "median": 36100,
+     "uq": 53300,
+     "working": 0.7
+    }
+   }
+  },
+  {
+   "name": "Law",
+   "grads": 11220,
+   "years": {
+    "1": {
+     "lq": 15700,
+     "median": 19700,
+     "uq": 24500,
+     "working": 0.427
+    },
+    "3": {
+     "lq": 20100,
+     "median": 24800,
+     "uq": 31800,
+     "working": 0.678
+    },
+    "5": {
+     "lq": 23000,
+     "median": 29900,
+     "uq": 42000,
+     "working": 0.756
+    },
+    "10": {
+     "lq": 24800,
+     "median": 37600,
+     "uq": 57300,
+     "working": 0.756
+    }
+   }
+  },
+  {
+   "name": "Materials and technology",
+   "grads": 1385,
+   "years": {
+    "1": {
+     "lq": 16800,
+     "median": 23400,
+     "uq": 30300,
+     "working": 0.638
+    },
+    "3": {
+     "lq": 19000,
+     "median": 25900,
+     "uq": 33600,
+     "working": 0.719
+    },
+    "5": {
+     "lq": 21200,
+     "median": 29200,
+     "uq": 38700,
+     "working": 0.736
+    },
+    "10": {
+     "lq": 22600,
+     "median": 34300,
+     "uq": 48200,
+     "working": 0.753
+    }
+   }
+  },
+  {
+   "name": "Mathematical sciences",
+   "grads": 5725,
+   "years": {
+    "1": {
+     "lq": 19300,
+     "median": 25600,
+     "uq": 32100,
+     "working": 0.541
+    },
+    "3": {
+     "lq": 25600,
+     "median": 32800,
+     "uq": 42300,
+     "working": 0.689
+    },
+    "5": {
+     "lq": 29900,
+     "median": 39100,
+     "uq": 53300,
+     "working": 0.761
+    },
+    "10": {
+     "lq": 34000,
+     "median": 47800,
+     "uq": 74500,
+     "working": 0.783
+    }
+   }
+  },
+  {
+   "name": "Media, journalism and communications",
+   "grads": 7755,
+   "years": {
+    "1": {
+     "lq": 13500,
+     "median": 18200,
+     "uq": 22300,
+     "working": 0.656
+    },
+    "3": {
+     "lq": 17900,
+     "median": 22600,
+     "uq": 27400,
+     "working": 0.779
+    },
+    "5": {
+     "lq": 20100,
+     "median": 25600,
+     "uq": 32100,
+     "working": 0.78
+    },
+    "10": {
+     "lq": 21500,
+     "median": 30300,
+     "uq": 41200,
+     "working": 0.776
+    }
+   }
+  },
+  {
+   "name": "Medical sciences",
+   "grads": 3020,
+   "years": {
+    "1": {
+     "lq": 19000,
+     "median": 24500,
+     "uq": 29600,
+     "working": 0.541
+    },
+    "3": {
+     "lq": 26600,
+     "median": 32800,
+     "uq": 39800,
+     "working": 0.654
+    },
+    "5": {
+     "lq": 29900,
+     "median": 37600,
+     "uq": 46400,
+     "working": 0.704
+    },
+    "10": {
+     "lq": 29900,
+     "median": 41200,
+     "uq": 54400,
+     "working": 0.755
+    }
+   }
+  },
+  {
+   "name": "Medicine and dentistry",
+   "grads": 6740,
+   "years": {
+    "1": {
+     "lq": 36500,
+     "median": 39100,
+     "uq": 42300,
+     "working": 0.725
+    },
+    "3": {
+     "lq": 41500,
+     "median": 48900,
+     "uq": 55800,
+     "working": 0.751
+    },
+    "5": {
+     "lq": 46400,
+     "median": 52600,
+     "uq": 60300,
+     "working": 0.802
+    },
+    "10": {
+     "lq": 40900,
+     "median": 59100,
+     "uq": 75600,
+     "working": 0.703
+    }
+   }
+  },
+  {
+   "name": "Nursing and midwifery",
+   "grads": 18510,
+   "years": {
+    "1": {
+     "lq": 26300,
+     "median": 29900,
+     "uq": 35400,
+     "working": 0.88
+    },
+    "3": {
+     "lq": 26300,
+     "median": 32100,
+     "uq": 38300,
+     "working": 0.792
+    },
+    "5": {
+     "lq": 25600,
+     "median": 33200,
+     "uq": 40500,
+     "working": 0.781
+    },
+    "10": {
+     "lq": 24100,
+     "median": 34700,
+     "uq": 42700,
+     "working": 0.739
+    }
+   }
+  },
+  {
+   "name": "Performing arts",
+   "grads": 11860,
+   "years": {
+    "1": {
+     "lq": 11100,
+     "median": 15700,
+     "uq": 20100,
+     "working": 0.617
+    },
+    "3": {
+     "lq": 14200,
+     "median": 19700,
+     "uq": 25200,
+     "working": 0.71
+    },
+    "5": {
+     "lq": 16400,
+     "median": 22600,
+     "uq": 29000,
+     "working": 0.735
+    },
+    "10": {
+     "lq": 17500,
+     "median": 26600,
+     "uq": 36500,
+     "working": 0.734
+    }
+   }
+  },
+  {
+   "name": "Pharmacology, toxicology and pharmacy",
+   "grads": 2760,
+   "years": {
+    "1": {
+     "lq": 21900,
+     "median": 27700,
+     "uq": 31400,
+     "working": 0.638
+    },
+    "3": {
+     "lq": 23700,
+     "median": 35000,
+     "uq": 42700,
+     "working": 0.539
+    },
+    "5": {
+     "lq": 26600,
+     "median": 38700,
+     "uq": 46000,
+     "working": 0.634
+    },
+    "10": {
+     "lq": 25900,
+     "median": 41200,
+     "uq": 50700,
+     "working": 0.724
+    }
+   }
+  },
+  {
+   "name": "Philosophy and religious studies",
+   "grads": 3345,
+   "years": {
+    "1": {
+     "lq": 13900,
+     "median": 19700,
+     "uq": 25200,
+     "working": 0.47
+    },
+    "3": {
+     "lq": 19700,
+     "median": 25600,
+     "uq": 31800,
+     "working": 0.641
+    },
+    "5": {
+     "lq": 21500,
+     "median": 28800,
+     "uq": 38600,
+     "working": 0.677
+    },
+    "10": {
+     "lq": 23400,
+     "median": 35000,
+     "uq": 51500,
+     "working": 0.685
+    }
+   }
+  },
+  {
+   "name": "Physics and astronomy",
+   "grads": 2755,
+   "years": {
+    "1": {
+     "lq": 19000,
+     "median": 25900,
+     "uq": 31400,
+     "working": 0.498
+    },
+    "3": {
+     "lq": 26300,
+     "median": 32800,
+     "uq": 42000,
+     "working": 0.581
+    },
+    "5": {
+     "lq": 29900,
+     "median": 38700,
+     "uq": 52600,
+     "working": 0.662
+    },
+    "10": {
+     "lq": 35000,
+     "median": 46700,
+     "uq": 67500,
+     "working": 0.774
+    }
+   }
+  },
+  {
+   "name": "Politics",
+   "grads": 4900,
+   "years": {
+    "1": {
+     "lq": 16400,
+     "median": 22300,
+     "uq": 27700,
+     "working": 0.511
+    },
+    "3": {
+     "lq": 22600,
+     "median": 28500,
+     "uq": 35800,
+     "working": 0.694
+    },
+    "5": {
+     "lq": 25200,
+     "median": 33200,
+     "uq": 44500,
+     "working": 0.724
+    },
+    "10": {
+     "lq": 28800,
+     "median": 41200,
+     "uq": 60600,
+     "working": 0.718
+    }
+   }
+  },
+  {
+   "name": "Psychology",
+   "grads": 12730,
+   "years": {
+    "1": {
+     "lq": 13500,
+     "median": 19000,
+     "uq": 23000,
+     "working": 0.541
+    },
+    "3": {
+     "lq": 18600,
+     "median": 23400,
+     "uq": 27700,
+     "working": 0.676
+    },
+    "5": {
+     "lq": 20800,
+     "median": 26300,
+     "uq": 32500,
+     "working": 0.69
+    },
+    "10": {
+     "lq": 20800,
+     "median": 30700,
+     "uq": 41200,
+     "working": 0.732
+    }
+   }
+  },
+  {
+   "name": "Sociology, social policy and anthropology",
+   "grads": 10545,
+   "years": {
+    "1": {
+     "lq": 14600,
+     "median": 19700,
+     "uq": 23700,
+     "working": 0.597
+    },
+    "3": {
+     "lq": 19000,
+     "median": 23400,
+     "uq": 28500,
+     "working": 0.723
+    },
+    "5": {
+     "lq": 20400,
+     "median": 26300,
+     "uq": 32500,
+     "working": 0.744
+    },
+    "10": {
+     "lq": 20400,
+     "median": 29900,
+     "uq": 40200,
+     "working": 0.745
+    }
+   }
+  },
+  {
+   "name": "Sport and exercise sciences",
+   "grads": 8940,
+   "years": {
+    "1": {
+     "lq": 13100,
+     "median": 17900,
+     "uq": 22300,
+     "working": 0.578
+    },
+    "3": {
+     "lq": 18600,
+     "median": 23400,
+     "uq": 27700,
+     "working": 0.737
+    },
+    "5": {
+     "lq": 21500,
+     "median": 26600,
+     "uq": 32500,
+     "working": 0.78
+    },
+    "10": {
+     "lq": 24100,
+     "median": 33200,
+     "uq": 42300,
+     "working": 0.795
+    }
+   }
+  },
+  {
+   "name": "Veterinary sciences",
+   "grads": 890,
+   "years": {
+    "1": {
+     "lq": 26600,
+     "median": 31800,
+     "uq": 34300,
+     "working": 0.782
+    },
+    "3": {
+     "lq": 26600,
+     "median": 34700,
+     "uq": 39800,
+     "working": 0.77
+    },
+    "5": {
+     "lq": 27000,
+     "median": 36900,
+     "uq": 44200,
+     "working": 0.674
+    },
+    "10": {
+     "lq": 24200,
+     "median": 37600,
+     "uq": 51100,
+     "working": 0.754
+    }
+   }
+  }
+ ],
+ "attainment": {
+  "groups": [
+   "4 As or more",
+   "360 points",
+   "300-359 points",
+   "240-299 points",
+   "180-239 points",
+   "Below 180 points",
+   "1 or 2 A level passes",
+   "BTEC"
+  ],
+  "overall": {
+   "4 As or more": 1.554,
+   "360 points": 1.36,
+   "300-359 points": 1.083,
+   "240-299 points": 0.977,
+   "180-239 points": 0.914,
+   "Below 180 points": 0.904,
+   "1 or 2 A level passes": 0.891,
+   "BTEC": 0.845
+  },
+  "bySubject": {
+   "Agriculture, food and related studies": {
+    "300-359 points": 1.182,
+    "240-299 points": 1.03,
+    "180-239 points": 0.963,
+    "BTEC": 0.829
+   },
+   "Allied health": {
+    "4 As or more": 1.368,
+    "360 points": 1.155,
+    "300-359 points": 1.033,
+    "240-299 points": 0.977,
+    "180-239 points": 0.897,
+    "1 or 2 A level passes": 0.876,
+    "BTEC": 0.864
+   },
+   "Architecture, building and planning": {
+    "360 points": 0.908,
+    "300-359 points": 0.908,
+    "240-299 points": 1.059,
+    "180-239 points": 1.094,
+    "1 or 2 A level passes": 0.896,
+    "BTEC": 1.035
+   },
+   "Biosciences": {
+    "4 As or more": 1.27,
+    "360 points": 1.175,
+    "300-359 points": 1.031,
+    "240-299 points": 0.959,
+    "180-239 points": 0.922,
+    "Below 180 points": 0.873,
+    "1 or 2 A level passes": 0.863,
+    "BTEC": 0.791
+   },
+   "Business and management": {
+    "4 As or more": 1.649,
+    "360 points": 1.55,
+    "300-359 points": 1.212,
+    "240-299 points": 1.006,
+    "180-239 points": 0.886,
+    "Below 180 points": 0.853,
+    "1 or 2 A level passes": 0.853,
+    "BTEC": 0.808
+   },
+   "Chemistry": {
+    "4 As or more": 1.276,
+    "360 points": 1.151,
+    "300-359 points": 0.974,
+    "240-299 points": 0.881,
+    "180-239 points": 0.841
+   },
+   "Combined and general studies": {
+    "300-359 points": 1
+   },
+   "Computing": {
+    "4 As or more": 1.78,
+    "360 points": 1.691,
+    "300-359 points": 1.284,
+    "240-299 points": 1.067,
+    "180-239 points": 0.929,
+    "Below 180 points": 0.91,
+    "1 or 2 A level passes": 0.899,
+    "BTEC": 0.821
+   },
+   "Creative arts and design": {
+    "360 points": 1.112,
+    "300-359 points": 1.08,
+    "240-299 points": 1.039,
+    "180-239 points": 1.007,
+    "Below 180 points": 1.023,
+    "1 or 2 A level passes": 0.962,
+    "BTEC": 0.917
+   },
+   "Economics": {
+    "4 As or more": 1.353,
+    "360 points": 1.15,
+    "300-359 points": 0.953,
+    "240-299 points": 0.787,
+    "180-239 points": 0.68,
+    "1 or 2 A level passes": 0.756
+   },
+   "Education and teaching": {
+    "300-359 points": 1.137,
+    "240-299 points": 1.06,
+    "180-239 points": 0.969,
+    "Below 180 points": 0.969,
+    "1 or 2 A level passes": 0.93,
+    "BTEC": 0.895
+   },
+   "Engineering": {
+    "4 As or more": 1.198,
+    "360 points": 1.102,
+    "300-359 points": 1.037,
+    "240-299 points": 0.969,
+    "180-239 points": 0.922,
+    "Below 180 points": 0.865,
+    "1 or 2 A level passes": 0.846,
+    "BTEC": 0.859
+   },
+   "English studies": {
+    "4 As or more": 1.118,
+    "360 points": 1.118,
+    "300-359 points": 1.028,
+    "240-299 points": 0.948,
+    "180-239 points": 0.909,
+    "1 or 2 A level passes": 0.894,
+    "BTEC": 0.829
+   },
+   "General, applied and forensic sciences": {
+    "240-299 points": 1.041,
+    "180-239 points": 1.068,
+    "1 or 2 A level passes": 0.999,
+    "BTEC": 0.929
+   },
+   "Geography, earth and environmental studies": {
+    "4 As or more": 1.2,
+    "360 points": 1.176,
+    "300-359 points": 1.019,
+    "240-299 points": 0.918,
+    "180-239 points": 0.875,
+    "1 or 2 A level passes": 0.863
+   },
+   "Health and social care": {
+    "300-359 points": 1.189,
+    "240-299 points": 1.102,
+    "180-239 points": 1.102,
+    "1 or 2 A level passes": 1.002,
+    "BTEC": 0.899
+   },
+   "History and archaeology": {
+    "4 As or more": 1.245,
+    "360 points": 1.173,
+    "300-359 points": 0.993,
+    "240-299 points": 0.885,
+    "180-239 points": 0.803,
+    "1 or 2 A level passes": 0.849
+   },
+   "Languages and area studies": {
+    "4 As or more": 1.191,
+    "360 points": 1.134,
+    "300-359 points": 0.978,
+    "240-299 points": 0.856,
+    "180-239 points": 0.811
+   },
+   "Law": {
+    "4 As or more": 1.495,
+    "360 points": 1.382,
+    "300-359 points": 1.016,
+    "240-299 points": 0.891,
+    "180-239 points": 0.81,
+    "Below 180 points": 0.788,
+    "1 or 2 A level passes": 0.832,
+    "BTEC": 0.776
+   },
+   "Materials and technology": {
+    "300-359 points": 1.166,
+    "240-299 points": 1.067,
+    "BTEC": 0.805
+   },
+   "Mathematical sciences": {
+    "4 As or more": 1.231,
+    "360 points": 1.134,
+    "300-359 points": 0.94,
+    "240-299 points": 0.816,
+    "180-239 points": 0.753
+   },
+   "Media, journalism and communications": {
+    "300-359 points": 1.115,
+    "240-299 points": 1.018,
+    "180-239 points": 0.948,
+    "1 or 2 A level passes": 0.976,
+    "BTEC": 0.917
+   },
+   "Medical sciences": {
+    "4 As or more": 1.204,
+    "360 points": 1.136,
+    "300-359 points": 0.955,
+    "240-299 points": 0.945,
+    "BTEC": 0.897
+   },
+   "Medicine and dentistry": {
+    "4 As or more": 1,
+    "360 points": 1,
+    "300-359 points": 1
+   },
+   "Nursing and midwifery": {
+    "300-359 points": 1.007,
+    "240-299 points": 1.02,
+    "180-239 points": 1.02,
+    "1 or 2 A level passes": 1.02,
+    "BTEC": 0.965
+   },
+   "Performing arts": {
+    "360 points": 1.174,
+    "300-359 points": 1.109,
+    "240-299 points": 1.026,
+    "180-239 points": 0.996,
+    "1 or 2 A level passes": 0.979,
+    "BTEC": 0.901
+   },
+   "Pharmacology, toxicology and pharmacy": {
+    "360 points": 1.031,
+    "300-359 points": 1.021,
+    "240-299 points": 0.926
+   },
+   "Philosophy and religious studies": {
+    "4 As or more": 1.354,
+    "360 points": 1.119,
+    "300-359 points": 0.99,
+    "240-299 points": 0.884,
+    "180-239 points": 0.806
+   },
+   "Physics and astronomy": {
+    "4 As or more": 1.105,
+    "360 points": 1.077,
+    "300-359 points": 0.958,
+    "240-299 points": 0.81
+   },
+   "Politics": {
+    "4 As or more": 1.159,
+    "360 points": 1.148,
+    "300-359 points": 1.004,
+    "240-299 points": 0.917,
+    "180-239 points": 0.799
+   },
+   "Psychology": {
+    "360 points": 1.189,
+    "300-359 points": 1.041,
+    "240-299 points": 0.974,
+    "180-239 points": 0.919,
+    "1 or 2 A level passes": 0.934,
+    "BTEC": 0.893
+   },
+   "Sociology, social policy and anthropology": {
+    "360 points": 1.155,
+    "300-359 points": 1.088,
+    "240-299 points": 1.006,
+    "180-239 points": 0.954,
+    "Below 180 points": 0.98,
+    "1 or 2 A level passes": 0.939,
+    "BTEC": 0.924
+   },
+   "Sport and exercise sciences": {
+    "300-359 points": 1.1,
+    "240-299 points": 1.059,
+    "180-239 points": 1.029,
+    "1 or 2 A level passes": 0.988,
+    "BTEC": 0.951
+   },
+   "Veterinary sciences": {
+    "360 points": 1.003,
+    "300-359 points": 0.996
+   }
+  }
+ }
+}
