@@ -125,13 +125,10 @@ export default function PortfolioPage() {
           <h2 className="text-xl font-semibold tracking-tight">Assumptions and questions</h2>
           <div className="divide-y rounded-xl border bg-card">
             {QUESTIONS.map(({ q, a }) => (
-              <details key={q} className="group px-4 py-3">
-                <summary className="cursor-pointer list-none font-medium marker:hidden">
-                  <span className="mr-2 inline-block text-muted-foreground transition-transform group-open:rotate-90">›</span>
-                  {q}
-                </summary>
-                <p className="mt-2 pl-5 text-sm text-muted-foreground">{a}</p>
-              </details>
+              <div key={q} className="px-4 py-3">
+                <h3 className="font-medium">{q}</h3>
+                <p className="mt-1 text-sm text-muted-foreground">{a}</p>
+              </div>
             ))}
           </div>
         </section>
