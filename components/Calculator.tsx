@@ -31,8 +31,16 @@ const START: Inputs = {
   rpi: 0.03,
   firstRepayYear: 2027,
   overpayment: 1_200, // £100 a month
-  investReturn: 0.05,
+  investReturn: 0.035,
 };
+
+// What the money could earn instead. Rates checked October 2026, with Bank Rate at 3.75%: the
+// best easy access accounts pay about 3.5% once intro bonuses end, fixed savers and cash ISAs about 4%.
+const RETURNS = [
+  { rate: 0.035, label: "Savings account", note: "3.5%" },
+  { rate: 0.04, label: "Fixed saver or cash ISA", note: "4%" },
+  { rate: 0.06, label: "Index fund", note: "6%, can fall" },
+];
 
 const PLAN_ITEMS = Object.values(PLANS).map((p) => ({ value: p.id, label: p.name }));
 
@@ -156,16 +164,36 @@ export function Calculator() {
                   onChange={setPercent("rpi")}
                   hint="Sets the interest rate and how thresholds rise."
                 />
-                <NumberField
-                  id="return"
-                  label="What the money could earn instead"
-                  suffix="% a year"
-                  step={0.5}
-                  max={20}
-                  value={inputs.investReturn * 100}
-                  onChange={setPercent("investReturn")}
-                  hint="For example a savings account or index fund."
-                />
+                <div className="space-y-2">
+                  <NumberField
+                    id="return"
+                    label="What the money could earn instead"
+                    suffix="% a year"
+                    step={0.5}
+                    max={20}
+                    value={Math.round(inputs.investReturn * 1000) / 10}
+                    onChange={setPercent("investReturn")}
+                  />
+                  <div className="flex flex-wrap gap-1.5" role="group" aria-label="Typical returns">
+                    {RETURNS.map((r) => {
+                      const on = Math.abs(inputs.investReturn - r.rate) < 0.0001;
+                      return (
+                        <button
+                          key={r.label}
+                          type="button"
+                          aria-pressed={on}
+                          onClick={() => set("investReturn")(r.rate)}
+                          className={`rounded-full border px-2.5 py-1 text-xs ${on ? "border-foreground bg-foreground text-background" : "hover:bg-muted"}`}
+                        >
+                          {r.label} · {r.note}
+                        </button>
+                      );
+                    })}
+                  </div>
+                  <p className="text-xs text-muted-foreground">
+                    Savings rates follow the Bank of England, so they change. An index fund has averaged more over the long run but can fall in any year.
+                  </p>
+                </div>
               </AccordionContent>
             </AccordionItem>
           </Accordion>

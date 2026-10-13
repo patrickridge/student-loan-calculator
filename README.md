@@ -18,7 +18,7 @@ Most people treat a student loan like any other debt and want it gone. But it wo
 
 **Projection.** `lib/loan.ts` steps through the loan a tax year at a time: add a year's interest to what you owe, take 9% of salary above the threshold (6% for Postgraduate Loans) plus any extra payment, and stop when it's paid off or the write-off date arrives.
 
-**The comparison.** Paying extra means paying more now and less later. To compare the two fairly, every payment is converted to today's money by discounting it at the return you could earn instead (5% a year by default):
+**The comparison.** Paying extra means paying more now and less later. To compare the two fairly, every payment is converted to today's money by discounting it at the return you could earn instead (3.5% a year by default, about what a good savings account pays in October 2026; there are quick options for a fixed saver or cash ISA at 4% and an index fund at 6%):
 
 ```
 cost = Σ payment in year t / (1 + r)^t
