@@ -14,6 +14,7 @@ export interface Plan {
   firstRise: number | null; // tax year (by its starting year) the threshold first rises with RPI; null = fixed
   repayRate: number; // share of income above the threshold
   writeOffYears: number; // after the April you were first due to repay
+  firstRepayFrom: number; // earliest April anyone on the plan was first due to repay
 }
 
 export const FIRST_TAX_YEAR = 2026; // 2026-27
@@ -27,6 +28,7 @@ export const PLANS: Record<PlanId, Plan> = {
     firstRise: 2027,
     repayRate: 0.09,
     writeOffYears: 25, // for loans first paid on or after 1 Sept 2006
+    firstRepayFrom: 2000,
   },
   plan2: {
     id: "plan2",
@@ -36,6 +38,7 @@ export const PLANS: Record<PlanId, Plan> = {
     firstRise: 2030, // frozen until April 2030
     repayRate: 0.09,
     writeOffYears: 30,
+    firstRepayFrom: 2016,
   },
   plan4: {
     id: "plan4",
@@ -45,6 +48,7 @@ export const PLANS: Record<PlanId, Plan> = {
     firstRise: 2027,
     repayRate: 0.09,
     writeOffYears: 30, // for loans first paid on or after 1 Aug 2007
+    firstRepayFrom: 2000,
   },
   plan5: {
     id: "plan5",
@@ -54,6 +58,7 @@ export const PLANS: Record<PlanId, Plan> = {
     firstRise: 2027,
     repayRate: 0.09,
     writeOffYears: 40,
+    firstRepayFrom: 2026,
   },
   postgrad: {
     id: "postgrad",
@@ -63,6 +68,7 @@ export const PLANS: Record<PlanId, Plan> = {
     firstRise: null, // has stayed at £21,000; assumed fixed
     repayRate: 0.06,
     writeOffYears: 30,
+    firstRepayFrom: 2019,
   },
 };
 
@@ -72,6 +78,12 @@ export const PLAN2_UPPER_INCOME = 52_885;
 
 // Rates are capped at a "prevailing market rate"; it's 6% at the moment. Assumed to stay.
 export const INTEREST_CAP = 0.06;
+
+/** Aprils you could have been first due to repay, for a loan that hasn't yet been written off. */
+export function firstRepayYears(plan: Plan): number[] {
+  const from = Math.max(plan.firstRepayFrom, FIRST_TAX_YEAR - plan.writeOffYears + 1);
+  return Array.from({ length: FIRST_TAX_YEAR + 10 - from + 1 }, (_, i) => from + i);
+}
 
 /** Annual interest rate for a plan, given income and an RPI assumption. */
 export function interestRate(plan: PlanId, income: number, rpi: number, threshold: number): number {

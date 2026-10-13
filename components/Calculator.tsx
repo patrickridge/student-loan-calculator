@@ -20,7 +20,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { gbp, taxYear } from "@/lib/format";
 import { compareOverpaying, currentRate, why, type Comparison, type Inputs, type Result } from "@/lib/loan";
-import { PLANS, type PlanId } from "@/lib/rules";
+import { firstRepayYears, PLANS, type PlanId } from "@/lib/rules";
 
 // Example figures shown on first load.
 const START: Inputs = {
@@ -58,6 +58,7 @@ export function Calculator() {
   const comparison = useMemo(() => compareOverpaying(inputs), [inputs]);
   const monthly = Math.round(inputs.overpayment / 12);
   const plan = PLANS[inputs.plan];
+  const years = firstRepayYears(plan);
 
   return (
     <div className="grid items-start gap-6 lg:grid-cols-[minmax(0,23rem)_minmax(0,1fr)]">
@@ -72,7 +73,15 @@ export function Calculator() {
             <Select
               items={PLAN_ITEMS}
               value={inputs.plan}
-              onValueChange={(value) => value && setInputs((prev) => ({ ...prev, plan: value as PlanId }))}
+              onValueChange={(value) =>
+                value &&
+                setInputs((prev) => {
+                  // Keep the first repayment year possible for the new plan.
+                  const years = firstRepayYears(PLANS[value as PlanId]);
+                  const firstRepayYear = Math.min(Math.max(prev.firstRepayYear, years[0]), years.at(-1)!);
+                  return { ...prev, plan: value as PlanId, firstRepayYear };
+                })
+              }
             >
               <SelectTrigger id="plan" className="w-full">
                 <SelectValue />
@@ -87,7 +96,7 @@ export function Calculator() {
             </Select>
             <p className="text-xs text-muted-foreground">{plan.who}</p>
           </div>
-          <NumberField id="balance" label="What you owe now" prefix="£" step={500} value={inputs.balance} onChange={set("balance")} />
+          <NumberField id="balance" label="What you owe now" prefix="£" step={500} max={500_000} value={inputs.balance} onChange={set("balance")} />
           <SliderField
             id="salary"
             label="Salary before tax"
@@ -95,6 +104,7 @@ export function Calculator() {
             suffix="a year"
             step={1_000}
             max={150_000}
+            typedMax={1_000_000}
             value={inputs.salary}
             onChange={set("salary")}
           />
@@ -105,28 +115,43 @@ export function Calculator() {
             suffix="a month"
             step={10}
             max={1_000}
+            typedMax={10_000}
             value={monthly}
             onChange={(value) => set("overpayment")(value * 12)}
           />
-          <NumberField
-            id="first-repay"
-            label="First April you're due to repay"
-            min={1990}
-            max={2040}
-            value={inputs.firstRepayYear}
-            onChange={set("firstRepayYear")}
-            hint="Usually the April after you finish your course."
-          />
-          <Accordion>
+          <div className="space-y-1.5">
+            <Label htmlFor="first-repay">First April you&apos;re due to repay</Label>
+            <Select
+              items={years.map((y) => ({ value: String(y), label: `April ${y}` }))}
+              value={String(inputs.firstRepayYear)}
+              onValueChange={(value) => value && set("firstRepayYear")(Number(value))}
+            >
+              <SelectTrigger id="first-repay" className="w-full">
+                <SelectValue />
+              </SelectTrigger>
+              <SelectContent>
+                {years.map((y) => (
+                  <SelectItem key={y} value={String(y)}>
+                    April {y}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+            <p className="text-xs text-muted-foreground">
+              Usually the April after you finish your course. Written off {plan.writeOffYears} years later, in April {inputs.firstRepayYear + plan.writeOffYears}.
+            </p>
+          </div>
+          <Accordion defaultValue={["assumptions"]}>
             <AccordionItem value="assumptions">
               <AccordionTrigger>Assumptions</AccordionTrigger>
               <AccordionContent className="space-y-4 pt-1">
-                <NumberField id="growth" label="Pay rises" suffix="% a year" step={0.5} value={inputs.salaryGrowth * 100} onChange={setPercent("salaryGrowth")} />
+                <NumberField id="growth" label="Pay rises" suffix="% a year" step={0.5} min={-5} max={15} value={inputs.salaryGrowth * 100} onChange={setPercent("salaryGrowth")} />
                 <NumberField
                   id="rpi"
                   label="Inflation (RPI)"
                   suffix="% a year"
                   step={0.5}
+                  max={15}
                   value={inputs.rpi * 100}
                   onChange={setPercent("rpi")}
                   hint="Sets the interest rate and how thresholds rise."
@@ -136,6 +161,7 @@ export function Calculator() {
                   label="What the money could earn instead"
                   suffix="% a year"
                   step={0.5}
+                  max={20}
                   value={inputs.investReturn * 100}
                   onChange={setPercent("investReturn")}
                   hint="For example a savings account or index fund."

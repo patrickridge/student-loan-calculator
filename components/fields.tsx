@@ -1,5 +1,7 @@
 "use client";
 
+import { useState } from "react";
+
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Slider } from "@/components/ui/slider";
@@ -17,8 +19,13 @@ interface NumberFieldProps {
   hint?: string;
 }
 
-/** Labelled number input. Empty or invalid input counts as the minimum, so the sums never break. */
-export function NumberField({ id, label, value, onChange, prefix, suffix, step = 1, min = 0, max, hint }: NumberFieldProps) {
+/**
+ * Labelled number input. What you type is kept as typed, so clearing the box to type a new number
+ * works; the sums use the last valid number, kept between `min` and `max`.
+ */
+export function NumberField({ id, label, value, onChange, prefix, suffix, step = 1, min = 0, max = Infinity, hint }: NumberFieldProps) {
+  const [text, setText] = useState<string | null>(null);
+  const clamp = (n: number) => Math.min(max, Math.max(min, n));
   return (
     <div className="space-y-1.5">
       <Label htmlFor={id}>{label}</Label>
@@ -33,14 +40,16 @@ export function NumberField({ id, label, value, onChange, prefix, suffix, step =
           type="number"
           inputMode="decimal"
           className={`tabular-nums ${prefix ? "pl-7" : ""} ${suffix ? "pr-20" : ""}`}
-          value={Number.isFinite(value) ? value : ""}
+          value={text ?? String(value)}
           step={step}
           min={min}
-          max={max}
+          max={Number.isFinite(max) ? max : undefined}
           onChange={(e) => {
-            const next = Number(e.target.value);
-            onChange(Number.isFinite(next) ? Math.max(min, next) : min);
+            setText(e.target.value);
+            const next = e.target.valueAsNumber;
+            if (Number.isFinite(next)) onChange(clamp(next));
           }}
+          onBlur={() => setText(null)}
         />
         {suffix && (
           <span className="pointer-events-none absolute inset-y-0 right-3 flex items-center text-sm text-muted-foreground">
@@ -55,14 +64,16 @@ export function NumberField({ id, label, value, onChange, prefix, suffix, step =
 
 interface SliderFieldProps extends NumberFieldProps {
   max: number;
+  /** Highest number that can be typed, if more than the slider goes to. */
+  typedMax?: number;
 }
 
 /** Number input with a slider underneath. */
-export function SliderField(props: SliderFieldProps) {
+export function SliderField({ typedMax, ...props }: SliderFieldProps) {
   const { value, onChange, min = 0, max, step = 1, label } = props;
   return (
     <div className="space-y-3">
-      <NumberField {...props} />
+      <NumberField {...props} max={typedMax ?? max} />
       <Slider
         aria-label={label}
         value={[Math.min(value, max)]}
