@@ -43,42 +43,41 @@
 "Heriot-Watt University":0.991,
 "Imperial College London":1.318,
 "Keele University":0.963,
-"King's College London":1.181,
+"King's College London (KCL)":1.181,
 "Kingston University":0.995,
 "Lancaster University":1.082,
+"Leeds Arts University":0.971,
 "Leeds Beckett University":0.962,
-"Leeds College of Art":0.971,
 "Leeds Trinity University":0.924,
 "Liverpool Hope University":0.958,
 "Liverpool Institute for Performing Arts":1.013,
-"Liverpool John Moores University":0.925,
+"Liverpool John Moores University (LJMU)":0.925,
 "London Metropolitan University":0.952,
 "London School of Economics (LSE)":1.595,
 "London South Bank University":1.041,
 "Loughborough College":0.972,
 "Loughborough University":1.211,
 "Luminate Education Group":0.938,
-"Manchester Metropolitan University":0.904,
+"Manchester Metropolitan University (MMU)":0.904,
 "Middlesex University":0.984,
-"NCG":0.834,
+"Newcastle College Group (NCG)":0.834,
 "Newcastle University":1.095,
 "Newman University":0.895,
 "Northumbria University":1.014,
 "Norwich University of the Arts":0.946,
-"Nottingham Trent University":1.045,
-"Open University":0.979,
+"Nottingham Trent University (NTU)":1.045,
 "Oxford Brookes University":1.091,
-"Queen Margaret University, Edinburgh":0.95,
-"Queen Mary University of London":1.132,
-"Ravensbourne":1.131,
+"Plymouth Marjon University":0.936,
+"Queen Margaret University":0.95,
+"Queen Mary University of London (QMUL)":1.132,
+"Ravensbourne University London":1.131,
 "Robert Gordon University":0.999,
-"Roehampton University":1.04,
 "Rose Bruford College":0.987,
 "Royal Agricultural University":1.071,
 "Royal Central School of Speech and Drama":1.243,
 "Royal Conservatoire of Scotland":0.934,
 "Royal Holloway, University of London":1.079,
-"Royal Veterinary College":1.117,
+"Royal Veterinary College (RVC)":1.117,
 "SOAS University of London":1.034,
 "Sheffield Hallam University":0.977,
 "Solent University":0.961,
@@ -87,6 +86,7 @@
 "Staffordshire University":0.922,
 "Swansea University":0.926,
 "Teesside University":0.873,
+"The Open University":0.979,
 "Trinity Laban Conservatoire of Music and Dance":0.951,
 "University College Birmingham":0.792,
 "University College London (UCL)":1.208,
@@ -100,13 +100,13 @@
 "University of Brighton":1.065,
 "University of Bristol":1.246,
 "University of Cambridge":1.439,
-"University of Central Lancashire":0.9,
+"University of Central Lancashire (UCLan)":0.9,
 "University of Chester":0.911,
 "University of Chichester":1.014,
 "University of Cumbria":0.929,
 "University of Derby":0.918,
 "University of Dundee":1.025,
-"University of East Anglia":1.018,
+"University of East Anglia (UEA)":1.018,
 "University of East London":0.922,
 "University of Edinburgh":1.143,
 "University of Essex":0.997,
@@ -129,19 +129,19 @@
 "University of Plymouth":0.948,
 "University of Portsmouth":1.017,
 "University of Reading":1.17,
+"University of Roehampton":1.04,
 "University of Salford":0.919,
 "University of Sheffield":1.037,
 "University of South Wales":0.935,
 "University of Southampton":1.103,
 "University of St Andrews":1.083,
-"University of St Mark and St John":0.936,
 "University of Stirling":1.027,
 "University of Strathclyde":1.063,
 "University of Suffolk":0.872,
 "University of Sunderland":0.888,
 "University of Surrey":1.124,
 "University of Sussex":1.066,
-"University of Wales Trinity Saint David":0.879,
+"University of Wales Trinity Saint David (UWTSD)":0.879,
 "University of Warwick":1.235,
 "University of West London":0.973,
 "University of Westminster":1.03,
@@ -151,7 +151,7 @@
 "University of York":1.096,
 "University of the Arts London":1.07,
 "University of the Highlands and Islands":0.799,
-"University of the West of England, Bristol":0.997,
+"University of the West of England (UWE Bristol)":0.997,
 "University of the West of Scotland":0.907,
 "Wrexham University":0.824,
 "York St John University":0.916
@@ -1881,7 +1881,7 @@
 75
 ]
 },
-"King's College London":{
+"King's College London (KCL)":{
 "Allied health":[
 1.238,
 60
@@ -2119,6 +2119,12 @@
 40
 ]
 },
+"Leeds Arts University":{
+"Creative arts and design":[
+0.971,
+245
+]
+},
 "Leeds Beckett University":{
 "Allied health":[
 0.964,
@@ -2201,12 +2207,6 @@
 515
 ]
 },
-"Leeds College of Art":{
-"Creative arts and design":[
-0.971,
-245
-]
-},
 "Leeds Trinity University":{
 "Business and management":[
 0.749,
@@ -2273,7 +2273,7 @@
 110
 ]
 },
-"Liverpool John Moores University":{
+"Liverpool John Moores University (LJMU)":{
 "Allied health":[
 0.964,
 75
@@ -2603,7 +2603,7 @@
 180
 ]
 },
-"Manchester Metropolitan University":{
+"Manchester Metropolitan University (MMU)":{
 "Allied health":[
 1.0,
 170
@@ -2755,7 +2755,7 @@
 35
 ]
 },
-"NCG":{
+"Newcastle College Group (NCG)":{
 "Business and management":[
 0.713,
 30
@@ -2977,7 +2977,7 @@
 355
 ]
 },
-"Nottingham Trent University":{
+"Nottingham Trent University (NTU)":{
 "Agriculture, food and related studies":[
 0.926,
 120
@@ -3083,96 +3083,6 @@
 40
 ]
 },
-"Open University":{
-"Allied health":[
-0.974,
-60
-],
-"Biosciences":[
-1.024,
-60
-],
-"Business and management":[
-1.176,
-345
-],
-"Combined and general studies":[
-0.948,
-2260
-],
-"Computing":[
-1.277,
-195
-],
-"Creative arts and design":[
-1.129,
-40
-],
-"Economics":[
-0.748,
-35
-],
-"Education and teaching":[
-0.796,
-435
-],
-"Engineering":[
-1.201,
-205
-],
-"English studies":[
-0.911,
-520
-],
-"General, applied and forensic sciences":[
-1.096,
-60
-],
-"Geography, earth and environmental studies":[
-0.978,
-120
-],
-"Health and social care":[
-1.253,
-410
-],
-"History and archaeology":[
-0.825,
-375
-],
-"Languages and area studies":[
-0.774,
-140
-],
-"Law":[
-1.083,
-270
-],
-"Materials and technology":[
-1.462,
-35
-],
-"Mathematical sciences":[
-0.885,
-245
-],
-"Philosophy and religious studies":[
-1.052,
-45
-],
-"Politics":[
-0.878,
-105
-],
-"Psychology":[
-0.943,
-865
-],
-"Sociology, social policy and anthropology":[
-0.958,
-310
-]
-},
 "Oxford Brookes University":{
 "Agriculture, food and related studies":[
 0.77,
@@ -3263,7 +3173,29 @@
 45
 ]
 },
-"Queen Margaret University, Edinburgh":{
+"Plymouth Marjon University":{
+"Allied health":[
+0.98,
+30
+],
+"Education and teaching":[
+0.974,
+120
+],
+"Media, journalism and communications":[
+0.906,
+30
+],
+"Performing arts":[
+0.951,
+45
+],
+"Sport and exercise sciences":[
+0.906,
+185
+]
+},
+"Queen Margaret University":{
 "Allied health":[
 0.974,
 100
@@ -3293,7 +3225,7 @@
 30
 ]
 },
-"Queen Mary University of London":{
+"Queen Mary University of London (QMUL)":{
 "Biosciences":[
 1.062,
 100
@@ -3371,7 +3303,7 @@
 35
 ]
 },
-"Ravensbourne":{
+"Ravensbourne University London":{
 "Creative arts and design":[
 1.12,
 315
@@ -3437,56 +3369,6 @@
 "Sport and exercise sciences":[
 1.049,
 30
-]
-},
-"Roehampton University":{
-"Biosciences":[
-1.024,
-70
-],
-"Business and management":[
-1.003,
-130
-],
-"Creative arts and design":[
-1.104,
-55
-],
-"Education and teaching":[
-1.107,
-205
-],
-"English studies":[
-1.081,
-80
-],
-"History and archaeology":[
-0.825,
-30
-],
-"Media, journalism and communications":[
-1.039,
-40
-],
-"Performing arts":[
-1.049,
-90
-],
-"Philosophy and religious studies":[
-0.747,
-50
-],
-"Psychology":[
-1.042,
-135
-],
-"Sociology, social policy and anthropology":[
-1.068,
-70
-],
-"Sport and exercise sciences":[
-1.124,
-45
 ]
 },
 "Rose Bruford College":{
@@ -3571,7 +3453,7 @@
 95
 ]
 },
-"Royal Veterinary College":{
+"Royal Veterinary College (RVC)":{
 "Agriculture, food and related studies":[
 1.305,
 45
@@ -4011,6 +3893,96 @@
 "Sport and exercise sciences":[
 0.85,
 125
+]
+},
+"The Open University":{
+"Allied health":[
+0.974,
+60
+],
+"Biosciences":[
+1.024,
+60
+],
+"Business and management":[
+1.176,
+345
+],
+"Combined and general studies":[
+0.948,
+2260
+],
+"Computing":[
+1.277,
+195
+],
+"Creative arts and design":[
+1.129,
+40
+],
+"Economics":[
+0.748,
+35
+],
+"Education and teaching":[
+0.796,
+435
+],
+"Engineering":[
+1.201,
+205
+],
+"English studies":[
+0.911,
+520
+],
+"General, applied and forensic sciences":[
+1.096,
+60
+],
+"Geography, earth and environmental studies":[
+0.978,
+120
+],
+"Health and social care":[
+1.253,
+410
+],
+"History and archaeology":[
+0.825,
+375
+],
+"Languages and area studies":[
+0.774,
+140
+],
+"Law":[
+1.083,
+270
+],
+"Materials and technology":[
+1.462,
+35
+],
+"Mathematical sciences":[
+0.885,
+245
+],
+"Philosophy and religious studies":[
+1.052,
+45
+],
+"Politics":[
+0.878,
+105
+],
+"Psychology":[
+0.943,
+865
+],
+"Sociology, social policy and anthropology":[
+0.958,
+310
 ]
 },
 "Trinity Laban Conservatoire of Music and Dance":{
@@ -4759,7 +4731,7 @@
 40
 ]
 },
-"University of Central Lancashire":{
+"University of Central Lancashire (UCLan)":{
 "Agriculture, food and related studies":[
 0.871,
 50
@@ -5143,7 +5115,7 @@
 30
 ]
 },
-"University of East Anglia":{
+"University of East Anglia (UEA)":{
 "Allied health":[
 1.023,
 65
@@ -7065,6 +7037,56 @@
 95
 ]
 },
+"University of Roehampton":{
+"Biosciences":[
+1.024,
+70
+],
+"Business and management":[
+1.003,
+130
+],
+"Creative arts and design":[
+1.104,
+55
+],
+"Education and teaching":[
+1.107,
+205
+],
+"English studies":[
+1.081,
+80
+],
+"History and archaeology":[
+0.825,
+30
+],
+"Media, journalism and communications":[
+1.039,
+40
+],
+"Performing arts":[
+1.049,
+90
+],
+"Philosophy and religious studies":[
+0.747,
+50
+],
+"Psychology":[
+1.042,
+135
+],
+"Sociology, social policy and anthropology":[
+1.068,
+70
+],
+"Sport and exercise sciences":[
+1.124,
+45
+]
+},
 "University of Salford":{
 "Allied health":[
 0.902,
@@ -7447,28 +7469,6 @@
 40
 ]
 },
-"University of St Mark and St John":{
-"Allied health":[
-0.98,
-30
-],
-"Education and teaching":[
-0.974,
-120
-],
-"Media, journalism and communications":[
-0.906,
-30
-],
-"Performing arts":[
-0.951,
-45
-],
-"Sport and exercise sciences":[
-0.906,
-185
-]
-},
 "University of Stirling":{
 "Biosciences":[
 0.818,
@@ -7801,7 +7801,7 @@
 95
 ]
 },
-"University of Wales Trinity Saint David":{
+"University of Wales Trinity Saint David (UWTSD)":{
 "Architecture, building and planning":[
 1.108,
 30
@@ -8345,7 +8345,7 @@
 65
 ]
 },
-"University of the West of England, Bristol":{
+"University of the West of England (UWE Bristol)":{
 "Allied health":[
 0.951,
 175

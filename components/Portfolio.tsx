@@ -309,12 +309,17 @@ export function Portfolio() {
   );
 }
 
+/** Lower case, without punctuation, so "kings" finds King's. */
+const plain = (s: string) => s.toLowerCase().replace(/[^a-z0-9 ]/g, "");
+/** Every word typed appears somewhere in the name, in any order. */
+const matches = (name: string, query: string) => plain(query).split(" ").filter(Boolean).every((word) => plain(name).includes(word));
+
 /** Searchable, since there are over 150. */
 function UniversityField({ value, onChange }: { value: string; onChange: (v: string) => void }) {
   return (
     <div className="space-y-1.5">
       <Label htmlFor="university">University</Label>
-      <Combobox items={UNIVERSITY_ITEMS} value={value === ANY ? ALL_UNIVERSITIES : value} onValueChange={(v) => v && onChange(v === ALL_UNIVERSITIES ? ANY : (v as string))}>
+      <Combobox items={UNIVERSITY_ITEMS} filter={matches} value={value === ANY ? ALL_UNIVERSITIES : value} onValueChange={(v) => v && onChange(v === ALL_UNIVERSITIES ? ANY : (v as string))}>
         <ComboboxInput id="university" placeholder="Search universities" className="w-full" />
         <ComboboxContent>
           <ComboboxEmpty>No university with that name.</ComboboxEmpty>

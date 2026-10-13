@@ -45,10 +45,14 @@ export function NumberField({ id, label, value, onChange, prefix, suffix, step =
           min={min}
           max={Number.isFinite(max) ? max : undefined}
           onChange={(e) => {
-            setText(e.target.value);
-            const next = e.target.valueAsNumber;
-            if (Number.isFinite(next)) onChange(clamp(next));
+            // Drop leading zeros, so typing into a box showing 0 gives "50", not "050".
+            const typed = e.target.value.replace(/^0+(?=\d)/, "");
+            setText(typed);
+            const next = Number(typed);
+            if (typed !== "" && Number.isFinite(next)) onChange(clamp(next));
           }}
+          // Typing replaces the number rather than adding to it.
+          onFocus={(e) => e.target.select()}
           onBlur={() => setText(null)}
         />
         {suffix && (
