@@ -161,9 +161,10 @@ export function Portfolio() {
                 {pence(valuation.low)} in a bad future, {pence(valuation.high)} in a good one (1 in 20 either way), at a {rate(a.discountRate)} return.
               </p>
             </div>
-            <dl className="grid gap-4 sm:grid-cols-3">
+            <dl className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
               <Stat label="Repay in full" value={pct(valuation.repaidInFull)} note="before the rest is written off" />
               <Stat label="Cash collected" value={`${valuation.cashMultiple.toFixed(2)}×`} note="the amount lent, over the loans' life" />
+              <Stat label="Average life" value={`${valuation.averageLife.toFixed(1)} years`} note="until a pound repaid comes back" />
               <Stat label={`Return if bought at ${pence(SALE_PRICE)}`} value={rate(saleYield)} note="the price the 2017 sale got" />
             </dl>
           </CardContent>

@@ -408,6 +408,8 @@ export interface Valuation {
   high: number;
   repaidInFull: number;
   cashMultiple: number;
+  /** Weighted average life: on average, how many years until a pound repaid comes back. */
+  averageLife: number;
   /** Average cash per year as a share of the starting balance, for a chart. */
   averageCash: number[];
   tranches: TrancheResult[];
@@ -430,6 +432,7 @@ export function valuePool(a: Assumptions, mix: Mix, { borrowers = 1500, futureCo
     high: quantile(values, 0.95),
     repaidInFull: pool.repaidInFull,
     cashMultiple: pool.cashMultiple,
+    averageLife: averageCash.reduce((s, c, t) => s + c * (t + 1), 0) / averageCash.reduce((s, c) => s + c, 0),
     averageCash,
     tranches: tranche(pool.cash, tranches, a.discountRate),
   };
