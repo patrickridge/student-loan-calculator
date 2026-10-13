@@ -1,19 +1,22 @@
 {
 "source":"DfE, LEO Graduate outcomes provider level data, 2021-22 tax year, five years after graduation",
 "overall":{
+"Abertay University":1.02,
 "Aberystwyth University":0.903,
+"Academy for Contemporary Music":0.938,
 "Anglia Ruskin University":1.019,
+"Arts University Bournemouth":1.056,
 "Arts University Plymouth":0.763,
 "Aston University":1.123,
-"BIMM Limited":0.938,
-"BPP University Limited":1.063,
+"BIMM":0.938,
+"BPP University":1.063,
 "Bangor University":0.889,
 "Bath Spa University":0.965,
-"Birkbeck College":1.115,
+"Birkbeck, University of London":1.115,
 "Birmingham City University":0.955,
 "Bishop Grosseteste University":1.0,
 "Blackburn College":0.733,
-"Blackpool and The Fylde College":0.85,
+"Blackpool and the Fylde College":0.85,
 "Bournemouth University":1.124,
 "Bradford College":0.815,
 "Brunel University London":1.131,
@@ -22,141 +25,176 @@
 "Cardiff Metropolitan University":0.958,
 "Cardiff University":1.052,
 "City College Norwich":0.841,
-"Conservatoire For Dance and Drama":0.92,
+"City, University of London":1.199,
+"Conservatoire for Dance and Drama":0.92,
 "Coventry University":0.982,
 "De Montfort University":0.953,
+"Durham University":1.329,
 "Edge Hill University":0.902,
 "Edinburgh Napier University":0.966,
 "Falmouth University":0.928,
-"GSM London Limited":0.832,
+"GSM London":0.832,
 "Glasgow Caledonian University":0.993,
 "Glasgow School of Art":0.941,
-"Glyndwr University":0.824,
-"Goldsmiths College":1.026,
+"Goldsmiths, University of London":1.026,
 "Greater Brighton Metropolitan College":0.906,
 "Harper Adams University":1.158,
 "Havering College of Further and Higher Education":1.279,
 "Heriot-Watt University":0.991,
-"Imperial College of Science, Technology and Medicine":1.318,
+"Imperial College London":1.318,
+"Keele University":0.963,
 "King's College London":1.181,
 "Kingston University":0.995,
+"Lancaster University":1.082,
 "Leeds Beckett University":0.962,
 "Leeds College of Art":0.971,
 "Leeds Trinity University":0.924,
 "Liverpool Hope University":0.958,
+"Liverpool Institute for Performing Arts":1.013,
 "Liverpool John Moores University":0.925,
 "London Metropolitan University":0.952,
-"London School of Economics and Political Science":1.595,
+"London School of Economics (LSE)":1.595,
 "London South Bank University":1.041,
 "Loughborough College":0.972,
 "Loughborough University":1.211,
 "Luminate Education Group":0.938,
+"Manchester Metropolitan University":0.904,
 "Middlesex University":0.984,
 "NCG":0.834,
+"Newcastle University":1.095,
 "Newman University":0.895,
-"Norwich University of The Arts":0.946,
+"Northumbria University":1.014,
+"Norwich University of the Arts":0.946,
+"Nottingham Trent University":1.045,
+"Open University":0.979,
 "Oxford Brookes University":1.091,
 "Queen Margaret University, Edinburgh":0.95,
 "Queen Mary University of London":1.132,
 "Ravensbourne":1.131,
+"Robert Gordon University":0.999,
 "Roehampton University":1.04,
 "Rose Bruford College":0.987,
 "Royal Agricultural University":1.071,
+"Royal Central School of Speech and Drama":1.243,
 "Royal Conservatoire of Scotland":0.934,
-"Royal Holloway and Bedford New College":1.079,
+"Royal Holloway, University of London":1.079,
+"Royal Veterinary College":1.117,
+"SOAS University of London":1.034,
 "Sheffield Hallam University":0.977,
-"Southampton Solent University":0.961,
-"St George's Hospital Medical School":1.146,
+"Solent University":0.961,
+"St George's, University of London":1.146,
 "St Mary's University, Twickenham":1.103,
 "Staffordshire University":0.922,
 "Swansea University":0.926,
 "Teesside University":0.873,
-"The Academy For Contemporary Music Limited":0.938,
-"The Arts University Bournemouth":1.056,
-"The City University":1.199,
-"The Liverpool Institute For Performing Arts":1.013,
-"The Manchester Metropolitan University":0.904,
-"The Nottingham Trent University":1.045,
-"The Open University":0.979,
-"The Robert Gordon University":0.999,
-"The Royal Central School of Speech and Drama":1.243,
-"The Royal Veterinary College":1.117,
-"The School of Oriental and African Studies":1.034,
-"The University of Aberdeen":1.059,
-"The University of Bath":1.248,
-"The University of Birmingham":1.128,
-"The University of Bolton":0.807,
-"The University of Bradford":0.875,
-"The University of Brighton":1.065,
-"The University of Bristol":1.246,
-"The University of Cambridge":1.439,
-"The University of Chichester":1.014,
-"The University of Dundee":1.025,
-"The University of East Anglia":1.018,
-"The University of East London":0.922,
-"The University of Edinburgh":1.143,
-"The University of Essex":0.997,
-"The University of Glasgow":1.079,
-"The University of Greenwich":1.03,
-"The University of Huddersfield":0.913,
-"The University of Hull":0.939,
-"The University of Keele":0.963,
-"The University of Kent":1.067,
-"The University of Lancaster":1.082,
-"The University of Leeds":1.087,
-"The University of Leicester":1.009,
-"The University of Lincoln":0.965,
-"The University of Liverpool":0.998,
-"The University of Manchester":1.069,
-"The University of Northampton":0.972,
-"The University of Oxford":1.393,
-"The University of Portsmouth":1.017,
-"The University of Reading":1.17,
-"The University of Salford":0.919,
-"The University of Sheffield":1.037,
-"The University of Southampton":1.103,
-"The University of St andrews":1.083,
-"The University of Stirling":1.027,
-"The University of Strathclyde":1.063,
-"The University of Sunderland":0.888,
-"The University of Surrey":1.124,
-"The University of Sussex":1.066,
-"The University of The West of Scotland":0.907,
-"The University of Warwick":1.235,
-"The University of West London":0.973,
-"The University of Westminster":1.03,
-"The University of Winchester":0.992,
-"The University of Wolverhampton":0.89,
-"The University of York":1.096,
 "Trinity Laban Conservatoire of Music and Dance":0.951,
-"University Campus Suffolk":0.872,
 "University College Birmingham":0.792,
-"University College London":1.208,
-"University For The Creative Arts":1.08,
-"University of Abertay Dundee":1.02,
+"University College London (UCL)":1.208,
+"University for the Creative Arts":1.08,
+"University of Aberdeen":1.059,
+"University of Bath":1.248,
 "University of Bedfordshire":0.917,
+"University of Birmingham":1.128,
+"University of Bolton":0.807,
+"University of Bradford":0.875,
+"University of Brighton":1.065,
+"University of Bristol":1.246,
+"University of Cambridge":1.439,
 "University of Central Lancashire":0.9,
 "University of Chester":0.911,
+"University of Chichester":1.014,
 "University of Cumbria":0.929,
 "University of Derby":0.918,
-"University of Durham":1.329,
+"University of Dundee":1.025,
+"University of East Anglia":1.018,
+"University of East London":0.922,
+"University of Edinburgh":1.143,
+"University of Essex":0.997,
 "University of Exeter":1.199,
+"University of Glasgow":1.079,
 "University of Gloucestershire":0.978,
+"University of Greenwich":1.03,
 "University of Hertfordshire":1.069,
-"University of Newcastle-Upon-Tyne":1.095,
-"University of Northumbria At Newcastle":1.014,
+"University of Huddersfield":0.913,
+"University of Hull":0.939,
+"University of Kent":1.067,
+"University of Leeds":1.087,
+"University of Leicester":1.009,
+"University of Lincoln":0.965,
+"University of Liverpool":0.998,
+"University of Manchester":1.069,
+"University of Northampton":0.972,
 "University of Nottingham":1.135,
+"University of Oxford":1.393,
 "University of Plymouth":0.948,
+"University of Portsmouth":1.017,
+"University of Reading":1.17,
+"University of Salford":0.919,
+"University of Sheffield":1.037,
 "University of South Wales":0.935,
+"University of Southampton":1.103,
+"University of St Andrews":1.083,
 "University of St Mark and St John":0.936,
-"University of The Arts, London":1.07,
-"University of The Highlands and Islands":0.799,
-"University of The West of England, Bristol":0.997,
+"University of Stirling":1.027,
+"University of Strathclyde":1.063,
+"University of Suffolk":0.872,
+"University of Sunderland":0.888,
+"University of Surrey":1.124,
+"University of Sussex":1.066,
 "University of Wales Trinity Saint David":0.879,
+"University of Warwick":1.235,
+"University of West London":0.973,
+"University of Westminster":1.03,
+"University of Winchester":0.992,
+"University of Wolverhampton":0.89,
 "University of Worcester":0.912,
+"University of York":1.096,
+"University of the Arts London":1.07,
+"University of the Highlands and Islands":0.799,
+"University of the West of England, Bristol":0.997,
+"University of the West of Scotland":0.907,
+"Wrexham University":0.824,
 "York St John University":0.916
 },
 "bySubject":{
+"Abertay University":{
+"Agriculture, food and related studies":[
+1.277,
+35
+],
+"Biosciences":[
+0.918,
+35
+],
+"Business and management":[
+0.834,
+80
+],
+"Computing":[
+1.115,
+65
+],
+"Creative arts and design":[
+1.091,
+125
+],
+"General, applied and forensic sciences":[
+1.067,
+45
+],
+"Psychology":[
+1.008,
+50
+],
+"Sociology, social policy and anthropology":[
+0.985,
+65
+],
+"Sport and exercise sciences":[
+0.959,
+80
+]
+},
 "Aberystwyth University":{
 "Agriculture, food and related studies":[
 0.957,
@@ -229,6 +267,12 @@
 "Sport and exercise sciences":[
 1.015,
 35
+]
+},
+"Academy for Contemporary Music":{
+"Performing arts":[
+0.938,
+200
 ]
 },
 "Anglia Ruskin University":{
@@ -309,6 +353,16 @@
 95
 ]
 },
+"Arts University Bournemouth":{
+"Creative arts and design":[
+1.066,
+440
+],
+"Performing arts":[
+1.022,
+125
+]
+},
 "Arts University Plymouth":{
 "Creative arts and design":[
 0.763,
@@ -365,13 +419,13 @@
 60
 ]
 },
-"BIMM Limited":{
+"BIMM":{
 "Performing arts":[
 0.938,
 415
 ]
 },
-"BPP University Limited":{
+"BPP University":{
 "Business and management":[
 1.104,
 120
@@ -481,7 +535,7 @@
 50
 ]
 },
-"Birkbeck College":{
+"Birkbeck, University of London":{
 "Biosciences":[
 1.151,
 35
@@ -613,7 +667,7 @@
 30
 ]
 },
-"Blackpool and The Fylde College":{
+"Blackpool and the Fylde College":{
 "Business and management":[
 0.834,
 50
@@ -1059,7 +1113,57 @@
 65
 ]
 },
-"Conservatoire For Dance and Drama":{
+"City, University of London":{
+"Allied health":[
+1.156,
+115
+],
+"Business and management":[
+1.723,
+155
+],
+"Computing":[
+1.28,
+75
+],
+"Economics":[
+0.905,
+50
+],
+"Engineering":[
+0.982,
+90
+],
+"Law":[
+1.036,
+140
+],
+"Mathematical sciences":[
+0.982,
+45
+],
+"Media, journalism and communications":[
+1.426,
+30
+],
+"Medical sciences":[
+1.07,
+65
+],
+"Nursing and midwifery":[
+1.107,
+150
+],
+"Psychology":[
+1.179,
+50
+],
+"Sociology, social policy and anthropology":[
+1.221,
+35
+]
+},
+"Conservatoire for Dance and Drama":{
 "Performing arts":[
 0.92,
 110
@@ -1233,6 +1337,84 @@
 115
 ]
 },
+"Durham University":{
+"Biosciences":[
+1.339,
+70
+],
+"Business and management":[
+1.785,
+155
+],
+"Chemistry":[
+1.407,
+75
+],
+"Economics":[
+1.369,
+105
+],
+"Education and teaching":[
+1.204,
+80
+],
+"Engineering":[
+1.115,
+105
+],
+"English studies":[
+1.23,
+120
+],
+"Geography, earth and environmental studies":[
+1.338,
+225
+],
+"History and archaeology":[
+1.377,
+200
+],
+"Languages and area studies":[
+1.306,
+150
+],
+"Law":[
+1.7,
+110
+],
+"Mathematical sciences":[
+1.211,
+145
+],
+"Performing arts":[
+1.447,
+30
+],
+"Philosophy and religious studies":[
+1.309,
+80
+],
+"Physics and astronomy":[
+1.148,
+105
+],
+"Politics":[
+1.357,
+85
+],
+"Psychology":[
+1.167,
+110
+],
+"Sociology, social policy and anthropology":[
+1.137,
+115
+],
+"Sport and exercise sciences":[
+1.071,
+55
+]
+},
 "Edge Hill University":{
 "Allied health":[
 0.879,
@@ -1391,7 +1573,7 @@
 120
 ]
 },
-"GSM London Limited":{
+"GSM London":{
 "Business and management":[
 0.821,
 495
@@ -1473,41 +1655,7 @@
 125
 ]
 },
-"Glyndwr University":{
-"Allied health":[
-0.785,
-45
-],
-"Business and management":[
-0.7,
-55
-],
-"Computing":[
-0.69,
-35
-],
-"Creative arts and design":[
-0.751,
-55
-],
-"Education and teaching":[
-0.756,
-80
-],
-"Engineering":[
-1.01,
-55
-],
-"Health and social care":[
-1.159,
-30
-],
-"Nursing and midwifery":[
-0.902,
-30
-]
-},
-"Goldsmiths College":{
+"Goldsmiths, University of London":{
 "Computing":[
 1.012,
 45
@@ -1637,7 +1785,7 @@
 45
 ]
 },
-"Imperial College of Science, Technology and Medicine":{
+"Imperial College London":{
 "Biosciences":[
 1.332,
 70
@@ -1669,6 +1817,68 @@
 "Physics and astronomy":[
 1.473,
 85
+]
+},
+"Keele University":{
+"Allied health":[
+1.075,
+35
+],
+"Biosciences":[
+0.976,
+55
+],
+"Business and management":[
+1.046,
+115
+],
+"Computing":[
+0.938,
+30
+],
+"English studies":[
+0.974,
+50
+],
+"Geography, earth and environmental studies":[
+0.93,
+85
+],
+"History and archaeology":[
+0.887,
+55
+],
+"Law":[
+0.809,
+65
+],
+"Mathematical sciences":[
+0.82,
+45
+],
+"Medicine and dentistry":[
+0.987,
+85
+],
+"Nursing and midwifery":[
+0.967,
+140
+],
+"Pharmacology, toxicology and pharmacy":[
+1.047,
+35
+],
+"Politics":[
+0.924,
+30
+],
+"Psychology":[
+1.0,
+60
+],
+"Sociology, social policy and anthropology":[
+1.0,
+75
 ]
 },
 "King's College London":{
@@ -1831,6 +2041,84 @@
 75
 ]
 },
+"Lancaster University":{
+"Allied health":[
+1.094,
+30
+],
+"Biosciences":[
+1.055,
+50
+],
+"Business and management":[
+1.391,
+225
+],
+"Computing":[
+1.215,
+60
+],
+"Creative arts and design":[
+1.017,
+30
+],
+"Economics":[
+0.905,
+75
+],
+"Engineering":[
+1.0,
+65
+],
+"English studies":[
+1.067,
+150
+],
+"Geography, earth and environmental studies":[
+1.029,
+125
+],
+"Health and social care":[
+1.079,
+30
+],
+"History and archaeology":[
+1.038,
+70
+],
+"Languages and area studies":[
+0.965,
+30
+],
+"Law":[
+0.977,
+95
+],
+"Mathematical sciences":[
+0.958,
+100
+],
+"Philosophy and religious studies":[
+1.0,
+30
+],
+"Physics and astronomy":[
+0.952,
+45
+],
+"Politics":[
+0.991,
+50
+],
+"Psychology":[
+1.11,
+70
+],
+"Sociology, social policy and anthropology":[
+0.916,
+40
+]
+},
 "Leeds Beckett University":{
 "Allied health":[
 0.964,
@@ -1979,6 +2267,12 @@
 40
 ]
 },
+"Liverpool Institute for Performing Arts":{
+"Performing arts":[
+1.013,
+110
+]
+},
 "Liverpool John Moores University":{
 "Allied health":[
 0.964,
@@ -2123,7 +2417,7 @@
 40
 ]
 },
-"London School of Economics and Political Science":{
+"London School of Economics (LSE)":{
 "Business and management":[
 1.879,
 50
@@ -2309,6 +2603,104 @@
 180
 ]
 },
+"Manchester Metropolitan University":{
+"Allied health":[
+1.0,
+170
+],
+"Architecture, building and planning":[
+0.799,
+55
+],
+"Biosciences":[
+0.887,
+225
+],
+"Business and management":[
+0.915,
+1285
+],
+"Chemistry":[
+0.813,
+80
+],
+"Computing":[
+0.873,
+175
+],
+"Creative arts and design":[
+0.979,
+375
+],
+"Economics":[
+0.668,
+70
+],
+"Education and teaching":[
+0.948,
+375
+],
+"Engineering":[
+0.789,
+165
+],
+"English studies":[
+0.907,
+145
+],
+"Geography, earth and environmental studies":[
+0.882,
+85
+],
+"Health and social care":[
+0.848,
+125
+],
+"History and archaeology":[
+0.863,
+130
+],
+"Languages and area studies":[
+0.806,
+35
+],
+"Law":[
+0.809,
+175
+],
+"Mathematical sciences":[
+0.809,
+60
+],
+"Media, journalism and communications":[
+0.941,
+165
+],
+"Nursing and midwifery":[
+0.955,
+150
+],
+"Performing arts":[
+0.889,
+90
+],
+"Politics":[
+0.701,
+55
+],
+"Psychology":[
+0.985,
+175
+],
+"Sociology, social policy and anthropology":[
+0.894,
+170
+],
+"Sport and exercise sciences":[
+0.962,
+110
+]
+},
 "Middlesex University":{
 "Allied health":[
 0.951,
@@ -2385,6 +2777,100 @@
 40
 ]
 },
+"Newcastle University":{
+"Agriculture, food and related studies":[
+1.312,
+55
+],
+"Allied health":[
+1.153,
+100
+],
+"Architecture, building and planning":[
+0.895,
+80
+],
+"Biosciences":[
+0.938,
+155
+],
+"Business and management":[
+1.414,
+265
+],
+"Chemistry":[
+1.003,
+60
+],
+"Combined and general studies":[
+1.237,
+70
+],
+"Computing":[
+1.336,
+90
+],
+"Creative arts and design":[
+1.091,
+40
+],
+"Economics":[
+0.909,
+90
+],
+"Engineering":[
+1.0,
+230
+],
+"English studies":[
+1.107,
+150
+],
+"Geography, earth and environmental studies":[
+1.057,
+180
+],
+"History and archaeology":[
+1.014,
+200
+],
+"Languages and area studies":[
+1.084,
+60
+],
+"Law":[
+1.221,
+125
+],
+"Mathematical sciences":[
+0.89,
+130
+],
+"Media, journalism and communications":[
+1.363,
+35
+],
+"Medicine and dentistry":[
+1.0,
+230
+],
+"Performing arts":[
+1.0,
+40
+],
+"Politics":[
+1.091,
+100
+],
+"Psychology":[
+1.042,
+80
+],
+"Sociology, social policy and anthropology":[
+1.186,
+50
+]
+},
 "Newman University":{
 "Education and teaching":[
 0.919,
@@ -2403,10 +2889,288 @@
 35
 ]
 },
-"Norwich University of The Arts":{
+"Northumbria University":{
+"Allied health":[
+1.01,
+80
+],
+"Architecture, building and planning":[
+1.108,
+195
+],
+"Biosciences":[
+1.024,
+120
+],
+"Business and management":[
+1.094,
+640
+],
+"Chemistry":[
+0.834,
+60
+],
+"Computing":[
+0.979,
+190
+],
+"Creative arts and design":[
+1.058,
+415
+],
+"Education and teaching":[
+1.041,
+110
+],
+"Engineering":[
+0.982,
+200
+],
+"English studies":[
+0.941,
+110
+],
+"Geography, earth and environmental studies":[
+0.93,
+120
+],
+"Health and social care":[
+0.87,
+145
+],
+"History and archaeology":[
+0.863,
+70
+],
+"Law":[
+1.023,
+250
+],
+"Media, journalism and communications":[
+0.969,
+80
+],
+"Nursing and midwifery":[
+1.0,
+665
+],
+"Performing arts":[
+1.0,
+55
+],
+"Psychology":[
+0.985,
+165
+],
+"Sociology, social policy and anthropology":[
+0.943,
+135
+],
+"Sport and exercise sciences":[
+1.041,
+285
+]
+},
+"Norwich University of the Arts":{
 "Creative arts and design":[
 0.946,
 355
+]
+},
+"Nottingham Trent University":{
+"Agriculture, food and related studies":[
+0.926,
+120
+],
+"Architecture, building and planning":[
+1.277,
+170
+],
+"Biosciences":[
+1.014,
+100
+],
+"Business and management":[
+1.225,
+510
+],
+"Chemistry":[
+0.846,
+35
+],
+"Computing":[
+1.032,
+125
+],
+"Creative arts and design":[
+1.149,
+725
+],
+"Economics":[
+0.778,
+50
+],
+"Education and teaching":[
+1.041,
+330
+],
+"Engineering":[
+1.01,
+75
+],
+"English studies":[
+0.907,
+105
+],
+"General, applied and forensic sciences":[
+0.974,
+45
+],
+"Geography, earth and environmental studies":[
+0.895,
+45
+],
+"Health and social care":[
+0.895,
+115
+],
+"History and archaeology":[
+0.901,
+125
+],
+"Languages and area studies":[
+0.848,
+45
+],
+"Law":[
+0.941,
+270
+],
+"Mathematical sciences":[
+0.856,
+50
+],
+"Media, journalism and communications":[
+1.027,
+245
+],
+"Performing arts":[
+1.164,
+70
+],
+"Physics and astronomy":[
+0.815,
+55
+],
+"Politics":[
+0.896,
+55
+],
+"Psychology":[
+1.053,
+145
+],
+"Sociology, social policy and anthropology":[
+0.985,
+195
+],
+"Sport and exercise sciences":[
+0.921,
+105
+],
+"Veterinary sciences":[
+0.589,
+40
+]
+},
+"Open University":{
+"Allied health":[
+0.974,
+60
+],
+"Biosciences":[
+1.024,
+60
+],
+"Business and management":[
+1.176,
+345
+],
+"Combined and general studies":[
+0.948,
+2260
+],
+"Computing":[
+1.277,
+195
+],
+"Creative arts and design":[
+1.129,
+40
+],
+"Economics":[
+0.748,
+35
+],
+"Education and teaching":[
+0.796,
+435
+],
+"Engineering":[
+1.201,
+205
+],
+"English studies":[
+0.911,
+520
+],
+"General, applied and forensic sciences":[
+1.096,
+60
+],
+"Geography, earth and environmental studies":[
+0.978,
+120
+],
+"Health and social care":[
+1.253,
+410
+],
+"History and archaeology":[
+0.825,
+375
+],
+"Languages and area studies":[
+0.774,
+140
+],
+"Law":[
+1.083,
+270
+],
+"Materials and technology":[
+1.462,
+35
+],
+"Mathematical sciences":[
+0.885,
+245
+],
+"Philosophy and religious studies":[
+1.052,
+45
+],
+"Politics":[
+0.878,
+105
+],
+"Psychology":[
+0.943,
+865
+],
+"Sociology, social policy and anthropology":[
+0.958,
+310
 ]
 },
 "Oxford Brookes University":{
@@ -2617,6 +3381,64 @@
 45
 ]
 },
+"Robert Gordon University":{
+"Allied health":[
+1.016,
+60
+],
+"Architecture, building and planning":[
+0.863,
+95
+],
+"Biosciences":[
+1.045,
+40
+],
+"Business and management":[
+0.974,
+415
+],
+"Computing":[
+0.85,
+95
+],
+"Creative arts and design":[
+0.971,
+110
+],
+"Engineering":[
+1.068,
+125
+],
+"Health and social care":[
+1.332,
+85
+],
+"Law":[
+1.119,
+60
+],
+"Media, journalism and communications":[
+0.969,
+75
+],
+"Nursing and midwifery":[
+0.967,
+210
+],
+"Pharmacology, toxicology and pharmacy":[
+1.018,
+70
+],
+"Sociology, social policy and anthropology":[
+0.992,
+60
+],
+"Sport and exercise sciences":[
+1.049,
+30
+]
+},
 "Roehampton University":{
 "Biosciences":[
 1.024,
@@ -2687,13 +3509,19 @@
 35
 ]
 },
+"Royal Central School of Speech and Drama":{
+"Performing arts":[
+1.243,
+120
+]
+},
 "Royal Conservatoire of Scotland":{
 "Performing arts":[
 0.934,
 100
 ]
 },
-"Royal Holloway and Bedford New College":{
+"Royal Holloway, University of London":{
 "Biosciences":[
 1.123,
 65
@@ -2741,6 +3569,42 @@
 "Psychology":[
 1.179,
 95
+]
+},
+"Royal Veterinary College":{
+"Agriculture, food and related studies":[
+1.305,
+45
+],
+"Veterinary sciences":[
+1.059,
+145
+]
+},
+"SOAS University of London":{
+"Economics":[
+0.972,
+35
+],
+"History and archaeology":[
+1.051,
+60
+],
+"Languages and area studies":[
+0.906,
+65
+],
+"Law":[
+1.228,
+40
+],
+"Politics":[
+0.973,
+30
+],
+"Sociology, social policy and anthropology":[
+1.137,
+35
 ]
 },
 "Sheffield Hallam University":{
@@ -2837,7 +3701,7 @@
 315
 ]
 },
-"Southampton Solent University":{
+"Solent University":{
 "Architecture, building and planning":[
 1.05,
 40
@@ -2879,7 +3743,7 @@
 115
 ]
 },
-"St George's Hospital Medical School":{
+"St George's, University of London":{
 "Allied health":[
 1.277,
 150
@@ -3149,473 +4013,131 @@
 125
 ]
 },
-"The Academy For Contemporary Music Limited":{
+"Trinity Laban Conservatoire of Music and Dance":{
 "Performing arts":[
-0.938,
-200
+0.951,
+100
 ]
 },
-"The Arts University Bournemouth":{
-"Creative arts and design":[
-1.066,
-440
-],
-"Performing arts":[
-1.022,
-125
-]
-},
-"The City University":{
-"Allied health":[
-1.156,
-115
-],
-"Business and management":[
-1.723,
-155
-],
-"Computing":[
-1.28,
-75
-],
-"Economics":[
-0.905,
-50
-],
-"Engineering":[
-0.982,
-90
-],
-"Law":[
-1.036,
-140
-],
-"Mathematical sciences":[
-0.982,
+"University College Birmingham":{
+"Agriculture, food and related studies":[
+1.027,
 45
 ],
-"Media, journalism and communications":[
-1.426,
-30
-],
-"Medical sciences":[
-1.07,
-65
-],
-"Nursing and midwifery":[
-1.107,
-150
-],
-"Psychology":[
-1.179,
-50
-],
-"Sociology, social policy and anthropology":[
-1.221,
-35
-]
-},
-"The Liverpool Institute For Performing Arts":{
-"Performing arts":[
-1.013,
-110
-]
-},
-"The Manchester Metropolitan University":{
-"Allied health":[
-1.0,
-170
-],
-"Architecture, building and planning":[
-0.799,
-55
-],
-"Biosciences":[
-0.887,
-225
-],
 "Business and management":[
-0.915,
-1285
-],
-"Chemistry":[
-0.813,
-80
-],
-"Computing":[
-0.873,
-175
-],
-"Creative arts and design":[
-0.979,
-375
-],
-"Economics":[
-0.668,
-70
+0.736,
+205
 ],
 "Education and teaching":[
-0.948,
-375
-],
-"Engineering":[
-0.789,
-165
-],
-"English studies":[
-0.907,
-145
-],
-"Geography, earth and environmental studies":[
-0.882,
-85
-],
-"Health and social care":[
-0.848,
-125
-],
-"History and archaeology":[
-0.863,
-130
-],
-"Languages and area studies":[
-0.806,
-35
-],
-"Law":[
-0.809,
-175
-],
-"Mathematical sciences":[
-0.809,
-60
-],
-"Media, journalism and communications":[
-0.941,
-165
-],
-"Nursing and midwifery":[
-0.955,
-150
-],
-"Performing arts":[
-0.889,
-90
-],
-"Politics":[
-0.701,
-55
-],
-"Psychology":[
-0.985,
-175
-],
-"Sociology, social policy and anthropology":[
-0.894,
-170
-],
-"Sport and exercise sciences":[
-0.962,
-110
-]
-},
-"The Nottingham Trent University":{
-"Agriculture, food and related studies":[
-0.926,
-120
-],
-"Architecture, building and planning":[
-1.277,
-170
-],
-"Biosciences":[
-1.014,
-100
-],
-"Business and management":[
-1.225,
-510
-],
-"Chemistry":[
-0.846,
-35
-],
-"Computing":[
-1.032,
-125
-],
-"Creative arts and design":[
-1.149,
-725
-],
-"Economics":[
-0.778,
-50
-],
-"Education and teaching":[
-1.041,
-330
-],
-"Engineering":[
-1.01,
-75
-],
-"English studies":[
-0.907,
+0.663,
 105
 ],
-"General, applied and forensic sciences":[
-0.974,
-45
-],
-"Geography, earth and environmental studies":[
-0.895,
-45
-],
-"Health and social care":[
-0.895,
-115
-],
-"History and archaeology":[
-0.901,
-125
-],
-"Languages and area studies":[
-0.848,
-45
-],
-"Law":[
-0.941,
-270
-],
-"Mathematical sciences":[
-0.856,
-50
-],
-"Media, journalism and communications":[
-1.027,
-245
-],
 "Performing arts":[
-1.164,
-70
-],
-"Physics and astronomy":[
-0.815,
-55
-],
-"Politics":[
-0.896,
-55
-],
-"Psychology":[
-1.053,
-145
-],
-"Sociology, social policy and anthropology":[
-0.985,
-195
+0.907,
+60
 ],
 "Sport and exercise sciences":[
 0.921,
-105
-],
-"Veterinary sciences":[
-0.589,
-40
+60
 ]
 },
-"The Open University":{
-"Allied health":[
-0.974,
-60
-],
-"Biosciences":[
-1.024,
-60
-],
-"Business and management":[
-1.176,
-345
-],
-"Combined and general studies":[
-0.948,
-2260
-],
-"Computing":[
-1.277,
-195
-],
-"Creative arts and design":[
-1.129,
-40
-],
-"Economics":[
-0.748,
+"University College London (UCL)":{
+"Architecture, building and planning":[
+1.128,
 35
 ],
+"Biosciences":[
+1.349,
+90
+],
+"Chemistry":[
+1.232,
+55
+],
+"Computing":[
+1.873,
+35
+],
+"Economics":[
+1.33,
+100
+],
 "Education and teaching":[
-0.796,
-435
+0.959,
+95
 ],
 "Engineering":[
 1.201,
-205
-],
-"English studies":[
-0.911,
-520
-],
-"General, applied and forensic sciences":[
-1.096,
-60
-],
-"Geography, earth and environmental studies":[
-0.978,
-120
-],
-"Health and social care":[
-1.253,
-410
-],
-"History and archaeology":[
-0.825,
-375
-],
-"Languages and area studies":[
-0.774,
-140
-],
-"Law":[
-1.083,
-270
-],
-"Materials and technology":[
-1.462,
-35
-],
-"Mathematical sciences":[
-0.885,
-245
-],
-"Philosophy and religious studies":[
-1.052,
-45
-],
-"Politics":[
-0.878,
 105
 ],
-"Psychology":[
-0.943,
-865
-],
-"Sociology, social policy and anthropology":[
-0.958,
-310
-]
-},
-"The Robert Gordon University":{
-"Allied health":[
-1.016,
-60
-],
-"Architecture, building and planning":[
-0.863,
-95
-],
-"Biosciences":[
-1.045,
-40
-],
-"Business and management":[
-0.974,
-415
-],
-"Computing":[
-0.85,
-95
-],
-"Creative arts and design":[
-0.971,
-110
-],
-"Engineering":[
-1.068,
-125
-],
-"Health and social care":[
-1.332,
-85
-],
-"Law":[
-1.119,
-60
-],
-"Media, journalism and communications":[
-0.969,
+"English studies":[
+1.141,
 75
 ],
-"Nursing and midwifery":[
-0.967,
-210
-],
-"Pharmacology, toxicology and pharmacy":[
-1.018,
-70
-],
-"Sociology, social policy and anthropology":[
-0.992,
-60
-],
-"Sport and exercise sciences":[
-1.049,
+"General, applied and forensic sciences":[
+0.974,
 30
-]
-},
-"The Royal Central School of Speech and Drama":{
-"Performing arts":[
-1.243,
-120
-]
-},
-"The Royal Veterinary College":{
-"Agriculture, food and related studies":[
-1.305,
-45
 ],
-"Veterinary sciences":[
-1.059,
-145
-]
-},
-"The School of Oriental and African Studies":{
-"Economics":[
-0.972,
-35
+"Geography, earth and environmental studies":[
+1.232,
+110
 ],
 "History and archaeology":[
-1.051,
-60
+1.274,
+190
 ],
 "Languages and area studies":[
-0.906,
-65
+1.21,
+105
 ],
 "Law":[
-1.228,
-40
+1.739,
+45
 ],
-"Politics":[
-0.973,
-30
+"Mathematical sciences":[
+1.439,
+45
+],
+"Medical sciences":[
+1.196,
+95
+],
+"Medicine and dentistry":[
+0.991,
+295
+],
+"Pharmacology, toxicology and pharmacy":[
+1.039,
+105
+],
+"Philosophy and religious studies":[
+1.267,
+35
+],
+"Physics and astronomy":[
+1.333,
+95
+],
+"Psychology":[
+1.361,
+60
 ],
 "Sociology, social policy and anthropology":[
-1.137,
+1.194,
 35
 ]
 },
-"The University of Aberdeen":{
+"University for the Creative Arts":{
+"Creative arts and design":[
+1.091,
+700
+],
+"Media, journalism and communications":[
+0.992,
+85
+]
+},
+"University of Aberdeen":{
 "Biosciences":[
 1.024,
 105
@@ -3673,7 +4195,7 @@
 40
 ]
 },
-"The University of Bath":{
+"University of Bath":{
 "Architecture, building and planning":[
 0.869,
 40
@@ -3735,7 +4257,69 @@
 115
 ]
 },
-"The University of Birmingham":{
+"University of Bedfordshire":{
+"Allied health":[
+0.765,
+100
+],
+"Biosciences":[
+0.976,
+50
+],
+"Business and management":[
+0.85,
+235
+],
+"Computing":[
+0.973,
+75
+],
+"Creative arts and design":[
+0.925,
+70
+],
+"Education and teaching":[
+0.985,
+260
+],
+"English studies":[
+0.804,
+40
+],
+"Health and social care":[
+0.888,
+45
+],
+"Law":[
+0.95,
+45
+],
+"Media, journalism and communications":[
+0.84,
+85
+],
+"Nursing and midwifery":[
+1.021,
+190
+],
+"Performing arts":[
+0.92,
+55
+],
+"Psychology":[
+0.932,
+60
+],
+"Sociology, social policy and anthropology":[
+0.84,
+195
+],
+"Sport and exercise sciences":[
+0.989,
+145
+]
+},
+"University of Birmingham":{
 "Allied health":[
 1.225,
 130
@@ -3833,7 +4417,7 @@
 160
 ]
 },
-"The University of Bolton":{
+"University of Bolton":{
 "Business and management":[
 0.697,
 80
@@ -3871,7 +4455,7 @@
 40
 ]
 },
-"The University of Bradford":{
+"University of Bradford":{
 "Allied health":[
 1.0,
 165
@@ -3925,7 +4509,7 @@
 60
 ]
 },
-"The University of Brighton":{
+"University of Brighton":{
 "Allied health":[
 1.0,
 80
@@ -4011,7 +4595,7 @@
 130
 ]
 },
-"The University of Bristol":{
+"University of Bristol":{
 "Allied health":[
 1.469,
 40
@@ -4101,7 +4685,7 @@
 75
 ]
 },
-"The University of Cambridge":{
+"University of Cambridge":{
 "Allied health":[
 1.427,
 80
@@ -4173,3040 +4757,6 @@
 "Veterinary sciences":[
 1.07,
 40
-]
-},
-"The University of Chichester":{
-"Business and management":[
-0.964,
-110
-],
-"Education and teaching":[
-1.196,
-120
-],
-"English studies":[
-0.874,
-55
-],
-"Health and social care":[
-0.895,
-125
-],
-"History and archaeology":[
-0.901,
-35
-],
-"Performing arts":[
-1.035,
-190
-],
-"Sport and exercise sciences":[
-1.041,
-235
-]
-},
-"The University of Dundee":{
-"Architecture, building and planning":[
-0.84,
-75
-],
-"Biosciences":[
-1.062,
-35
-],
-"Business and management":[
-0.964,
-50
-],
-"Creative arts and design":[
-0.983,
-170
-],
-"Education and teaching":[
-1.285,
-90
-],
-"Engineering":[
-0.849,
-65
-],
-"Geography, earth and environmental studies":[
-0.952,
-35
-],
-"Law":[
-1.182,
-60
-],
-"Medicine and dentistry":[
-1.076,
-180
-],
-"Nursing and midwifery":[
-1.0,
-245
-],
-"Psychology":[
-1.042,
-30
-]
-},
-"The University of East Anglia":{
-"Allied health":[
-1.023,
-65
-],
-"Biosciences":[
-1.017,
-85
-],
-"Business and management":[
-1.212,
-115
-],
-"Chemistry":[
-1.078,
-45
-],
-"Computing":[
-1.26,
-40
-],
-"Economics":[
-0.92,
-50
-],
-"Education and teaching":[
-1.041,
-35
-],
-"English studies":[
-0.993,
-130
-],
-"General, applied and forensic sciences":[
-0.985,
-30
-],
-"Geography, earth and environmental studies":[
-1.013,
-115
-],
-"History and archaeology":[
-0.938,
-120
-],
-"Languages and area studies":[
-0.906,
-55
-],
-"Law":[
-1.152,
-75
-],
-"Mathematical sciences":[
-0.867,
-60
-],
-"Medicine and dentistry":[
-0.979,
-110
-],
-"Nursing and midwifery":[
-1.0,
-195
-],
-"Performing arts":[
-1.137,
-30
-],
-"Pharmacology, toxicology and pharmacy":[
-1.034,
-40
-],
-"Politics":[
-0.869,
-70
-],
-"Psychology":[
-1.053,
-75
-]
-},
-"The University of East London":{
-"Allied health":[
-0.915,
-155
-],
-"Architecture, building and planning":[
-0.819,
-35
-],
-"Business and management":[
-0.902,
-185
-],
-"Computing":[
-0.906,
-80
-],
-"Creative arts and design":[
-0.925,
-110
-],
-"Education and teaching":[
-0.744,
-195
-],
-"Engineering":[
-1.0,
-50
-],
-"Health and social care":[
-1.173,
-55
-],
-"Law":[
-0.927,
-110
-],
-"Media, journalism and communications":[
-1.0,
-80
-],
-"Performing arts":[
-1.0,
-110
-],
-"Politics":[
-0.701,
-30
-],
-"Psychology":[
-0.973,
-115
-],
-"Sociology, social policy and anthropology":[
-0.89,
-85
-],
-"Sport and exercise sciences":[
-1.128,
-70
-]
-},
-"The University of Edinburgh":{
-"Architecture, building and planning":[
-0.872,
-50
-],
-"Biosciences":[
-1.264,
-140
-],
-"Business and management":[
-1.296,
-130
-],
-"Chemistry":[
-1.054,
-30
-],
-"Creative arts and design":[
-1.029,
-125
-],
-"Economics":[
-1.181,
-70
-],
-"Education and teaching":[
-1.285,
-165
-],
-"Engineering":[
-1.029,
-90
-],
-"English studies":[
-1.048,
-115
-],
-"Geography, earth and environmental studies":[
-1.08,
-105
-],
-"History and archaeology":[
-1.089,
-265
-],
-"Languages and area studies":[
-1.158,
-130
-],
-"Law":[
-1.366,
-105
-],
-"Mathematical sciences":[
-1.01,
-45
-],
-"Medical sciences":[
-1.247,
-40
-],
-"Medicine and dentistry":[
-1.008,
-170
-],
-"Performing arts":[
-1.058,
-30
-],
-"Philosophy and religious studies":[
-1.128,
-70
-],
-"Politics":[
-1.146,
-70
-],
-"Psychology":[
-1.152,
-55
-],
-"Sociology, social policy and anthropology":[
-1.179,
-75
-],
-"Sport and exercise sciences":[
-1.316,
-75
-],
-"Veterinary sciences":[
-1.07,
-50
-]
-},
-"The University of Essex":{
-"Allied health":[
-1.068,
-65
-],
-"Biosciences":[
-0.962,
-65
-],
-"Business and management":[
-1.081,
-145
-],
-"Computing":[
-1.239,
-45
-],
-"Creative arts and design":[
-0.909,
-70
-],
-"Economics":[
-0.795,
-70
-],
-"English studies":[
-0.974,
-70
-],
-"History and archaeology":[
-0.962,
-80
-],
-"Law":[
-0.99,
-55
-],
-"Mathematical sciences":[
-0.971,
-35
-],
-"Nursing and midwifery":[
-1.033,
-65
-],
-"Performing arts":[
-0.938,
-175
-],
-"Philosophy and religious studies":[
-0.913,
-30
-],
-"Politics":[
-0.97,
-35
-],
-"Psychology":[
-1.027,
-90
-],
-"Sociology, social policy and anthropology":[
-1.053,
-75
-],
-"Sport and exercise sciences":[
-1.083,
-55
-]
-},
-"The University of Glasgow":{
-"Biosciences":[
-0.976,
-90
-],
-"Business and management":[
-1.319,
-140
-],
-"Chemistry":[
-0.961,
-30
-],
-"Computing":[
-1.369,
-30
-],
-"Economics":[
-0.905,
-30
-],
-"Education and teaching":[
-1.285,
-210
-],
-"Engineering":[
-0.971,
-130
-],
-"English studies":[
-1.026,
-110
-],
-"Geography, earth and environmental studies":[
-0.965,
-80
-],
-"History and archaeology":[
-0.962,
-135
-],
-"Languages and area studies":[
-0.877,
-50
-],
-"Law":[
-1.314,
-140
-],
-"Mathematical sciences":[
-0.943,
-50
-],
-"Medical sciences":[
-0.761,
-40
-],
-"Medicine and dentistry":[
-1.055,
-275
-],
-"Philosophy and religious studies":[
-0.889,
-40
-],
-"Physics and astronomy":[
-0.903,
-40
-],
-"Politics":[
-0.979,
-55
-],
-"Psychology":[
-1.084,
-75
-],
-"Sociology, social policy and anthropology":[
-1.053,
-40
-],
-"Veterinary sciences":[
-1.105,
-40
-]
-},
-"The University of Greenwich":{
-"Agriculture, food and related studies":[
-0.871,
-60
-],
-"Allied health":[
-1.231,
-135
-],
-"Architecture, building and planning":[
-1.277,
-80
-],
-"Biosciences":[
-0.962,
-60
-],
-"Business and management":[
-0.964,
-495
-],
-"Computing":[
-0.914,
-250
-],
-"Creative arts and design":[
-1.046,
-90
-],
-"Economics":[
-0.763,
-60
-],
-"Education and teaching":[
-1.107,
-275
-],
-"Engineering":[
-1.076,
-70
-],
-"English studies":[
-1.015,
-65
-],
-"Health and social care":[
-1.238,
-55
-],
-"History and archaeology":[
-0.976,
-30
-],
-"Law":[
-1.132,
-65
-],
-"Mathematical sciences":[
-0.906,
-85
-],
-"Nursing and midwifery":[
-1.098,
-305
-],
-"Performing arts":[
-1.0,
-65
-],
-"Pharmacology, toxicology and pharmacy":[
-0.873,
-80
-],
-"Psychology":[
-1.011,
-70
-],
-"Sociology, social policy and anthropology":[
-1.053,
-80
-],
-"Sport and exercise sciences":[
-1.147,
-60
-]
-},
-"The University of Huddersfield":{
-"Allied health":[
-0.974,
-115
-],
-"Architecture, building and planning":[
-0.723,
-35
-],
-"Biosciences":[
-0.938,
-45
-],
-"Business and management":[
-0.866,
-290
-],
-"Chemistry":[
-0.867,
-70
-],
-"Computing":[
-0.894,
-140
-],
-"Creative arts and design":[
-0.983,
-275
-],
-"Education and teaching":[
-0.919,
-140
-],
-"Engineering":[
-0.83,
-105
-],
-"English studies":[
-0.867,
-55
-],
-"Health and social care":[
-0.816,
-125
-],
-"History and archaeology":[
-0.712,
-30
-],
-"Law":[
-0.818,
-80
-],
-"Materials and technology":[
-0.911,
-40
-],
-"Media, journalism and communications":[
-0.914,
-90
-],
-"Nursing and midwifery":[
-1.021,
-200
-],
-"Performing arts":[
-1.004,
-130
-],
-"Pharmacology, toxicology and pharmacy":[
-1.039,
-35
-],
-"Psychology":[
-0.901,
-125
-],
-"Sociology, social policy and anthropology":[
-0.89,
-65
-]
-},
-"The University of Hull":{
-"Biosciences":[
-0.949,
-150
-],
-"Business and management":[
-0.974,
-190
-],
-"Chemistry":[
-0.967,
-105
-],
-"Computing":[
-1.024,
-120
-],
-"Economics":[
-0.81,
-30
-],
-"Education and teaching":[
-0.919,
-170
-],
-"Engineering":[
-1.005,
-60
-],
-"English studies":[
-0.811,
-60
-],
-"Geography, earth and environmental studies":[
-0.908,
-90
-],
-"Health and social care":[
-1.022,
-60
-],
-"History and archaeology":[
-0.825,
-95
-],
-"Languages and area studies":[
-0.884,
-80
-],
-"Law":[
-0.891,
-90
-],
-"Medicine and dentistry":[
-1.028,
-55
-],
-"Nursing and midwifery":[
-0.946,
-255
-],
-"Performing arts":[
-0.982,
-60
-],
-"Physics and astronomy":[
-0.785,
-45
-],
-"Politics":[
-1.012,
-45
-],
-"Psychology":[
-0.943,
-100
-],
-"Sociology, social policy and anthropology":[
-0.943,
-80
-],
-"Sport and exercise sciences":[
-0.962,
-75
-]
-},
-"The University of Keele":{
-"Allied health":[
-1.075,
-35
-],
-"Biosciences":[
-0.976,
-55
-],
-"Business and management":[
-1.046,
-115
-],
-"Computing":[
-0.938,
-30
-],
-"English studies":[
-0.974,
-50
-],
-"Geography, earth and environmental studies":[
-0.93,
-85
-],
-"History and archaeology":[
-0.887,
-55
-],
-"Law":[
-0.809,
-65
-],
-"Mathematical sciences":[
-0.82,
-45
-],
-"Medicine and dentistry":[
-0.987,
-85
-],
-"Nursing and midwifery":[
-0.967,
-140
-],
-"Pharmacology, toxicology and pharmacy":[
-1.047,
-35
-],
-"Politics":[
-0.924,
-30
-],
-"Psychology":[
-1.0,
-60
-],
-"Sociology, social policy and anthropology":[
-1.0,
-75
-]
-},
-"The University of Kent":{
-"Architecture, building and planning":[
-0.883,
-35
-],
-"Biosciences":[
-1.137,
-110
-],
-"Business and management":[
-1.309,
-220
-],
-"Computing":[
-1.369,
-120
-],
-"Creative arts and design":[
-1.029,
-105
-],
-"Economics":[
-0.881,
-110
-],
-"Engineering":[
-1.097,
-50
-],
-"English studies":[
-1.067,
-185
-],
-"General, applied and forensic sciences":[
-1.022,
-35
-],
-"Health and social care":[
-1.264,
-55
-],
-"History and archaeology":[
-0.962,
-190
-],
-"Languages and area studies":[
-0.929,
-100
-],
-"Law":[
-1.073,
-145
-],
-"Mathematical sciences":[
-0.963,
-70
-],
-"Performing arts":[
-1.146,
-95
-],
-"Pharmacology, toxicology and pharmacy":[
-1.028,
-45
-],
-"Philosophy and religious studies":[
-0.976,
-60
-],
-"Physics and astronomy":[
-0.922,
-60
-],
-"Politics":[
-0.924,
-100
-],
-"Psychology":[
-1.042,
-105
-],
-"Sociology, social policy and anthropology":[
-1.053,
-190
-],
-"Sport and exercise sciences":[
-0.925,
-70
-]
-},
-"The University of Lancaster":{
-"Allied health":[
-1.094,
-30
-],
-"Biosciences":[
-1.055,
-50
-],
-"Business and management":[
-1.391,
-225
-],
-"Computing":[
-1.215,
-60
-],
-"Creative arts and design":[
-1.017,
-30
-],
-"Economics":[
-0.905,
-75
-],
-"Engineering":[
-1.0,
-65
-],
-"English studies":[
-1.067,
-150
-],
-"Geography, earth and environmental studies":[
-1.029,
-125
-],
-"Health and social care":[
-1.079,
-30
-],
-"History and archaeology":[
-1.038,
-70
-],
-"Languages and area studies":[
-0.965,
-30
-],
-"Law":[
-0.977,
-95
-],
-"Mathematical sciences":[
-0.958,
-100
-],
-"Philosophy and religious studies":[
-1.0,
-30
-],
-"Physics and astronomy":[
-0.952,
-45
-],
-"Politics":[
-0.991,
-50
-],
-"Psychology":[
-1.11,
-70
-],
-"Sociology, social policy and anthropology":[
-0.916,
-40
-]
-},
-"The University of Leeds":{
-"Biosciences":[
-1.089,
-210
-],
-"Business and management":[
-1.485,
-160
-],
-"Chemistry":[
-1.0,
-85
-],
-"Computing":[
-1.463,
-40
-],
-"Creative arts and design":[
-1.228,
-155
-],
-"Economics":[
-1.067,
-110
-],
-"Education and teaching":[
-0.974,
-40
-],
-"Engineering":[
-0.992,
-225
-],
-"English studies":[
-1.163,
-180
-],
-"Geography, earth and environmental studies":[
-1.127,
-245
-],
-"Health and social care":[
-1.079,
-50
-],
-"History and archaeology":[
-1.089,
-235
-],
-"Languages and area studies":[
-1.048,
-185
-],
-"Law":[
-1.059,
-155
-],
-"Mathematical sciences":[
-1.039,
-125
-],
-"Media, journalism and communications":[
-1.168,
-110
-],
-"Medical sciences":[
-1.022,
-190
-],
-"Medicine and dentistry":[
-0.979,
-365
-],
-"Nursing and midwifery":[
-0.955,
-200
-],
-"Performing arts":[
-1.115,
-130
-],
-"Philosophy and religious studies":[
-1.066,
-125
-],
-"Physics and astronomy":[
-0.981,
-80
-],
-"Politics":[
-1.067,
-110
-],
-"Psychology":[
-1.118,
-105
-],
-"Sociology, social policy and anthropology":[
-1.084,
-105
-],
-"Sport and exercise sciences":[
-1.214,
-45
-]
-},
-"The University of Leicester":{
-"Biosciences":[
-1.024,
-95
-],
-"Business and management":[
-1.238,
-80
-],
-"Chemistry":[
-0.946,
-35
-],
-"Computing":[
-1.186,
-45
-],
-"Economics":[
-0.881,
-120
-],
-"Engineering":[
-0.953,
-80
-],
-"English studies":[
-1.081,
-75
-],
-"Geography, earth and environmental studies":[
-0.987,
-140
-],
-"History and archaeology":[
-0.962,
-150
-],
-"Languages and area studies":[
-0.942,
-70
-],
-"Law":[
-1.059,
-120
-],
-"Mathematical sciences":[
-1.039,
-45
-],
-"Medical sciences":[
-0.903,
-30
-],
-"Medicine and dentistry":[
-1.028,
-165
-],
-"Physics and astronomy":[
-0.855,
-65
-],
-"Politics":[
-1.091,
-50
-],
-"Psychology":[
-0.985,
-95
-],
-"Sociology, social policy and anthropology":[
-1.053,
-100
-]
-},
-"The University of Lincoln":{
-"Agriculture, food and related studies":[
-0.934,
-40
-],
-"Allied health":[
-0.85,
-70
-],
-"Architecture, building and planning":[
-0.825,
-30
-],
-"Biosciences":[
-0.894,
-55
-],
-"Business and management":[
-1.094,
-450
-],
-"Computing":[
-0.938,
-125
-],
-"Creative arts and design":[
-0.983,
-230
-],
-"Engineering":[
-0.935,
-35
-],
-"English studies":[
-0.919,
-90
-],
-"General, applied and forensic sciences":[
-0.919,
-55
-],
-"Health and social care":[
-1.181,
-45
-],
-"History and archaeology":[
-0.839,
-65
-],
-"Law":[
-0.878,
-120
-],
-"Media, journalism and communications":[
-0.926,
-265
-],
-"Nursing and midwifery":[
-0.935,
-165
-],
-"Performing arts":[
-0.92,
-100
-],
-"Politics":[
-0.817,
-40
-],
-"Psychology":[
-0.973,
-180
-],
-"Sociology, social policy and anthropology":[
-0.958,
-90
-],
-"Sport and exercise sciences":[
-0.962,
-85
-]
-},
-"The University of Liverpool":{
-"Allied health":[
-1.023,
-85
-],
-"Architecture, building and planning":[
-0.84,
-50
-],
-"Biosciences":[
-1.075,
-90
-],
-"Business and management":[
-1.117,
-215
-],
-"Chemistry":[
-0.958,
-50
-],
-"Combined and general studies":[
-1.107,
-45
-],
-"Computing":[
-1.369,
-40
-],
-"Economics":[
-0.897,
-60
-],
-"Engineering":[
-0.924,
-125
-],
-"English studies":[
-0.985,
-95
-],
-"Geography, earth and environmental studies":[
-0.952,
-125
-],
-"History and archaeology":[
-0.962,
-130
-],
-"Languages and area studies":[
-0.894,
-55
-],
-"Law":[
-0.95,
-190
-],
-"Mathematical sciences":[
-0.867,
-80
-],
-"Medical sciences":[
-0.97,
-75
-],
-"Medicine and dentistry":[
-1.0,
-275
-],
-"Nursing and midwifery":[
-0.884,
-30
-],
-"Performing arts":[
-0.947,
-30
-],
-"Physics and astronomy":[
-0.97,
-45
-],
-"Politics":[
-0.878,
-40
-],
-"Psychology":[
-1.008,
-145
-],
-"Sociology, social policy and anthropology":[
-1.137,
-45
-],
-"Veterinary sciences":[
-1.148,
-85
-]
-},
-"The University of Manchester":{
-"Allied health":[
-1.14,
-80
-],
-"Biosciences":[
-1.123,
-200
-],
-"Business and management":[
-1.283,
-230
-],
-"Chemistry":[
-1.054,
-85
-],
-"Computing":[
-1.496,
-45
-],
-"Economics":[
-1.0,
-135
-],
-"Engineering":[
-1.029,
-230
-],
-"English studies":[
-1.081,
-190
-],
-"Geography, earth and environmental studies":[
-1.08,
-140
-],
-"History and archaeology":[
-1.038,
-275
-],
-"Languages and area studies":[
-1.035,
-145
-],
-"Law":[
-1.013,
-155
-],
-"Materials and technology":[
-1.123,
-75
-],
-"Mathematical sciences":[
-1.057,
-150
-],
-"Medical sciences":[
-1.011,
-100
-],
-"Medicine and dentistry":[
-0.998,
-355
-],
-"Nursing and midwifery":[
-0.976,
-355
-],
-"Performing arts":[
-1.195,
-75
-],
-"Pharmacology, toxicology and pharmacy":[
-1.028,
-85
-],
-"Philosophy and religious studies":[
-0.99,
-90
-],
-"Physics and astronomy":[
-1.159,
-110
-],
-"Politics":[
-1.058,
-125
-],
-"Psychology":[
-1.027,
-115
-],
-"Sociology, social policy and anthropology":[
-1.125,
-190
-]
-},
-"The University of Northampton":{
-"Allied health":[
-1.0,
-45
-],
-"Business and management":[
-0.915,
-305
-],
-"Computing":[
-0.894,
-60
-],
-"Creative arts and design":[
-0.971,
-140
-],
-"Education and teaching":[
-1.041,
-265
-],
-"Engineering":[
-1.039,
-60
-],
-"English studies":[
-0.974,
-35
-],
-"Geography, earth and environmental studies":[
-0.844,
-45
-],
-"Health and social care":[
-1.014,
-30
-],
-"History and archaeology":[
-0.962,
-30
-],
-"Law":[
-0.832,
-50
-],
-"Media, journalism and communications":[
-0.984,
-45
-],
-"Nursing and midwifery":[
-0.982,
-165
-],
-"Performing arts":[
-1.049,
-75
-],
-"Psychology":[
-0.973,
-80
-],
-"Sociology, social policy and anthropology":[
-0.985,
-145
-],
-"Sport and exercise sciences":[
-0.974,
-40
-]
-},
-"The University of Oxford":{
-"Biosciences":[
-1.339,
-85
-],
-"Business and management":[
-2.081,
-30
-],
-"Chemistry":[
-1.587,
-85
-],
-"Economics":[
-1.188,
-75
-],
-"Engineering":[
-1.305,
-65
-],
-"English studies":[
-1.204,
-155
-],
-"Geography, earth and environmental studies":[
-1.373,
-75
-],
-"History and archaeology":[
-1.524,
-265
-],
-"Languages and area studies":[
-1.365,
-145
-],
-"Law":[
-2.132,
-110
-],
-"Mathematical sciences":[
-1.219,
-75
-],
-"Medicine and dentistry":[
-0.928,
-215
-],
-"Performing arts":[
-1.531,
-45
-],
-"Philosophy and religious studies":[
-1.559,
-110
-],
-"Physics and astronomy":[
-1.266,
-60
-],
-"Politics":[
-1.457,
-55
-]
-},
-"The University of Portsmouth":{
-"Architecture, building and planning":[
-0.831,
-75
-],
-"Biosciences":[
-1.051,
-95
-],
-"Business and management":[
-1.094,
-340
-],
-"Computing":[
-0.926,
-215
-],
-"Creative arts and design":[
-1.046,
-215
-],
-"Economics":[
-0.819,
-75
-],
-"Education and teaching":[
-0.907,
-95
-],
-"Engineering":[
-1.01,
-255
-],
-"English studies":[
-1.056,
-105
-],
-"Geography, earth and environmental studies":[
-0.952,
-210
-],
-"Health and social care":[
-1.173,
-60
-],
-"History and archaeology":[
-1.0,
-60
-],
-"Languages and area studies":[
-0.884,
-90
-],
-"Law":[
-1.191,
-65
-],
-"Mathematical sciences":[
-0.906,
-60
-],
-"Media, journalism and communications":[
-1.012,
-115
-],
-"Medical sciences":[
-0.995,
-60
-],
-"Pharmacology, toxicology and pharmacy":[
-1.013,
-75
-],
-"Politics":[
-0.957,
-55
-],
-"Psychology":[
-1.053,
-145
-],
-"Sociology, social policy and anthropology":[
-1.11,
-260
-],
-"Sport and exercise sciences":[
-1.117,
-100
-]
-},
-"The University of Reading":{
-"Agriculture, food and related studies":[
-1.398,
-70
-],
-"Allied health":[
-1.01,
-40
-],
-"Architecture, building and planning":[
-1.341,
-50
-],
-"Biosciences":[
-0.949,
-110
-],
-"Business and management":[
-1.616,
-220
-],
-"Chemistry":[
-1.045,
-40
-],
-"Computing":[
-1.313,
-60
-],
-"Creative arts and design":[
-1.212,
-65
-],
-"Economics":[
-0.92,
-70
-],
-"Education and teaching":[
-1.178,
-105
-],
-"English studies":[
-1.041,
-90
-],
-"Geography, earth and environmental studies":[
-1.092,
-85
-],
-"History and archaeology":[
-0.925,
-135
-],
-"Languages and area studies":[
-0.955,
-30
-],
-"Law":[
-1.198,
-105
-],
-"Mathematical sciences":[
-1.05,
-85
-],
-"Pharmacology, toxicology and pharmacy":[
-1.098,
-50
-],
-"Politics":[
-1.034,
-45
-],
-"Psychology":[
-1.095,
-95
-]
-},
-"The University of Salford":{
-"Allied health":[
-0.902,
-250
-],
-"Architecture, building and planning":[
-1.201,
-130
-],
-"Biosciences":[
-0.712,
-80
-],
-"Business and management":[
-0.821,
-175
-],
-"Computing":[
-0.841,
-75
-],
-"Creative arts and design":[
-0.892,
-165
-],
-"Engineering":[
-0.83,
-200
-],
-"English studies":[
-0.837,
-70
-],
-"Health and social care":[
-1.101,
-75
-],
-"Law":[
-0.723,
-50
-],
-"Media, journalism and communications":[
-1.0,
-205
-],
-"Medical sciences":[
-0.992,
-35
-],
-"Nursing and midwifery":[
-0.973,
-370
-],
-"Performing arts":[
-0.934,
-150
-],
-"Psychology":[
-0.798,
-55
-],
-"Sociology, social policy and anthropology":[
-0.848,
-90
-],
-"Sport and exercise sciences":[
-0.974,
-40
-]
-},
-"The University of Sheffield":{
-"Allied health":[
-1.117,
-145
-],
-"Architecture, building and planning":[
-0.872,
-110
-],
-"Biosciences":[
-1.0,
-170
-],
-"Business and management":[
-1.225,
-175
-],
-"Chemistry":[
-0.934,
-70
-],
-"Computing":[
-1.487,
-35
-],
-"Economics":[
-0.944,
-105
-],
-"Engineering":[
-1.05,
-300
-],
-"English studies":[
-1.041,
-210
-],
-"Geography, earth and environmental studies":[
-1.035,
-170
-],
-"History and archaeology":[
-1.024,
-140
-],
-"Languages and area studies":[
-1.0,
-145
-],
-"Law":[
-1.05,
-175
-],
-"Mathematical sciences":[
-0.896,
-90
-],
-"Media, journalism and communications":[
-1.199,
-50
-],
-"Medicine and dentistry":[
-0.979,
-220
-],
-"Nursing and midwifery":[
-0.973,
-30
-],
-"Performing arts":[
-1.049,
-35
-],
-"Philosophy and religious studies":[
-1.038,
-70
-],
-"Physics and astronomy":[
-0.903,
-60
-],
-"Politics":[
-1.034,
-110
-],
-"Psychology":[
-1.068,
-115
-],
-"Sociology, social policy and anthropology":[
-1.129,
-50
-]
-},
-"The University of Southampton":{
-"Allied health":[
-1.036,
-60
-],
-"Biosciences":[
-1.151,
-145
-],
-"Business and management":[
-1.476,
-80
-],
-"Chemistry":[
-1.078,
-55
-],
-"Computing":[
-1.799,
-55
-],
-"Creative arts and design":[
-1.075,
-160
-],
-"Economics":[
-1.0,
-70
-],
-"Engineering":[
-1.097,
-165
-],
-"English studies":[
-1.122,
-145
-],
-"Geography, earth and environmental studies":[
-1.07,
-305
-],
-"History and archaeology":[
-1.123,
-195
-],
-"Languages and area studies":[
-0.984,
-80
-],
-"Law":[
-1.294,
-100
-],
-"Mathematical sciences":[
-1.125,
-100
-],
-"Medical sciences":[
-0.941,
-35
-],
-"Medicine and dentistry":[
-0.994,
-160
-],
-"Nursing and midwifery":[
-0.976,
-335
-],
-"Performing arts":[
-1.261,
-30
-],
-"Philosophy and religious studies":[
-1.076,
-30
-],
-"Physics and astronomy":[
-0.952,
-60
-],
-"Politics":[
-1.125,
-65
-],
-"Psychology":[
-1.095,
-105
-],
-"Sociology, social policy and anthropology":[
-1.179,
-75
-]
-},
-"The University of St andrews":{
-"Biosciences":[
-1.0,
-35
-],
-"Chemistry":[
-1.054,
-40
-],
-"Geography, earth and environmental studies":[
-1.127,
-40
-],
-"History and archaeology":[
-1.123,
-90
-],
-"Languages and area studies":[
-1.129,
-35
-],
-"Mathematical sciences":[
-1.172,
-40
-],
-"Medicine and dentistry":[
-0.896,
-75
-],
-"Physics and astronomy":[
-1.099,
-30
-],
-"Politics":[
-1.256,
-40
-]
-},
-"The University of Stirling":{
-"Biosciences":[
-0.818,
-45
-],
-"Business and management":[
-0.987,
-130
-],
-"Education and teaching":[
-1.285,
-70
-],
-"English studies":[
-0.811,
-35
-],
-"Geography, earth and environmental studies":[
-0.965,
-45
-],
-"History and archaeology":[
-0.849,
-50
-],
-"Law":[
-1.205,
-50
-],
-"Media, journalism and communications":[
-1.035,
-50
-],
-"Nursing and midwifery":[
-1.042,
-210
-],
-"Psychology":[
-1.0,
-50
-],
-"Sociology, social policy and anthropology":[
-1.068,
-40
-],
-"Sport and exercise sciences":[
-1.064,
-90
-]
-},
-"The University of Strathclyde":{
-"Architecture, building and planning":[
-0.819,
-30
-],
-"Biosciences":[
-1.089,
-60
-],
-"Business and management":[
-1.166,
-260
-],
-"Chemistry":[
-0.979,
-75
-],
-"Computing":[
-1.227,
-80
-],
-"Economics":[
-1.045,
-35
-],
-"Education and teaching":[
-1.27,
-220
-],
-"Engineering":[
-0.971,
-405
-],
-"English studies":[
-1.041,
-40
-],
-"History and archaeology":[
-0.863,
-55
-],
-"Law":[
-1.155,
-135
-],
-"Mathematical sciences":[
-0.896,
-80
-],
-"Pharmacology, toxicology and pharmacy":[
-1.01,
-90
-],
-"Physics and astronomy":[
-0.863,
-60
-],
-"Politics":[
-0.869,
-35
-],
-"Psychology":[
-1.068,
-55
-]
-},
-"The University of Sunderland":{
-"Biosciences":[
-0.962,
-40
-],
-"Business and management":[
-0.844,
-195
-],
-"Computing":[
-0.906,
-85
-],
-"Creative arts and design":[
-0.834,
-110
-],
-"Education and teaching":[
-1.107,
-105
-],
-"English studies":[
-0.852,
-65
-],
-"Health and social care":[
-0.856,
-170
-],
-"Law":[
-0.795,
-65
-],
-"Media, journalism and communications":[
-0.926,
-200
-],
-"Performing arts":[
-0.854,
-85
-],
-"Pharmacology, toxicology and pharmacy":[
-0.99,
-80
-],
-"Psychology":[
-0.848,
-95
-],
-"Sociology, social policy and anthropology":[
-0.875,
-55
-],
-"Sport and exercise sciences":[
-0.823,
-120
-]
-},
-"The University of Surrey":{
-"Allied health":[
-1.104,
-70
-],
-"Business and management":[
-1.212,
-165
-],
-"Computing":[
-1.345,
-35
-],
-"Economics":[
-1.203,
-65
-],
-"Engineering":[
-1.086,
-170
-],
-"Law":[
-1.168,
-55
-],
-"Mathematical sciences":[
-1.076,
-55
-],
-"Nursing and midwifery":[
-1.006,
-235
-],
-"Performing arts":[
-1.164,
-130
-],
-"Physics and astronomy":[
-1.011,
-30
-],
-"Psychology":[
-1.186,
-50
-],
-"Sociology, social policy and anthropology":[
-1.194,
-55
-]
-},
-"The University of Sussex":{
-"Biosciences":[
-1.038,
-65
-],
-"Business and management":[
-1.378,
-90
-],
-"Computing":[
-1.345,
-55
-],
-"Economics":[
-0.802,
-50
-],
-"Engineering":[
-0.982,
-40
-],
-"English studies":[
-0.974,
-120
-],
-"Geography, earth and environmental studies":[
-1.022,
-50
-],
-"Health and social care":[
-1.148,
-35
-],
-"History and archaeology":[
-0.976,
-120
-],
-"Languages and area studies":[
-0.955,
-40
-],
-"Law":[
-1.096,
-105
-],
-"Mathematical sciences":[
-1.01,
-65
-],
-"Media, journalism and communications":[
-1.199,
-80
-],
-"Medicine and dentistry":[
-0.996,
-45
-],
-"Philosophy and religious studies":[
-0.938,
-30
-],
-"Physics and astronomy":[
-0.933,
-50
-],
-"Politics":[
-0.97,
-65
-],
-"Psychology":[
-1.137,
-135
-],
-"Sociology, social policy and anthropology":[
-1.068,
-95
-]
-},
-"The University of The West of Scotland":{
-"Allied health":[
-1.0,
-70
-],
-"Biosciences":[
-0.863,
-85
-],
-"Business and management":[
-0.808,
-750
-],
-"Computing":[
-0.743,
-395
-],
-"Creative arts and design":[
-0.863,
-60
-],
-"Education and teaching":[
-1.285,
-45
-],
-"Engineering":[
-0.862,
-230
-],
-"General, applied and forensic sciences":[
-1.056,
-35
-],
-"Health and social care":[
-1.148,
-155
-],
-"Law":[
-0.875,
-165
-],
-"Media, journalism and communications":[
-0.914,
-90
-],
-"Nursing and midwifery":[
-1.033,
-605
-],
-"Performing arts":[
-0.925,
-145
-],
-"Politics":[
-0.796,
-50
-],
-"Psychology":[
-0.943,
-115
-],
-"Sociology, social policy and anthropology":[
-0.909,
-140
-],
-"Sport and exercise sciences":[
-1.0,
-195
-]
-},
-"The University of Warwick":{
-"Allied health":[
-1.094,
-30
-],
-"Biosciences":[
-1.175,
-70
-],
-"Business and management":[
-1.749,
-100
-],
-"Chemistry":[
-1.033,
-65
-],
-"Computing":[
-1.528,
-55
-],
-"Economics":[
-1.377,
-135
-],
-"Education and teaching":[
-0.933,
-65
-],
-"Engineering":[
-1.162,
-135
-],
-"English studies":[
-1.137,
-100
-],
-"History and archaeology":[
-1.151,
-215
-],
-"Languages and area studies":[
-1.048,
-105
-],
-"Law":[
-1.432,
-130
-],
-"Mathematical sciences":[
-1.392,
-225
-],
-"Medicine and dentistry":[
-1.028,
-125
-],
-"Performing arts":[
-1.226,
-30
-],
-"Philosophy and religious studies":[
-1.229,
-55
-],
-"Physics and astronomy":[
-1.099,
-85
-],
-"Politics":[
-1.18,
-100
-],
-"Psychology":[
-1.209,
-60
-],
-"Sociology, social policy and anthropology":[
-1.152,
-45
-]
-},
-"The University of West London":{
-"Business and management":[
-0.866,
-370
-],
-"Computing":[
-1.024,
-35
-],
-"Creative arts and design":[
-0.925,
-35
-],
-"Health and social care":[
-1.148,
-40
-],
-"Law":[
-1.023,
-30
-],
-"Media, journalism and communications":[
-0.969,
-55
-],
-"Nursing and midwifery":[
-1.048,
-240
-],
-"Performing arts":[
-1.049,
-140
-],
-"Psychology":[
-0.916,
-65
-],
-"Sociology, social policy and anthropology":[
-1.137,
-40
-]
-},
-"The University of Westminster":{
-"Allied health":[
-0.785,
-45
-],
-"Architecture, building and planning":[
-1.076,
-115
-],
-"Biosciences":[
-0.976,
-165
-],
-"Business and management":[
-1.036,
-540
-],
-"Computing":[
-1.109,
-180
-],
-"Creative arts and design":[
-1.091,
-160
-],
-"English studies":[
-1.0,
-105
-],
-"History and archaeology":[
-1.024,
-45
-],
-"Languages and area studies":[
-0.906,
-30
-],
-"Law":[
-1.0,
-165
-],
-"Media, journalism and communications":[
-1.133,
-145
-],
-"Performing arts":[
-0.987,
-60
-],
-"Politics":[
-0.811,
-75
-],
-"Psychology":[
-1.103,
-110
-],
-"Sociology, social policy and anthropology":[
-0.985,
-90
-]
-},
-"The University of Winchester":{
-"Business and management":[
-1.023,
-165
-],
-"Education and teaching":[
-1.096,
-325
-],
-"English studies":[
-0.878,
-105
-],
-"Health and social care":[
-1.054,
-45
-],
-"History and archaeology":[
-0.801,
-120
-],
-"Law":[
-0.818,
-30
-],
-"Media, journalism and communications":[
-0.969,
-90
-],
-"Performing arts":[
-0.92,
-100
-],
-"Psychology":[
-1.042,
-55
-],
-"Sociology, social policy and anthropology":[
-1.0,
-60
-],
-"Sport and exercise sciences":[
-1.071,
-60
-]
-},
-"The University of Wolverhampton":{
-"Architecture, building and planning":[
-1.079,
-65
-],
-"Biosciences":[
-0.887,
-140
-],
-"Business and management":[
-0.798,
-235
-],
-"Computing":[
-0.723,
-110
-],
-"Creative arts and design":[
-0.817,
-145
-],
-"Education and teaching":[
-0.933,
-200
-],
-"Engineering":[
-1.01,
-45
-],
-"English studies":[
-0.837,
-60
-],
-"General, applied and forensic sciences":[
-0.952,
-45
-],
-"Health and social care":[
-0.877,
-160
-],
-"History and archaeology":[
-0.726,
-40
-],
-"Law":[
-0.759,
-125
-],
-"Media, journalism and communications":[
-0.711,
-35
-],
-"Nursing and midwifery":[
-0.976,
-520
-],
-"Performing arts":[
-0.92,
-155
-],
-"Pharmacology, toxicology and pharmacy":[
-0.915,
-60
-],
-"Psychology":[
-0.825,
-40
-],
-"Sociology, social policy and anthropology":[
-0.958,
-75
-],
-"Sport and exercise sciences":[
-0.932,
-90
-]
-},
-"The University of York":{
-"Biosciences":[
-1.236,
-60
-],
-"Business and management":[
-1.202,
-100
-],
-"Chemistry":[
-1.021,
-90
-],
-"Computing":[
-1.54,
-60
-],
-"Creative arts and design":[
-1.303,
-35
-],
-"Economics":[
-1.078,
-135
-],
-"Education and teaching":[
-1.033,
-30
-],
-"Engineering":[
-1.021,
-65
-],
-"English studies":[
-1.081,
-190
-],
-"Geography, earth and environmental studies":[
-1.092,
-55
-],
-"History and archaeology":[
-1.014,
-270
-],
-"Law":[
-1.271,
-90
-],
-"Mathematical sciences":[
-0.987,
-90
-],
-"Medicine and dentistry":[
-0.987,
-45
-],
-"Nursing and midwifery":[
-1.021,
-135
-],
-"Performing arts":[
-1.066,
-70
-],
-"Philosophy and religious studies":[
-1.066,
-75
-],
-"Physics and astronomy":[
-1.04,
-65
-],
-"Politics":[
-1.091,
-105
-],
-"Psychology":[
-1.202,
-80
-],
-"Sociology, social policy and anthropology":[
-1.084,
-135
-]
-},
-"Trinity Laban Conservatoire of Music and Dance":{
-"Performing arts":[
-0.951,
-100
-]
-},
-"University Campus Suffolk":{
-"Allied health":[
-0.629,
-40
-],
-"Business and management":[
-0.821,
-55
-],
-"Creative arts and design":[
-0.88,
-65
-],
-"Health and social care":[
-0.805,
-35
-],
-"Medical sciences":[
-1.065,
-35
-],
-"Nursing and midwifery":[
-0.982,
-140
-],
-"Sociology, social policy and anthropology":[
-0.806,
-120
-]
-},
-"University College Birmingham":{
-"Agriculture, food and related studies":[
-1.027,
-45
-],
-"Business and management":[
-0.736,
-205
-],
-"Education and teaching":[
-0.663,
-105
-],
-"Performing arts":[
-0.907,
-60
-],
-"Sport and exercise sciences":[
-0.921,
-60
-]
-},
-"University College London":{
-"Architecture, building and planning":[
-1.128,
-35
-],
-"Biosciences":[
-1.349,
-90
-],
-"Chemistry":[
-1.232,
-55
-],
-"Computing":[
-1.873,
-35
-],
-"Economics":[
-1.33,
-100
-],
-"Education and teaching":[
-0.959,
-95
-],
-"Engineering":[
-1.201,
-105
-],
-"English studies":[
-1.141,
-75
-],
-"General, applied and forensic sciences":[
-0.974,
-30
-],
-"Geography, earth and environmental studies":[
-1.232,
-110
-],
-"History and archaeology":[
-1.274,
-190
-],
-"Languages and area studies":[
-1.21,
-105
-],
-"Law":[
-1.739,
-45
-],
-"Mathematical sciences":[
-1.439,
-45
-],
-"Medical sciences":[
-1.196,
-95
-],
-"Medicine and dentistry":[
-0.991,
-295
-],
-"Pharmacology, toxicology and pharmacy":[
-1.039,
-105
-],
-"Philosophy and religious studies":[
-1.267,
-35
-],
-"Physics and astronomy":[
-1.333,
-95
-],
-"Psychology":[
-1.361,
-60
-],
-"Sociology, social policy and anthropology":[
-1.194,
-35
-]
-},
-"University For The Creative Arts":{
-"Creative arts and design":[
-1.091,
-700
-],
-"Media, journalism and communications":[
-0.992,
-85
-]
-},
-"University of Abertay Dundee":{
-"Agriculture, food and related studies":[
-1.277,
-35
-],
-"Biosciences":[
-0.918,
-35
-],
-"Business and management":[
-0.834,
-80
-],
-"Computing":[
-1.115,
-65
-],
-"Creative arts and design":[
-1.091,
-125
-],
-"General, applied and forensic sciences":[
-1.067,
-45
-],
-"Psychology":[
-1.008,
-50
-],
-"Sociology, social policy and anthropology":[
-0.985,
-65
-],
-"Sport and exercise sciences":[
-0.959,
-80
-]
-},
-"University of Bedfordshire":{
-"Allied health":[
-0.765,
-100
-],
-"Biosciences":[
-0.976,
-50
-],
-"Business and management":[
-0.85,
-235
-],
-"Computing":[
-0.973,
-75
-],
-"Creative arts and design":[
-0.925,
-70
-],
-"Education and teaching":[
-0.985,
-260
-],
-"English studies":[
-0.804,
-40
-],
-"Health and social care":[
-0.888,
-45
-],
-"Law":[
-0.95,
-45
-],
-"Media, journalism and communications":[
-0.84,
-85
-],
-"Nursing and midwifery":[
-1.021,
-190
-],
-"Performing arts":[
-0.92,
-55
-],
-"Psychology":[
-0.932,
-60
-],
-"Sociology, social policy and anthropology":[
-0.84,
-195
-],
-"Sport and exercise sciences":[
-0.989,
-145
 ]
 },
 "University of Central Lancashire":{
@@ -7389,6 +4939,36 @@
 75
 ]
 },
+"University of Chichester":{
+"Business and management":[
+0.964,
+110
+],
+"Education and teaching":[
+1.196,
+120
+],
+"English studies":[
+0.874,
+55
+],
+"Health and social care":[
+0.895,
+125
+],
+"History and archaeology":[
+0.901,
+35
+],
+"Performing arts":[
+1.035,
+190
+],
+"Sport and exercise sciences":[
+1.041,
+235
+]
+},
 "University of Cumbria":{
 "Allied health":[
 1.016,
@@ -7517,81 +5097,357 @@
 85
 ]
 },
-"University of Durham":{
-"Biosciences":[
-1.339,
-70
-],
-"Business and management":[
-1.785,
-155
-],
-"Chemistry":[
-1.407,
+"University of Dundee":{
+"Architecture, building and planning":[
+0.84,
 75
 ],
-"Economics":[
-1.369,
-105
+"Biosciences":[
+1.062,
+35
+],
+"Business and management":[
+0.964,
+50
+],
+"Creative arts and design":[
+0.983,
+170
 ],
 "Education and teaching":[
-1.204,
-80
+1.285,
+90
 ],
 "Engineering":[
-1.115,
-105
-],
-"English studies":[
-1.23,
-120
+0.849,
+65
 ],
 "Geography, earth and environmental studies":[
-1.338,
-225
-],
-"History and archaeology":[
-1.377,
-200
-],
-"Languages and area studies":[
-1.306,
-150
+0.952,
+35
 ],
 "Law":[
-1.7,
-110
+1.182,
+60
+],
+"Medicine and dentistry":[
+1.076,
+180
+],
+"Nursing and midwifery":[
+1.0,
+245
+],
+"Psychology":[
+1.042,
+30
+]
+},
+"University of East Anglia":{
+"Allied health":[
+1.023,
+65
+],
+"Biosciences":[
+1.017,
+85
+],
+"Business and management":[
+1.212,
+115
+],
+"Chemistry":[
+1.078,
+45
+],
+"Computing":[
+1.26,
+40
+],
+"Economics":[
+0.92,
+50
+],
+"Education and teaching":[
+1.041,
+35
+],
+"English studies":[
+0.993,
+130
+],
+"General, applied and forensic sciences":[
+0.985,
+30
+],
+"Geography, earth and environmental studies":[
+1.013,
+115
+],
+"History and archaeology":[
+0.938,
+120
+],
+"Languages and area studies":[
+0.906,
+55
+],
+"Law":[
+1.152,
+75
 ],
 "Mathematical sciences":[
-1.211,
-145
+0.867,
+60
+],
+"Medicine and dentistry":[
+0.979,
+110
+],
+"Nursing and midwifery":[
+1.0,
+195
 ],
 "Performing arts":[
-1.447,
+1.137,
+30
+],
+"Pharmacology, toxicology and pharmacy":[
+1.034,
+40
+],
+"Politics":[
+0.869,
+70
+],
+"Psychology":[
+1.053,
+75
+]
+},
+"University of East London":{
+"Allied health":[
+0.915,
+155
+],
+"Architecture, building and planning":[
+0.819,
+35
+],
+"Business and management":[
+0.902,
+185
+],
+"Computing":[
+0.906,
+80
+],
+"Creative arts and design":[
+0.925,
+110
+],
+"Education and teaching":[
+0.744,
+195
+],
+"Engineering":[
+1.0,
+50
+],
+"Health and social care":[
+1.173,
+55
+],
+"Law":[
+0.927,
+110
+],
+"Media, journalism and communications":[
+1.0,
+80
+],
+"Performing arts":[
+1.0,
+110
+],
+"Politics":[
+0.701,
+30
+],
+"Psychology":[
+0.973,
+115
+],
+"Sociology, social policy and anthropology":[
+0.89,
+85
+],
+"Sport and exercise sciences":[
+1.128,
+70
+]
+},
+"University of Edinburgh":{
+"Architecture, building and planning":[
+0.872,
+50
+],
+"Biosciences":[
+1.264,
+140
+],
+"Business and management":[
+1.296,
+130
+],
+"Chemistry":[
+1.054,
+30
+],
+"Creative arts and design":[
+1.029,
+125
+],
+"Economics":[
+1.181,
+70
+],
+"Education and teaching":[
+1.285,
+165
+],
+"Engineering":[
+1.029,
+90
+],
+"English studies":[
+1.048,
+115
+],
+"Geography, earth and environmental studies":[
+1.08,
+105
+],
+"History and archaeology":[
+1.089,
+265
+],
+"Languages and area studies":[
+1.158,
+130
+],
+"Law":[
+1.366,
+105
+],
+"Mathematical sciences":[
+1.01,
+45
+],
+"Medical sciences":[
+1.247,
+40
+],
+"Medicine and dentistry":[
+1.008,
+170
+],
+"Performing arts":[
+1.058,
 30
 ],
 "Philosophy and religious studies":[
-1.309,
-80
-],
-"Physics and astronomy":[
-1.148,
-105
+1.128,
+70
 ],
 "Politics":[
-1.357,
-85
+1.146,
+70
 ],
 "Psychology":[
-1.167,
-110
+1.152,
+55
 ],
 "Sociology, social policy and anthropology":[
-1.137,
-115
+1.179,
+75
 ],
 "Sport and exercise sciences":[
-1.071,
+1.316,
+75
+],
+"Veterinary sciences":[
+1.07,
+50
+]
+},
+"University of Essex":{
+"Allied health":[
+1.068,
+65
+],
+"Biosciences":[
+0.962,
+65
+],
+"Business and management":[
+1.081,
+145
+],
+"Computing":[
+1.239,
+45
+],
+"Creative arts and design":[
+0.909,
+70
+],
+"Economics":[
+0.795,
+70
+],
+"English studies":[
+0.974,
+70
+],
+"History and archaeology":[
+0.962,
+80
+],
+"Law":[
+0.99,
+55
+],
+"Mathematical sciences":[
+0.971,
+35
+],
+"Nursing and midwifery":[
+1.033,
+65
+],
+"Performing arts":[
+0.938,
+175
+],
+"Philosophy and religious studies":[
+0.913,
+30
+],
+"Politics":[
+0.97,
+35
+],
+"Psychology":[
+1.027,
+90
+],
+"Sociology, social policy and anthropology":[
+1.053,
+75
+],
+"Sport and exercise sciences":[
+1.083,
 55
 ]
 },
@@ -7677,6 +5533,92 @@
 80
 ]
 },
+"University of Glasgow":{
+"Biosciences":[
+0.976,
+90
+],
+"Business and management":[
+1.319,
+140
+],
+"Chemistry":[
+0.961,
+30
+],
+"Computing":[
+1.369,
+30
+],
+"Economics":[
+0.905,
+30
+],
+"Education and teaching":[
+1.285,
+210
+],
+"Engineering":[
+0.971,
+130
+],
+"English studies":[
+1.026,
+110
+],
+"Geography, earth and environmental studies":[
+0.965,
+80
+],
+"History and archaeology":[
+0.962,
+135
+],
+"Languages and area studies":[
+0.877,
+50
+],
+"Law":[
+1.314,
+140
+],
+"Mathematical sciences":[
+0.943,
+50
+],
+"Medical sciences":[
+0.761,
+40
+],
+"Medicine and dentistry":[
+1.055,
+275
+],
+"Philosophy and religious studies":[
+0.889,
+40
+],
+"Physics and astronomy":[
+0.903,
+40
+],
+"Politics":[
+0.979,
+55
+],
+"Psychology":[
+1.084,
+75
+],
+"Sociology, social policy and anthropology":[
+1.053,
+40
+],
+"Veterinary sciences":[
+1.105,
+40
+]
+},
 "University of Gloucestershire":{
 "Business and management":[
 0.951,
@@ -7729,6 +5671,92 @@
 "Sport and exercise sciences":[
 0.947,
 210
+]
+},
+"University of Greenwich":{
+"Agriculture, food and related studies":[
+0.871,
+60
+],
+"Allied health":[
+1.231,
+135
+],
+"Architecture, building and planning":[
+1.277,
+80
+],
+"Biosciences":[
+0.962,
+60
+],
+"Business and management":[
+0.964,
+495
+],
+"Computing":[
+0.914,
+250
+],
+"Creative arts and design":[
+1.046,
+90
+],
+"Economics":[
+0.763,
+60
+],
+"Education and teaching":[
+1.107,
+275
+],
+"Engineering":[
+1.076,
+70
+],
+"English studies":[
+1.015,
+65
+],
+"Health and social care":[
+1.238,
+55
+],
+"History and archaeology":[
+0.976,
+30
+],
+"Law":[
+1.132,
+65
+],
+"Mathematical sciences":[
+0.906,
+85
+],
+"Nursing and midwifery":[
+1.098,
+305
+],
+"Performing arts":[
+1.0,
+65
+],
+"Pharmacology, toxicology and pharmacy":[
+0.873,
+80
+],
+"Psychology":[
+1.011,
+70
+],
+"Sociology, social policy and anthropology":[
+1.053,
+80
+],
+"Sport and exercise sciences":[
+1.147,
+60
 ]
 },
 "University of Hertfordshire":{
@@ -7813,180 +5841,790 @@
 95
 ]
 },
-"University of Newcastle-Upon-Tyne":{
-"Agriculture, food and related studies":[
-1.312,
-55
-],
+"University of Huddersfield":{
 "Allied health":[
-1.153,
-100
+0.974,
+115
 ],
 "Architecture, building and planning":[
-0.895,
-80
+0.723,
+35
 ],
 "Biosciences":[
 0.938,
-155
+45
 ],
 "Business and management":[
-1.414,
-265
+0.866,
+290
 ],
 "Chemistry":[
-1.003,
-60
-],
-"Combined and general studies":[
-1.237,
+0.867,
 70
 ],
 "Computing":[
-1.336,
-90
+0.894,
+140
 ],
 "Creative arts and design":[
-1.091,
-40
+0.983,
+275
 ],
-"Economics":[
-0.909,
-90
+"Education and teaching":[
+0.919,
+140
 ],
 "Engineering":[
-1.0,
-230
+0.83,
+105
 ],
 "English studies":[
-1.107,
-150
+0.867,
+55
 ],
-"Geography, earth and environmental studies":[
-1.057,
-180
-],
-"History and archaeology":[
-1.014,
-200
-],
-"Languages and area studies":[
-1.084,
-60
-],
-"Law":[
-1.221,
+"Health and social care":[
+0.816,
 125
 ],
-"Mathematical sciences":[
-0.89,
-130
+"History and archaeology":[
+0.712,
+30
 ],
-"Media, journalism and communications":[
-1.363,
-35
+"Law":[
+0.818,
+80
 ],
-"Medicine and dentistry":[
-1.0,
-230
-],
-"Performing arts":[
-1.0,
+"Materials and technology":[
+0.911,
 40
 ],
+"Media, journalism and communications":[
+0.914,
+90
+],
+"Nursing and midwifery":[
+1.021,
+200
+],
+"Performing arts":[
+1.004,
+130
+],
+"Pharmacology, toxicology and pharmacy":[
+1.039,
+35
+],
+"Psychology":[
+0.901,
+125
+],
+"Sociology, social policy and anthropology":[
+0.89,
+65
+]
+},
+"University of Hull":{
+"Biosciences":[
+0.949,
+150
+],
+"Business and management":[
+0.974,
+190
+],
+"Chemistry":[
+0.967,
+105
+],
+"Computing":[
+1.024,
+120
+],
+"Economics":[
+0.81,
+30
+],
+"Education and teaching":[
+0.919,
+170
+],
+"Engineering":[
+1.005,
+60
+],
+"English studies":[
+0.811,
+60
+],
+"Geography, earth and environmental studies":[
+0.908,
+90
+],
+"Health and social care":[
+1.022,
+60
+],
+"History and archaeology":[
+0.825,
+95
+],
+"Languages and area studies":[
+0.884,
+80
+],
+"Law":[
+0.891,
+90
+],
+"Medicine and dentistry":[
+1.028,
+55
+],
+"Nursing and midwifery":[
+0.946,
+255
+],
+"Performing arts":[
+0.982,
+60
+],
+"Physics and astronomy":[
+0.785,
+45
+],
 "Politics":[
-1.091,
+1.012,
+45
+],
+"Psychology":[
+0.943,
+100
+],
+"Sociology, social policy and anthropology":[
+0.943,
+80
+],
+"Sport and exercise sciences":[
+0.962,
+75
+]
+},
+"University of Kent":{
+"Architecture, building and planning":[
+0.883,
+35
+],
+"Biosciences":[
+1.137,
+110
+],
+"Business and management":[
+1.309,
+220
+],
+"Computing":[
+1.369,
+120
+],
+"Creative arts and design":[
+1.029,
+105
+],
+"Economics":[
+0.881,
+110
+],
+"Engineering":[
+1.097,
+50
+],
+"English studies":[
+1.067,
+185
+],
+"General, applied and forensic sciences":[
+1.022,
+35
+],
+"Health and social care":[
+1.264,
+55
+],
+"History and archaeology":[
+0.962,
+190
+],
+"Languages and area studies":[
+0.929,
+100
+],
+"Law":[
+1.073,
+145
+],
+"Mathematical sciences":[
+0.963,
+70
+],
+"Performing arts":[
+1.146,
+95
+],
+"Pharmacology, toxicology and pharmacy":[
+1.028,
+45
+],
+"Philosophy and religious studies":[
+0.976,
+60
+],
+"Physics and astronomy":[
+0.922,
+60
+],
+"Politics":[
+0.924,
 100
 ],
 "Psychology":[
 1.042,
-80
+105
 ],
 "Sociology, social policy and anthropology":[
-1.186,
-50
-]
-},
-"University of Northumbria At Newcastle":{
-"Allied health":[
-1.01,
-80
-],
-"Architecture, building and planning":[
-1.108,
-195
-],
-"Biosciences":[
-1.024,
-120
-],
-"Business and management":[
-1.094,
-640
-],
-"Chemistry":[
-0.834,
-60
-],
-"Computing":[
-0.979,
+1.053,
 190
 ],
+"Sport and exercise sciences":[
+0.925,
+70
+]
+},
+"University of Leeds":{
+"Biosciences":[
+1.089,
+210
+],
+"Business and management":[
+1.485,
+160
+],
+"Chemistry":[
+1.0,
+85
+],
+"Computing":[
+1.463,
+40
+],
 "Creative arts and design":[
-1.058,
-415
+1.228,
+155
+],
+"Economics":[
+1.067,
+110
 ],
 "Education and teaching":[
-1.041,
-110
+0.974,
+40
 ],
 "Engineering":[
-0.982,
-200
+0.992,
+225
 ],
 "English studies":[
-0.941,
-110
+1.163,
+180
 ],
 "Geography, earth and environmental studies":[
-0.93,
-120
+1.127,
+245
 ],
 "Health and social care":[
-0.87,
-145
+1.079,
+50
 ],
 "History and archaeology":[
-0.863,
+1.089,
+235
+],
+"Languages and area studies":[
+1.048,
+185
+],
+"Law":[
+1.059,
+155
+],
+"Mathematical sciences":[
+1.039,
+125
+],
+"Media, journalism and communications":[
+1.168,
+110
+],
+"Medical sciences":[
+1.022,
+190
+],
+"Medicine and dentistry":[
+0.979,
+365
+],
+"Nursing and midwifery":[
+0.955,
+200
+],
+"Performing arts":[
+1.115,
+130
+],
+"Philosophy and religious studies":[
+1.066,
+125
+],
+"Physics and astronomy":[
+0.981,
+80
+],
+"Politics":[
+1.067,
+110
+],
+"Psychology":[
+1.118,
+105
+],
+"Sociology, social policy and anthropology":[
+1.084,
+105
+],
+"Sport and exercise sciences":[
+1.214,
+45
+]
+},
+"University of Leicester":{
+"Biosciences":[
+1.024,
+95
+],
+"Business and management":[
+1.238,
+80
+],
+"Chemistry":[
+0.946,
+35
+],
+"Computing":[
+1.186,
+45
+],
+"Economics":[
+0.881,
+120
+],
+"Engineering":[
+0.953,
+80
+],
+"English studies":[
+1.081,
+75
+],
+"Geography, earth and environmental studies":[
+0.987,
+140
+],
+"History and archaeology":[
+0.962,
+150
+],
+"Languages and area studies":[
+0.942,
 70
 ],
 "Law":[
-1.023,
-250
+1.059,
+120
 ],
-"Media, journalism and communications":[
-0.969,
-80
+"Mathematical sciences":[
+1.039,
+45
 ],
-"Nursing and midwifery":[
-1.0,
-665
+"Medical sciences":[
+0.903,
+30
 ],
-"Performing arts":[
-1.0,
-55
+"Medicine and dentistry":[
+1.028,
+165
+],
+"Physics and astronomy":[
+0.855,
+65
+],
+"Politics":[
+1.091,
+50
 ],
 "Psychology":[
 0.985,
-165
+95
 ],
 "Sociology, social policy and anthropology":[
-0.943,
-135
+1.053,
+100
+]
+},
+"University of Lincoln":{
+"Agriculture, food and related studies":[
+0.934,
+40
+],
+"Allied health":[
+0.85,
+70
+],
+"Architecture, building and planning":[
+0.825,
+30
+],
+"Biosciences":[
+0.894,
+55
+],
+"Business and management":[
+1.094,
+450
+],
+"Computing":[
+0.938,
+125
+],
+"Creative arts and design":[
+0.983,
+230
+],
+"Engineering":[
+0.935,
+35
+],
+"English studies":[
+0.919,
+90
+],
+"General, applied and forensic sciences":[
+0.919,
+55
+],
+"Health and social care":[
+1.181,
+45
+],
+"History and archaeology":[
+0.839,
+65
+],
+"Law":[
+0.878,
+120
+],
+"Media, journalism and communications":[
+0.926,
+265
+],
+"Nursing and midwifery":[
+0.935,
+165
+],
+"Performing arts":[
+0.92,
+100
+],
+"Politics":[
+0.817,
+40
+],
+"Psychology":[
+0.973,
+180
+],
+"Sociology, social policy and anthropology":[
+0.958,
+90
 ],
 "Sport and exercise sciences":[
+0.962,
+85
+]
+},
+"University of Liverpool":{
+"Allied health":[
+1.023,
+85
+],
+"Architecture, building and planning":[
+0.84,
+50
+],
+"Biosciences":[
+1.075,
+90
+],
+"Business and management":[
+1.117,
+215
+],
+"Chemistry":[
+0.958,
+50
+],
+"Combined and general studies":[
+1.107,
+45
+],
+"Computing":[
+1.369,
+40
+],
+"Economics":[
+0.897,
+60
+],
+"Engineering":[
+0.924,
+125
+],
+"English studies":[
+0.985,
+95
+],
+"Geography, earth and environmental studies":[
+0.952,
+125
+],
+"History and archaeology":[
+0.962,
+130
+],
+"Languages and area studies":[
+0.894,
+55
+],
+"Law":[
+0.95,
+190
+],
+"Mathematical sciences":[
+0.867,
+80
+],
+"Medical sciences":[
+0.97,
+75
+],
+"Medicine and dentistry":[
+1.0,
+275
+],
+"Nursing and midwifery":[
+0.884,
+30
+],
+"Performing arts":[
+0.947,
+30
+],
+"Physics and astronomy":[
+0.97,
+45
+],
+"Politics":[
+0.878,
+40
+],
+"Psychology":[
+1.008,
+145
+],
+"Sociology, social policy and anthropology":[
+1.137,
+45
+],
+"Veterinary sciences":[
+1.148,
+85
+]
+},
+"University of Manchester":{
+"Allied health":[
+1.14,
+80
+],
+"Biosciences":[
+1.123,
+200
+],
+"Business and management":[
+1.283,
+230
+],
+"Chemistry":[
+1.054,
+85
+],
+"Computing":[
+1.496,
+45
+],
+"Economics":[
+1.0,
+135
+],
+"Engineering":[
+1.029,
+230
+],
+"English studies":[
+1.081,
+190
+],
+"Geography, earth and environmental studies":[
+1.08,
+140
+],
+"History and archaeology":[
+1.038,
+275
+],
+"Languages and area studies":[
+1.035,
+145
+],
+"Law":[
+1.013,
+155
+],
+"Materials and technology":[
+1.123,
+75
+],
+"Mathematical sciences":[
+1.057,
+150
+],
+"Medical sciences":[
+1.011,
+100
+],
+"Medicine and dentistry":[
+0.998,
+355
+],
+"Nursing and midwifery":[
+0.976,
+355
+],
+"Performing arts":[
+1.195,
+75
+],
+"Pharmacology, toxicology and pharmacy":[
+1.028,
+85
+],
+"Philosophy and religious studies":[
+0.99,
+90
+],
+"Physics and astronomy":[
+1.159,
+110
+],
+"Politics":[
+1.058,
+125
+],
+"Psychology":[
+1.027,
+115
+],
+"Sociology, social policy and anthropology":[
+1.125,
+190
+]
+},
+"University of Northampton":{
+"Allied health":[
+1.0,
+45
+],
+"Business and management":[
+0.915,
+305
+],
+"Computing":[
+0.894,
+60
+],
+"Creative arts and design":[
+0.971,
+140
+],
+"Education and teaching":[
 1.041,
-285
+265
+],
+"Engineering":[
+1.039,
+60
+],
+"English studies":[
+0.974,
+35
+],
+"Geography, earth and environmental studies":[
+0.844,
+45
+],
+"Health and social care":[
+1.014,
+30
+],
+"History and archaeology":[
+0.962,
+30
+],
+"Law":[
+0.832,
+50
+],
+"Media, journalism and communications":[
+0.984,
+45
+],
+"Nursing and midwifery":[
+0.982,
+165
+],
+"Performing arts":[
+1.049,
+75
+],
+"Psychology":[
+0.973,
+80
+],
+"Sociology, social policy and anthropology":[
+0.985,
+145
+],
+"Sport and exercise sciences":[
+0.974,
+40
 ]
 },
 "University of Nottingham":{
@@ -8095,6 +6733,72 @@
 125
 ]
 },
+"University of Oxford":{
+"Biosciences":[
+1.339,
+85
+],
+"Business and management":[
+2.081,
+30
+],
+"Chemistry":[
+1.587,
+85
+],
+"Economics":[
+1.188,
+75
+],
+"Engineering":[
+1.305,
+65
+],
+"English studies":[
+1.204,
+155
+],
+"Geography, earth and environmental studies":[
+1.373,
+75
+],
+"History and archaeology":[
+1.524,
+265
+],
+"Languages and area studies":[
+1.365,
+145
+],
+"Law":[
+2.132,
+110
+],
+"Mathematical sciences":[
+1.219,
+75
+],
+"Medicine and dentistry":[
+0.928,
+215
+],
+"Performing arts":[
+1.531,
+45
+],
+"Philosophy and religious studies":[
+1.559,
+110
+],
+"Physics and astronomy":[
+1.266,
+60
+],
+"Politics":[
+1.457,
+55
+]
+},
 "University of Plymouth":{
 "Agriculture, food and related studies":[
 0.828,
@@ -8193,6 +6897,338 @@
 120
 ]
 },
+"University of Portsmouth":{
+"Architecture, building and planning":[
+0.831,
+75
+],
+"Biosciences":[
+1.051,
+95
+],
+"Business and management":[
+1.094,
+340
+],
+"Computing":[
+0.926,
+215
+],
+"Creative arts and design":[
+1.046,
+215
+],
+"Economics":[
+0.819,
+75
+],
+"Education and teaching":[
+0.907,
+95
+],
+"Engineering":[
+1.01,
+255
+],
+"English studies":[
+1.056,
+105
+],
+"Geography, earth and environmental studies":[
+0.952,
+210
+],
+"Health and social care":[
+1.173,
+60
+],
+"History and archaeology":[
+1.0,
+60
+],
+"Languages and area studies":[
+0.884,
+90
+],
+"Law":[
+1.191,
+65
+],
+"Mathematical sciences":[
+0.906,
+60
+],
+"Media, journalism and communications":[
+1.012,
+115
+],
+"Medical sciences":[
+0.995,
+60
+],
+"Pharmacology, toxicology and pharmacy":[
+1.013,
+75
+],
+"Politics":[
+0.957,
+55
+],
+"Psychology":[
+1.053,
+145
+],
+"Sociology, social policy and anthropology":[
+1.11,
+260
+],
+"Sport and exercise sciences":[
+1.117,
+100
+]
+},
+"University of Reading":{
+"Agriculture, food and related studies":[
+1.398,
+70
+],
+"Allied health":[
+1.01,
+40
+],
+"Architecture, building and planning":[
+1.341,
+50
+],
+"Biosciences":[
+0.949,
+110
+],
+"Business and management":[
+1.616,
+220
+],
+"Chemistry":[
+1.045,
+40
+],
+"Computing":[
+1.313,
+60
+],
+"Creative arts and design":[
+1.212,
+65
+],
+"Economics":[
+0.92,
+70
+],
+"Education and teaching":[
+1.178,
+105
+],
+"English studies":[
+1.041,
+90
+],
+"Geography, earth and environmental studies":[
+1.092,
+85
+],
+"History and archaeology":[
+0.925,
+135
+],
+"Languages and area studies":[
+0.955,
+30
+],
+"Law":[
+1.198,
+105
+],
+"Mathematical sciences":[
+1.05,
+85
+],
+"Pharmacology, toxicology and pharmacy":[
+1.098,
+50
+],
+"Politics":[
+1.034,
+45
+],
+"Psychology":[
+1.095,
+95
+]
+},
+"University of Salford":{
+"Allied health":[
+0.902,
+250
+],
+"Architecture, building and planning":[
+1.201,
+130
+],
+"Biosciences":[
+0.712,
+80
+],
+"Business and management":[
+0.821,
+175
+],
+"Computing":[
+0.841,
+75
+],
+"Creative arts and design":[
+0.892,
+165
+],
+"Engineering":[
+0.83,
+200
+],
+"English studies":[
+0.837,
+70
+],
+"Health and social care":[
+1.101,
+75
+],
+"Law":[
+0.723,
+50
+],
+"Media, journalism and communications":[
+1.0,
+205
+],
+"Medical sciences":[
+0.992,
+35
+],
+"Nursing and midwifery":[
+0.973,
+370
+],
+"Performing arts":[
+0.934,
+150
+],
+"Psychology":[
+0.798,
+55
+],
+"Sociology, social policy and anthropology":[
+0.848,
+90
+],
+"Sport and exercise sciences":[
+0.974,
+40
+]
+},
+"University of Sheffield":{
+"Allied health":[
+1.117,
+145
+],
+"Architecture, building and planning":[
+0.872,
+110
+],
+"Biosciences":[
+1.0,
+170
+],
+"Business and management":[
+1.225,
+175
+],
+"Chemistry":[
+0.934,
+70
+],
+"Computing":[
+1.487,
+35
+],
+"Economics":[
+0.944,
+105
+],
+"Engineering":[
+1.05,
+300
+],
+"English studies":[
+1.041,
+210
+],
+"Geography, earth and environmental studies":[
+1.035,
+170
+],
+"History and archaeology":[
+1.024,
+140
+],
+"Languages and area studies":[
+1.0,
+145
+],
+"Law":[
+1.05,
+175
+],
+"Mathematical sciences":[
+0.896,
+90
+],
+"Media, journalism and communications":[
+1.199,
+50
+],
+"Medicine and dentistry":[
+0.979,
+220
+],
+"Nursing and midwifery":[
+0.973,
+30
+],
+"Performing arts":[
+1.049,
+35
+],
+"Philosophy and religious studies":[
+1.038,
+70
+],
+"Physics and astronomy":[
+0.903,
+60
+],
+"Politics":[
+1.034,
+110
+],
+"Psychology":[
+1.068,
+115
+],
+"Sociology, social policy and anthropology":[
+1.129,
+50
+]
+},
 "University of South Wales":{
 "Allied health":[
 0.866,
@@ -8279,6 +7315,138 @@
 120
 ]
 },
+"University of Southampton":{
+"Allied health":[
+1.036,
+60
+],
+"Biosciences":[
+1.151,
+145
+],
+"Business and management":[
+1.476,
+80
+],
+"Chemistry":[
+1.078,
+55
+],
+"Computing":[
+1.799,
+55
+],
+"Creative arts and design":[
+1.075,
+160
+],
+"Economics":[
+1.0,
+70
+],
+"Engineering":[
+1.097,
+165
+],
+"English studies":[
+1.122,
+145
+],
+"Geography, earth and environmental studies":[
+1.07,
+305
+],
+"History and archaeology":[
+1.123,
+195
+],
+"Languages and area studies":[
+0.984,
+80
+],
+"Law":[
+1.294,
+100
+],
+"Mathematical sciences":[
+1.125,
+100
+],
+"Medical sciences":[
+0.941,
+35
+],
+"Medicine and dentistry":[
+0.994,
+160
+],
+"Nursing and midwifery":[
+0.976,
+335
+],
+"Performing arts":[
+1.261,
+30
+],
+"Philosophy and religious studies":[
+1.076,
+30
+],
+"Physics and astronomy":[
+0.952,
+60
+],
+"Politics":[
+1.125,
+65
+],
+"Psychology":[
+1.095,
+105
+],
+"Sociology, social policy and anthropology":[
+1.179,
+75
+]
+},
+"University of St Andrews":{
+"Biosciences":[
+1.0,
+35
+],
+"Chemistry":[
+1.054,
+40
+],
+"Geography, earth and environmental studies":[
+1.127,
+40
+],
+"History and archaeology":[
+1.123,
+90
+],
+"Languages and area studies":[
+1.129,
+35
+],
+"Mathematical sciences":[
+1.172,
+40
+],
+"Medicine and dentistry":[
+0.896,
+75
+],
+"Physics and astronomy":[
+1.099,
+30
+],
+"Politics":[
+1.256,
+40
+]
+},
 "University of St Mark and St John":{
 "Allied health":[
 0.98,
@@ -8301,7 +7469,835 @@
 185
 ]
 },
-"University of The Arts, London":{
+"University of Stirling":{
+"Biosciences":[
+0.818,
+45
+],
+"Business and management":[
+0.987,
+130
+],
+"Education and teaching":[
+1.285,
+70
+],
+"English studies":[
+0.811,
+35
+],
+"Geography, earth and environmental studies":[
+0.965,
+45
+],
+"History and archaeology":[
+0.849,
+50
+],
+"Law":[
+1.205,
+50
+],
+"Media, journalism and communications":[
+1.035,
+50
+],
+"Nursing and midwifery":[
+1.042,
+210
+],
+"Psychology":[
+1.0,
+50
+],
+"Sociology, social policy and anthropology":[
+1.068,
+40
+],
+"Sport and exercise sciences":[
+1.064,
+90
+]
+},
+"University of Strathclyde":{
+"Architecture, building and planning":[
+0.819,
+30
+],
+"Biosciences":[
+1.089,
+60
+],
+"Business and management":[
+1.166,
+260
+],
+"Chemistry":[
+0.979,
+75
+],
+"Computing":[
+1.227,
+80
+],
+"Economics":[
+1.045,
+35
+],
+"Education and teaching":[
+1.27,
+220
+],
+"Engineering":[
+0.971,
+405
+],
+"English studies":[
+1.041,
+40
+],
+"History and archaeology":[
+0.863,
+55
+],
+"Law":[
+1.155,
+135
+],
+"Mathematical sciences":[
+0.896,
+80
+],
+"Pharmacology, toxicology and pharmacy":[
+1.01,
+90
+],
+"Physics and astronomy":[
+0.863,
+60
+],
+"Politics":[
+0.869,
+35
+],
+"Psychology":[
+1.068,
+55
+]
+},
+"University of Suffolk":{
+"Allied health":[
+0.629,
+40
+],
+"Business and management":[
+0.821,
+55
+],
+"Creative arts and design":[
+0.88,
+65
+],
+"Health and social care":[
+0.805,
+35
+],
+"Medical sciences":[
+1.065,
+35
+],
+"Nursing and midwifery":[
+0.982,
+140
+],
+"Sociology, social policy and anthropology":[
+0.806,
+120
+]
+},
+"University of Sunderland":{
+"Biosciences":[
+0.962,
+40
+],
+"Business and management":[
+0.844,
+195
+],
+"Computing":[
+0.906,
+85
+],
+"Creative arts and design":[
+0.834,
+110
+],
+"Education and teaching":[
+1.107,
+105
+],
+"English studies":[
+0.852,
+65
+],
+"Health and social care":[
+0.856,
+170
+],
+"Law":[
+0.795,
+65
+],
+"Media, journalism and communications":[
+0.926,
+200
+],
+"Performing arts":[
+0.854,
+85
+],
+"Pharmacology, toxicology and pharmacy":[
+0.99,
+80
+],
+"Psychology":[
+0.848,
+95
+],
+"Sociology, social policy and anthropology":[
+0.875,
+55
+],
+"Sport and exercise sciences":[
+0.823,
+120
+]
+},
+"University of Surrey":{
+"Allied health":[
+1.104,
+70
+],
+"Business and management":[
+1.212,
+165
+],
+"Computing":[
+1.345,
+35
+],
+"Economics":[
+1.203,
+65
+],
+"Engineering":[
+1.086,
+170
+],
+"Law":[
+1.168,
+55
+],
+"Mathematical sciences":[
+1.076,
+55
+],
+"Nursing and midwifery":[
+1.006,
+235
+],
+"Performing arts":[
+1.164,
+130
+],
+"Physics and astronomy":[
+1.011,
+30
+],
+"Psychology":[
+1.186,
+50
+],
+"Sociology, social policy and anthropology":[
+1.194,
+55
+]
+},
+"University of Sussex":{
+"Biosciences":[
+1.038,
+65
+],
+"Business and management":[
+1.378,
+90
+],
+"Computing":[
+1.345,
+55
+],
+"Economics":[
+0.802,
+50
+],
+"Engineering":[
+0.982,
+40
+],
+"English studies":[
+0.974,
+120
+],
+"Geography, earth and environmental studies":[
+1.022,
+50
+],
+"Health and social care":[
+1.148,
+35
+],
+"History and archaeology":[
+0.976,
+120
+],
+"Languages and area studies":[
+0.955,
+40
+],
+"Law":[
+1.096,
+105
+],
+"Mathematical sciences":[
+1.01,
+65
+],
+"Media, journalism and communications":[
+1.199,
+80
+],
+"Medicine and dentistry":[
+0.996,
+45
+],
+"Philosophy and religious studies":[
+0.938,
+30
+],
+"Physics and astronomy":[
+0.933,
+50
+],
+"Politics":[
+0.97,
+65
+],
+"Psychology":[
+1.137,
+135
+],
+"Sociology, social policy and anthropology":[
+1.068,
+95
+]
+},
+"University of Wales Trinity Saint David":{
+"Architecture, building and planning":[
+1.108,
+30
+],
+"Business and management":[
+0.772,
+125
+],
+"Computing":[
+0.814,
+45
+],
+"Creative arts and design":[
+0.888,
+200
+],
+"Education and teaching":[
+0.878,
+275
+],
+"Engineering":[
+0.982,
+75
+],
+"History and archaeology":[
+0.764,
+35
+],
+"Performing arts":[
+1.0,
+60
+],
+"Sociology, social policy and anthropology":[
+0.848,
+60
+],
+"Sport and exercise sciences":[
+0.857,
+40
+]
+},
+"University of Warwick":{
+"Allied health":[
+1.094,
+30
+],
+"Biosciences":[
+1.175,
+70
+],
+"Business and management":[
+1.749,
+100
+],
+"Chemistry":[
+1.033,
+65
+],
+"Computing":[
+1.528,
+55
+],
+"Economics":[
+1.377,
+135
+],
+"Education and teaching":[
+0.933,
+65
+],
+"Engineering":[
+1.162,
+135
+],
+"English studies":[
+1.137,
+100
+],
+"History and archaeology":[
+1.151,
+215
+],
+"Languages and area studies":[
+1.048,
+105
+],
+"Law":[
+1.432,
+130
+],
+"Mathematical sciences":[
+1.392,
+225
+],
+"Medicine and dentistry":[
+1.028,
+125
+],
+"Performing arts":[
+1.226,
+30
+],
+"Philosophy and religious studies":[
+1.229,
+55
+],
+"Physics and astronomy":[
+1.099,
+85
+],
+"Politics":[
+1.18,
+100
+],
+"Psychology":[
+1.209,
+60
+],
+"Sociology, social policy and anthropology":[
+1.152,
+45
+]
+},
+"University of West London":{
+"Business and management":[
+0.866,
+370
+],
+"Computing":[
+1.024,
+35
+],
+"Creative arts and design":[
+0.925,
+35
+],
+"Health and social care":[
+1.148,
+40
+],
+"Law":[
+1.023,
+30
+],
+"Media, journalism and communications":[
+0.969,
+55
+],
+"Nursing and midwifery":[
+1.048,
+240
+],
+"Performing arts":[
+1.049,
+140
+],
+"Psychology":[
+0.916,
+65
+],
+"Sociology, social policy and anthropology":[
+1.137,
+40
+]
+},
+"University of Westminster":{
+"Allied health":[
+0.785,
+45
+],
+"Architecture, building and planning":[
+1.076,
+115
+],
+"Biosciences":[
+0.976,
+165
+],
+"Business and management":[
+1.036,
+540
+],
+"Computing":[
+1.109,
+180
+],
+"Creative arts and design":[
+1.091,
+160
+],
+"English studies":[
+1.0,
+105
+],
+"History and archaeology":[
+1.024,
+45
+],
+"Languages and area studies":[
+0.906,
+30
+],
+"Law":[
+1.0,
+165
+],
+"Media, journalism and communications":[
+1.133,
+145
+],
+"Performing arts":[
+0.987,
+60
+],
+"Politics":[
+0.811,
+75
+],
+"Psychology":[
+1.103,
+110
+],
+"Sociology, social policy and anthropology":[
+0.985,
+90
+]
+},
+"University of Winchester":{
+"Business and management":[
+1.023,
+165
+],
+"Education and teaching":[
+1.096,
+325
+],
+"English studies":[
+0.878,
+105
+],
+"Health and social care":[
+1.054,
+45
+],
+"History and archaeology":[
+0.801,
+120
+],
+"Law":[
+0.818,
+30
+],
+"Media, journalism and communications":[
+0.969,
+90
+],
+"Performing arts":[
+0.92,
+100
+],
+"Psychology":[
+1.042,
+55
+],
+"Sociology, social policy and anthropology":[
+1.0,
+60
+],
+"Sport and exercise sciences":[
+1.071,
+60
+]
+},
+"University of Wolverhampton":{
+"Architecture, building and planning":[
+1.079,
+65
+],
+"Biosciences":[
+0.887,
+140
+],
+"Business and management":[
+0.798,
+235
+],
+"Computing":[
+0.723,
+110
+],
+"Creative arts and design":[
+0.817,
+145
+],
+"Education and teaching":[
+0.933,
+200
+],
+"Engineering":[
+1.01,
+45
+],
+"English studies":[
+0.837,
+60
+],
+"General, applied and forensic sciences":[
+0.952,
+45
+],
+"Health and social care":[
+0.877,
+160
+],
+"History and archaeology":[
+0.726,
+40
+],
+"Law":[
+0.759,
+125
+],
+"Media, journalism and communications":[
+0.711,
+35
+],
+"Nursing and midwifery":[
+0.976,
+520
+],
+"Performing arts":[
+0.92,
+155
+],
+"Pharmacology, toxicology and pharmacy":[
+0.915,
+60
+],
+"Psychology":[
+0.825,
+40
+],
+"Sociology, social policy and anthropology":[
+0.958,
+75
+],
+"Sport and exercise sciences":[
+0.932,
+90
+]
+},
+"University of Worcester":{
+"Allied health":[
+0.915,
+75
+],
+"Biosciences":[
+0.849,
+45
+],
+"Business and management":[
+0.902,
+135
+],
+"Computing":[
+0.841,
+30
+],
+"Creative arts and design":[
+0.954,
+60
+],
+"Education and teaching":[
+0.907,
+365
+],
+"English studies":[
+0.852,
+50
+],
+"Geography, earth and environmental studies":[
+0.815,
+35
+],
+"Health and social care":[
+0.765,
+95
+],
+"History and archaeology":[
+0.805,
+45
+],
+"Media, journalism and communications":[
+0.926,
+80
+],
+"Nursing and midwifery":[
+0.935,
+185
+],
+"Psychology":[
+0.958,
+80
+],
+"Sport and exercise sciences":[
+1.015,
+205
+]
+},
+"University of York":{
+"Biosciences":[
+1.236,
+60
+],
+"Business and management":[
+1.202,
+100
+],
+"Chemistry":[
+1.021,
+90
+],
+"Computing":[
+1.54,
+60
+],
+"Creative arts and design":[
+1.303,
+35
+],
+"Economics":[
+1.078,
+135
+],
+"Education and teaching":[
+1.033,
+30
+],
+"Engineering":[
+1.021,
+65
+],
+"English studies":[
+1.081,
+190
+],
+"Geography, earth and environmental studies":[
+1.092,
+55
+],
+"History and archaeology":[
+1.014,
+270
+],
+"Law":[
+1.271,
+90
+],
+"Mathematical sciences":[
+0.987,
+90
+],
+"Medicine and dentistry":[
+0.987,
+45
+],
+"Nursing and midwifery":[
+1.021,
+135
+],
+"Performing arts":[
+1.066,
+70
+],
+"Philosophy and religious studies":[
+1.066,
+75
+],
+"Physics and astronomy":[
+1.04,
+65
+],
+"Politics":[
+1.091,
+105
+],
+"Psychology":[
+1.202,
+80
+],
+"Sociology, social policy and anthropology":[
+1.084,
+135
+]
+},
+"University of the Arts London":{
 "Business and management":[
 1.023,
 80
@@ -8319,7 +8315,7 @@
 125
 ]
 },
-"University of The Highlands and Islands":{
+"University of the Highlands and Islands":{
 "Business and management":[
 0.785,
 70
@@ -8349,7 +8345,7 @@
 65
 ]
 },
-"University of The West of England, Bristol":{
+"University of the West of England, Bristol":{
 "Allied health":[
 0.951,
 175
@@ -8447,104 +8443,108 @@
 105
 ]
 },
-"University of Wales Trinity Saint David":{
-"Architecture, building and planning":[
-1.108,
-30
-],
-"Business and management":[
-0.772,
-125
-],
-"Computing":[
-0.814,
-45
-],
-"Creative arts and design":[
-0.888,
-200
-],
-"Education and teaching":[
-0.878,
-275
-],
-"Engineering":[
-0.982,
-75
-],
-"History and archaeology":[
-0.764,
-35
-],
-"Performing arts":[
-1.0,
-60
-],
-"Sociology, social policy and anthropology":[
-0.848,
-60
-],
-"Sport and exercise sciences":[
-0.857,
-40
-]
-},
-"University of Worcester":{
+"University of the West of Scotland":{
 "Allied health":[
-0.915,
-75
+1.0,
+70
 ],
 "Biosciences":[
-0.849,
-45
+0.863,
+85
 ],
 "Business and management":[
-0.902,
-135
+0.808,
+750
 ],
 "Computing":[
-0.841,
-30
+0.743,
+395
 ],
 "Creative arts and design":[
-0.954,
+0.863,
 60
 ],
 "Education and teaching":[
-0.907,
-365
+1.285,
+45
 ],
-"English studies":[
-0.852,
-50
+"Engineering":[
+0.862,
+230
 ],
-"Geography, earth and environmental studies":[
-0.815,
+"General, applied and forensic sciences":[
+1.056,
 35
 ],
 "Health and social care":[
-0.765,
-95
+1.148,
+155
 ],
-"History and archaeology":[
-0.805,
-45
+"Law":[
+0.875,
+165
 ],
 "Media, journalism and communications":[
-0.926,
-80
+0.914,
+90
 ],
 "Nursing and midwifery":[
-0.935,
-185
+1.033,
+605
+],
+"Performing arts":[
+0.925,
+145
+],
+"Politics":[
+0.796,
+50
 ],
 "Psychology":[
-0.958,
-80
+0.943,
+115
+],
+"Sociology, social policy and anthropology":[
+0.909,
+140
 ],
 "Sport and exercise sciences":[
-1.015,
-205
+1.0,
+195
+]
+},
+"Wrexham University":{
+"Allied health":[
+0.785,
+45
+],
+"Business and management":[
+0.7,
+55
+],
+"Computing":[
+0.69,
+35
+],
+"Creative arts and design":[
+0.751,
+55
+],
+"Education and teaching":[
+0.756,
+80
+],
+"Engineering":[
+1.01,
+55
+],
+"Health and social care":[
+1.159,
+30
+],
+"Nursing and midwifery":[
+0.902,
+30
 ]
 },
 "York St John University":{

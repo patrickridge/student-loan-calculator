@@ -17,6 +17,7 @@ import json
 import sys
 
 import openpyxl
+from university_names import tidy
 
 MIN_WITH_EARNINGS = 30  # published counts below this are too noisy to use
 
@@ -47,7 +48,7 @@ for r in rows:
     if r[col["geographic_level"]] == "National" and r[col["provider_type"]] == "Total":
         national[subject] = median
     elif r[col["geographic_level"]] == "Provider" and r[col["provider_name"]] and count >= MIN_WITH_EARNINGS:
-        provider[(r[col["provider_name"]], subject)] = (median, count)
+        provider[(tidy(r[col["provider_name"]]), subject)] = (median, count)
 
 universities = {}
 for (name, subject), (median, count) in provider.items():

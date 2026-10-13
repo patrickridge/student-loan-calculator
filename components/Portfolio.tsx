@@ -8,6 +8,7 @@ import { NumberField, SliderField } from "@/components/fields";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { type ChartConfig, ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart";
+import { Combobox, ComboboxContent, ComboboxEmpty, ComboboxInput, ComboboxItem, ComboboxList } from "@/components/ui/combobox";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { gbp, taxYear } from "@/lib/format";
@@ -34,7 +35,8 @@ const PLAN_ITEMS = [
 const POLICY_ITEMS = Object.entries(POLICIES).map(([value, p]) => ({ value, label: p.label }));
 const SUBJECT_ITEMS = [{ value: ANY, label: "All subjects, in real proportions" }, ...SUBJECT_NAMES.map((s) => ({ value: s, label: s }))];
 const GRADE_ITEMS = [{ value: ANY, label: "All grades" }, ...ATTAINMENT_GROUPS.map((g) => ({ value: g, label: g === "BTEC" ? "BTEC" : `A levels: ${g}` }))];
-const UNIVERSITY_ITEMS = [{ value: ANY, label: "All universities" }, ...UNIVERSITY_NAMES.map((u) => ({ value: u, label: u }))];
+const ALL_UNIVERSITIES = "All universities";
+const UNIVERSITY_ITEMS = [ALL_UNIVERSITIES, ...UNIVERSITY_NAMES];
 
 // The 2017 sale of older (pre-2012) English loans: 48p for every £1 of balance (National Audit Office).
 const SALE_PRICE = 0.48;
@@ -106,10 +108,7 @@ export function Portfolio() {
           <Choice id="plan" label="Loan plan" items={PLAN_ITEMS} value={a.plan} onChange={(v) => setA((p) => ({ ...p, plan: v as PoolPlan }))} />
           <Choice id="policy" label="Rules" items={POLICY_ITEMS} value={a.policy} onChange={(v) => setA((p) => ({ ...p, policy: v as PolicyId }))} />
           <Choice id="subject" label="Degree subject" items={SUBJECT_ITEMS} value={subject} onChange={setSubject} />
-          <Choice
-            id="university"
-            label="University"
-            items={UNIVERSITY_ITEMS}
+          <UniversityField
             value={university}
             onChange={(v) => {
               setUniversity(v);
@@ -306,6 +305,29 @@ export function Portfolio() {
           </CardContent>
         </Card>
       </div>
+    </div>
+  );
+}
+
+/** Searchable, since there are over 150. */
+function UniversityField({ value, onChange }: { value: string; onChange: (v: string) => void }) {
+  return (
+    <div className="space-y-1.5">
+      <Label htmlFor="university">University</Label>
+      <Combobox items={UNIVERSITY_ITEMS} value={value === ANY ? ALL_UNIVERSITIES : value} onValueChange={(v) => v && onChange(v === ALL_UNIVERSITIES ? ANY : (v as string))}>
+        <ComboboxInput id="university" placeholder="Search universities" className="w-full" />
+        <ComboboxContent>
+          <ComboboxEmpty>No university with that name.</ComboboxEmpty>
+          <ComboboxList>
+            {(name: string) => (
+              <ComboboxItem key={name} value={name}>
+                {name}
+              </ComboboxItem>
+            )}
+          </ComboboxList>
+        </ComboboxContent>
+      </Combobox>
+      <p className="text-xs text-muted-foreground">England, Scotland and Wales. Northern Ireland&apos;s universities aren&apos;t in the earnings data.</p>
     </div>
   );
 }

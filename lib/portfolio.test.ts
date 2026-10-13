@@ -86,11 +86,11 @@ describe("rule changes", () => {
 describe("universities", () => {
   it("values loans to a high-earning university's graduates above a low-earning one's", () => {
     const at = (university: string) => valuePool(DEFAULTS, { subject: null, attainment: null, university }, small).value;
-    expect(at("London School of Economics and Political Science")).toBeGreaterThan(at("University College Birmingham"));
+    expect(at("London School of Economics (LSE)")).toBeGreaterThan(at("University College Birmingham"));
   });
 
   it("only lists subjects a university has published figures for", () => {
-    const rows = bySubject(DEFAULTS, { attainment: null, university: "London School of Economics and Political Science" }, 100);
+    const rows = bySubject(DEFAULTS, { attainment: null, university: "London School of Economics (LSE)" }, 100);
     expect(rows.map((r) => r.subject)).not.toContain("Medicine and dentistry");
   });
 });
