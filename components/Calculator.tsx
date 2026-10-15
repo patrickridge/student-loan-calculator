@@ -146,7 +146,8 @@ export function Calculator() {
               </SelectContent>
             </Select>
             <p className="text-xs text-muted-foreground">
-              Usually the April after you finish your course. Written off {plan.writeOffYears} years later, in April {inputs.firstRepayYear + plan.writeOffYears}.
+              Usually the April after you finish your course. Already repaying? Pick the year you started: what you&apos;ve paid so far is already in
+              your balance. Written off {plan.writeOffYears} years later, in April {inputs.firstRepayYear + plan.writeOffYears}.
             </p>
           </div>
           <Accordion defaultValue={["assumptions"]}>
